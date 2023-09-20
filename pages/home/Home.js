@@ -56,7 +56,7 @@ const Home = () => {
                       &nbsp; Zeitalter &nbsp;
                       <span
                         className="mark-bg"
-                        style={{ backgroundColor: "#e5176f" }}
+                        style={{ backgroundColor: "#ffebe5" }}
                       />
                     </span>
                   </h2>
@@ -114,10 +114,10 @@ const Home = () => {
                 <h2 className="main-title fw-500">
                   Vereine alle
                   <span className="d-inline-block position-relative">
-                    Dienstleistungen
+                    Dienstleistungen &nbsp;
                     <span
                       className="mark-bg"
-                      style={{ backgroundColor: "#e5176f" }}
+                      style={{ backgroundColor: "#ffebe5" }}
                     />
                   </span>
                   &amp; erschaffe ein einzigartiges Produkt.
@@ -167,7 +167,7 @@ const Home = () => {
                       wählen
                       <span
                         className="mark-bg"
-                        style={{ backgroundColor: "#e5176f" }}
+                        style={{ backgroundColor: "#ffebe5" }}
                       />
                     </span>
                     sollten.
@@ -224,7 +224,7 @@ const Home = () => {
                     Entdecke
                     <span
                       className="mark-bg"
-                      style={{ backgroundColor: "#e5176f" }}
+                      style={{ backgroundColor: "#ffebe5" }}
                     />
                   </span>
                   unsere Leistungen
@@ -277,12 +277,12 @@ const Home = () => {
                   />
                 </div>
                 <h2 className="main-title fw-500">
-                  Was unsere
+                  Was unsere &nbsp;
                   <span className="d-inline-block position-relative">
-                    Kunden
+                    Kunden &nbsp;
                     <span
                       className="mark-bg"
-                      style={{ backgroundColor: "#BCF8F1" }}
+                      style={{ backgroundColor: "#ffebe5" }}
                     />
                   </span>
                   über uns sagen
@@ -325,7 +325,7 @@ const Home = () => {
                     unterstützen &nbsp;
                     <span
                       className="mark-bg"
-                      style={{ backgroundColor: "#FFF3C6" }}
+                      style={{ backgroundColor: "#ffebe5" }}
                     />
                   </span>
                   wir immer.

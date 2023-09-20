@@ -94,7 +94,7 @@ const Hero = () => {
           >
             <div
               role="button"
-              className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center mt-50"
+              className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center mt-50 center-icon-container"
               onClick={() => setOpen(true)}
             >
               <i className="fas fa-play" />

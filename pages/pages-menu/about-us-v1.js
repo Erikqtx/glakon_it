@@ -47,10 +47,10 @@ const AboutUsV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  More About us.
+                  Über Uns.
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  We’r the top rated agency.
+                  Glakon IT
                 </h2>
               </div>
             </div>
@@ -58,13 +58,10 @@ const AboutUsV1 = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-9 ms-auto">
               <div className="ps-xxl-5" data-aos="fade-left">
-                <h6 className="mb-30">Our History &amp; Goal.</h6>
+                <h6 className="mb-30">Glakon IT Agentur</h6>
                 <p className="text-lg tx-dark">
-                  Our founders Dustin Moskovitz and Justin Rosenstein met while
-                  leading Engineering teams at Facebook. As operations scaled,
-                  they grew frustrated by how difficult it was to coordinate.
-                  incidi utl abor et dolor magna aliu. enim ad mim venam, quis
-                  nostru labore lorem dus amet sample text.
+                Herzlich willkommen bei der Glakon IT Agentur, Ihrem innovativen IT-Partner im Raum Nürnberg. Wir sind Ihr Vertrauenspartner für hochwertige IT-Lösungen. Unsere Leidenschaft für Technologie und Kundenzufriedenheit bilden das Fundament unserer Arbeit. <br>
+                </br>Bei Glakon IT unterstützen wir unsere Kunden bei digitalen Herausforderungen mit maßgeschneiderten Lösungen.
                 </p>
                 <div className="row">
                   <Counter />

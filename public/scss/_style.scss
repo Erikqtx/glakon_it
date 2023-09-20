@@ -29,7 +29,7 @@
 }
 :root {
   --text-color: #48494e;
-  --heading: #090f32;
+  --heading: #e4114b;
   --prime-one: #f8af3c;
   --prime-two: #f8af3c;
   --prime-three: #6a45ff;
@@ -391,7 +391,7 @@ p {
   left: -5px;
   top: 50%;
   transform: translateY(-50%);
-  width: 98%;
+  width: 105%;
   height: 50px;
   z-index: -1;
 }
@@ -632,7 +632,7 @@ body .btn-three {
   transition: all 0.3s ease-in-out;
 }
 body .btn-three:hover {
-  background: #090f32;
+  background: #e4114b;
 }
 body .btn-four {
   color: #fff;
@@ -644,7 +644,7 @@ body .btn-four {
   transition: all 0.3s ease-in-out;
 }
 body .btn-four:hover {
-  background: #090f32;
+  background: #e4114b;
 }
 body .btn-five {
   color: var(--prime-two);
@@ -654,7 +654,7 @@ body .btn-five i {
   font-size: 14px;
 }
 body .btn-five:hover {
-  color: #090f32;
+  color: #e4114b;
 }
 body .btn-six {
   line-height: 50px;
@@ -922,7 +922,7 @@ body .btn-twentyOne {
   letter-spacing: -0.36px;
 }
 body .btn-twentyOne:hover {
-  background: #000;
+  background: #e4114b;
 }
 body .btn-twentyTwo {
   line-height: 55px;
@@ -1405,7 +1405,7 @@ body .btn-twentyFive:hover {
 }
 
 .white-vr.theme-main-menu.sticky-menu.fixed {
-  background: #090f32;
+  background: #e4114b;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Menu Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .theme-menu-four .inner-content {
@@ -2206,10 +2206,11 @@ body .btn-twentyFive:hover {
 .hero-banner-two .hero-heading span:before {
   content: "";
   position: absolute;
+  margin-left: -120px;
   left: 31%;
   top: 50%;
   transform: translateY(-50%);
-  width: 73%;
+  width: 105%;
   height: 81%;
   background: #ffebe5;
   background-image: "/videos/chefket/EndCover.png";
@@ -2222,11 +2223,11 @@ body .btn-twentyFive:hover {
 .hero-banner-two .video-icon i {
   width: 52px;
   height: 52px;
-  border: 1px solid #eaeaeb;
+  border: 1px solid var(--prime-two);
   line-height: 50px;
   border-radius: 50%;
   font-size: 20px;
-  padding-left: 5px;
+  padding-left: 19px;
   transition: all 0.3s ease-in-out;
   color: var(--prime-two);
 }
@@ -2234,12 +2235,12 @@ body .btn-twentyFive:hover {
   color: var(--prime-two);
 }
 .hero-banner-two .video-icon:hover i {
-  background: #090f32;
-  border-color: #090f32;
+  background: var(--prime-two);
+  border-color: var(--prime-two);
   color: #fff;
 }
 .hero-banner-two .illustration-holder .bg-wrapper {
-  background: #f3f7f8;
+  background: #ffffff;
 /*   background-image: url('/videos/chefket/EndCover_Resize.png'); */
   padding: 4%;
   border-radius: 20px;
@@ -2278,7 +2279,7 @@ body .btn-twentyFive:hover {
   width: 432px;
   height: 470px;
   border-radius: 25px;
-  background: #f3f7f8;
+  background: #ffffff;
   position: relative;
   z-index: 1;
   margin: 0 10% 0 auto;
@@ -2809,7 +2810,7 @@ body .btn-twentyFive:hover {
   color: #fff;
 }
 .fancy-short-banner-three .subscribe-form button:hover {
-  background: #090f32;
+  background: #e4114b;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .footer-style-two {
