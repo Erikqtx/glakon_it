@@ -54,7 +54,7 @@ const Hero = () => {
                 Lass deiner &nbsp;
                 <span
                   className="position-relative d-inline-block"
-                  style={{ color: "#e5176f" }}
+                  style={{ color: "#e4114b" }}
                 >
                   Kreativität
                 </span>

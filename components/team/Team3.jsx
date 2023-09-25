@@ -3,27 +3,27 @@ import Image from "next/image";
 const teamMembers = [
   {
     id: 1,
-    name: "Zubayer Al Hasan",
-    role: "Developer",
-    imgSrc: "/images/team/img_04.jpg",
+    name: "Erik Glaser",
+    role: "CEO & Software-Ingenieur (M.Sc.)",
+    imgSrc: "/images/team/erikglaser.webp",
   },
   {
     id: 2,
-    name: "Jannatul Ferdaus",
-    role: "CEO",
-    imgSrc: "/images/team/img_05.jpg",
+    name: "Johannes Billenstein",
+    role: "Systemintegrator",
+    imgSrc: "/images/team/johannesbillenstein.webp",
   },
   {
     id: 3,
-    name: "Rashed Kabir",
-    role: "Designer",
-    imgSrc: "/images/team/img_06.jpg",
+    name: "Jonathan Kramer",
+    role: "Videograf & Regisseur",
+    imgSrc: "/images/team/jonathankramer.webp",
   },
   {
     id: 4,
-    name: "Angelina Shelly",
-    role: "Analyst",
-    imgSrc: "/images/team/img_07.jpg",
+    name: "Alexander Fintineanu",
+    role: "Designer (B.A.)",
+    imgSrc: "/images/team/alexanderfintineanu.webp",
   },
 ];
 

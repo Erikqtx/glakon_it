@@ -1,21 +1,45 @@
 const accordionItems = [
   {
     id: 1,
-    title: "Google ads setup & management",
+    title: "Softwareentwicklung",
     content:
-      "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
+      "Unsere maßgeschneiderte Softwareentwicklung setzt Ihre Ideen in leistungsstarke digitale Lösungen um. Wir bieten innovative und zuverlässige Software, die Ihre Geschäftsprozesse optimiert und Ihr Unternehmen vorantreibt.",
   },
   {
     id: 2,
-    title: "Web Design & Development",
+    title: "Design",
     content:
-      "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
+      "Unser Design-Team kreiert visuelle Meisterwerke, die Ihre Marke erstrahlen lassen. Wir gestalten ansprechende Designs, die Eindruck hinterlassen und Ihre Botschaft auf den Punkt bringen.",
   },
   {
     id: 3,
-    title: "Reputation management",
+    title: "Social Media",
     content:
-      "Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering teams at Facebook.",
+      "Steigern Sie Ihre Online-Präsenz mit unserer Social-Media-Expertise. Wir entwickeln Strategien, um Ihre Zielgruppe zu erreichen, Engagement zu fördern und Ihre Marke auf Plattformen wie nie zuvor zu präsentieren.",
+  },
+  {
+    id: 4,
+    title: "Videografie",
+    content:
+      "Unsere Videografen verwandeln Ideen in bewegende Bilder. Von kreativen Werbespots bis hin zu informativen Tutorials, wir schaffen Videos, die Ihre Zielgruppe begeistern und inspirieren.",
+  },
+  {
+    id: 5,
+    title: "Fotografie",
+    content:
+      "Unsere Fotografen fangen die Essenz Ihrer Marke in beeindruckenden Bildern ein. Von Produktaufnahmen bis hin zu Unternehmensporträts, wir verleihen Ihrer visuellen Identität Leben.",
+  },
+  {
+    id: 6,
+    title: "Systemintegration",
+    content:
+      "Unsere Systemintegrationslösungen sorgen für reibungslose Abläufe. Wir optimieren Ihre IT-Infrastruktur, um Datenfluss und Effizienz zu steigern und Ihr Geschäft zu unterstützen.",
+  },
+  {
+    id: 7,
+    title: "Hosting",
+    content:
+      "Unser Hosting-Service gewährleistet Sicherheit und Leistung. Wir bieten zuverlässige Hosting-Lösungen, damit Ihre Website stets verfügbar ist und Ihre Daten sicher geschützt sind.",
   },
 ];
 

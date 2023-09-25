@@ -465,7 +465,7 @@ const Home = () => {
                 className="text-lg tx-dark pt-30 pb-55 lg-pb-30 "
                 data-aos="fade-up"
               >
-                Kostenloses Erstgespräch ausmachen.
+                Kostenloses Erstgespräch vereinbaren.
               </p>
               <Link
                   href="/pages-menu/about-us-v1"
