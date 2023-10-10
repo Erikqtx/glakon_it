@@ -3,25 +3,21 @@ import Image from "next/image";
 const BlockContact = () => {
   const addressBlocks = [
     {
-      icon: "/images/icon/icon_147.svg",
-      title: "Our Address",
-      content: "1012 Pebda Parkway, Mirpur 2 Dhaka, Bangladesh",
+      icon: "/images/icon/icon_location.png",
+      title: "Standort",
+      content: "Rosenbadstraße 7, 91522 Ansbach",
       delay: "100",
     },
     {
-      icon: "/images/icon/icon_148.svg",
-      title: "Contact Info",
-      content: "Open a chat or give us call at",
-      link: "tel:310.841.5500",
+      icon: "/images/icon/icon_call.png",
+      title: "Telefon",
+      content: "(+49) 0 981 97766644",
       delay: "200",
     },
     {
-      icon: "/images/icon/icon_149.svg",
-      title: "Live Support",
-      content: "live chat service",
-      link: "www.janolivechat.com",
-      delay: "300",
-      link: "www.janolivechat.com",
+      icon: "/images/icon/icon_mail.png",
+      title: "E-Mail",
+      content: "glakon@info.de",
       delay: "300",
     },
   ];

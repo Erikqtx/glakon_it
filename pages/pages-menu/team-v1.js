@@ -26,10 +26,10 @@ const TeamV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Our Team
+                  Unser Team
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  World most qualified team member.
+                  Ihr Glakon-Team
                 </h2>
               </div>
             </div>

@@ -13,7 +13,7 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-30">
               <input
                 type="text"
-                placeholder="Your Name*"
+                placeholder="Vor- und Nachname*"
                 name="name"
                 required="required"
                 data-error="Name is required."
@@ -27,7 +27,7 @@ const ContactForm = () => {
             <div className="input-group-meta form-group mb-50">
               <input
                 type="email"
-                placeholder="Email Address*"
+                placeholder="Email Adresse*"
                 name="email"
                 required="required"
                 data-error="Valid email is required."
@@ -40,7 +40,7 @@ const ContactForm = () => {
           <div className="col-12">
             <div className="input-group-meta form-group mb-30">
               <textarea
-                placeholder="Your message*"
+                placeholder="Nachricht*"
                 name="message"
                 required="required"
                 data-error="Please,leave us a message."
@@ -53,7 +53,7 @@ const ContactForm = () => {
 
           <div className="col-12">
             <button className="btn-twentyOne fw-500 tran3s d-block">
-              Send Message
+              Senden
             </button>
           </div>
           {/* End .col-12 */}

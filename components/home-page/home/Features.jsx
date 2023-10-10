@@ -6,35 +6,35 @@ const FeatureData = [
     iconSrc: "/images/icon/icon_13.svg",
     title: "Softwareentwicklung",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Maßgeschneiderte Software, die Ihre Ideen in leistungsstarke Lösungen umsetzt und Ihr Unternehmen vorantreibt.",
   },
   {
     id: 2,
     iconSrc: "/images/icon/icon_14.svg",
     title: "Design",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Ansprechende Designs, die Eindruck hinterlassen und Ihre Botschaft prägnant vermitteln.",
   },
   {
     id: 3,
     iconSrc: "/images/icon/icon_15.svg",
     title: "Videografie",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Kreative Werbespots und inspirierende Tutorials, die Ihre Zielgruppe begeistern.",
   },
   {
     id: 4,
     iconSrc: "/images/icon/icon_16.svg",
     title: "Social Media",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Wir erreichen Ihre Zielgruppe, fördern Engagement und präsentieren Ihre Marke optimal auf Plattformen.",
   },
   {
     id: 5,
     iconSrc: "/images/icon/icon_17.svg",
     title: "Fotografie",
     description:
-      "Our deep understanding of project and program management has enabled the success of our clients.",
+      "Von Produktaufnahmen bis zu Unternehmensporträts, verleihen wir Ihrer Identität Leben.",
   },
 ];
 

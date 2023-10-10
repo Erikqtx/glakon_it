@@ -27,9 +27,9 @@ const contact = () => {
             <div className="col-lg-7 text-center m-auto wow fadeInUp">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
-                  Contact info
+                  Kontakt
                 </div>
-                <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
+                <h2 className="main-title fw-500 tx-dark">Noch Fragen?</h2>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const contact = () => {
           <div className="row">
             <div className="col-lg-8 col-md-9 m-auto">
               <h2 className="tx-dark text-center mt-100 mb-80 lg-mt-40 lg-mb-40 wow fadeInUp">
-                Any question? Send us message.
+                Vereinbaren Sie Ihr kostenloses Erstgespräch!
               </h2>
             </div>
             <div className="col-xl-11 m-auto">

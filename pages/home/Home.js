@@ -175,8 +175,7 @@ const Home = () => {
                 </div>
                 {/* /.title-style-three */}
                 <p className="text-lg mt-40 mb-75 lg-mt-30 lg-mb-50">
-                  Unser Kerngeschäft ist es den Kunden glücklich zu machen, es
-                  gibt keine Challenge die wir nicht mit Erfolg meistern.
+                Unser Hauptfokus liegt darauf, Ihre Zufriedenheit zu gewährleisten. Keine Herausforderung ist uns zu groß – wir meistern jede Aufgabe mit Erfolg.
                 </p>
                 <Link
                   href="/pages-menu/about-us-v1"
