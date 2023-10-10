@@ -73,7 +73,7 @@ const AboutUsV1 = () => {
         {/* /.container */}
 
         <img
-          src="/images/team/shape_171.svg"
+          src="/images/team/team_hochkant.webp"
           alt="shape"
           className="lazy-img shapes shape-one"
         />
