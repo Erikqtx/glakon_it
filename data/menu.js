@@ -91,3 +91,7 @@ export const aboutItems = [
   { name: "Über Uns", link: "/portfolio/portfolio-v1" },
   { name: "Team", link: "/portfolio/portfolio-v2" },
 ];
+
+export const leistungsItem = [
+{  name: "Leistungen", link: "/pages-menu/service-v1"}
+]

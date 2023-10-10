@@ -84,16 +84,16 @@ const MainMenu = () => {
           {/* End li (pages) */}
 
           <li className="nav-item  dropdown">
-            <a
+            <Link
               className="nav-link dropdown-toggle"
-              href="#"
+              href="/pages-menu/service-v1"
               role="button"
               data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
               Leistungen
-            </a>
+            </Link>
             <ul className="dropdown-menu">
               {pagesItems.map((item, index) => (
                 <li className="dropdown-submenu dropdown" key={index}>

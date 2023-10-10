@@ -27,7 +27,7 @@ const AboutUsV1 = () => {
 
   return (
     <>
-      <Seo pageTitle="About Us V1" />
+      <Seo pageTitle="Über Uns" />
 
       {/* <!-- 
       =============================================
@@ -73,6 +73,11 @@ const AboutUsV1 = () => {
         {/* /.container */}
 
         <img
+          src="/images/team/shape_171.svg"
+          alt="shape"
+          className="lazy-img shapes shape-one"
+        />
+        <img
           src="/images/shape/shape_171.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
@@ -91,7 +96,7 @@ const AboutUsV1 = () => {
 			============================================== 
 			--> */}
       <VideoBlock />
-
+      
       {/* <!-- /.fancy-feature-fiftyTwo --> */}
 
       {/* 
