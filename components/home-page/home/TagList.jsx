@@ -1,12 +1,12 @@
 const TagList = () => {
   const tags = [
-    { color: "rgba(255, 130, 130, 0.13)", text: "Kundenzufriedenheit" },
-    { color: "rgba(73, 230, 213, 0.13)", text: "Erfahren" },
-    { color: "rgba(73, 179, 230, 0.13)", text: "Niedrige Preise" },
-    { color: "rgba(251, 208, 80, 0.15)", text: "Individuell" },
-    { color: "rgba(213, 126, 255, 0.15)", text: "Vertrauenswürdig" },
-    { color: "rgba(189, 231, 122, 0.15)", text: "Großartiger Support" },
-    { color: "rgba(255, 152, 152, 0.15)", text: "Sicher" },
+    { color: "#fbb72d", text: "Kundenzufriedenheit" },
+    { color: "#e93b19", text: "Erfahren" },
+    { color: "#f38426", text: "Niedrige Preise" },
+    { color: "#e30a45", text: "Individuell" },
+    { color: "#e81a74", text: "Vertrauenswürdig" },
+    { color: "#ee505c", text: "Großartiger Support" },
+    { color: "#f47a5e", text: "Sicher" },
   ];
 
   return (

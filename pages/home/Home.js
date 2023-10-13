@@ -156,7 +156,7 @@ const Home = () => {
                     Über
                     <span
                       className="text-decoration-underline"
-                      style={{ color: "#e5176f" }}
+                      style={{ color: "#fbb72d" }}
                     >
                       &nbsp; 100+ Kunden
                     </span>
@@ -267,7 +267,7 @@ const Home = () => {
               <div className="title-style-three text-center mb-70 lg-mb-40">
                 <div
                   className="icon d-flex align-items-center justify-content-center rounded-circle"
-                  style={{ background: "#FFF3C6" }}
+                  style={{ background: "#fbb72d" }}
                 >
                   <img
                     src="/images/icon/icon_19.svg"
