@@ -6,8 +6,8 @@ const NewsLetter = () => {
 
   return (
     <form onClick={handleSubmit} className="position-relative">
-      <input type="email" placeholder="Enter your email" required />
-      <button className="tran3s fw-500 position-absolute">Sign Up</button>
+      <input type="email" placeholder="Ihre E-Mail Adresse" required />
+      <button className="tran3s fw-500 position-absolute">Senden</button>
     </form>
   );
 };

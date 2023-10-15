@@ -43,10 +43,10 @@ const ServiceV1 = () => {
             <div className="col-xxl-7 col-lg-6" data-aos="fade-right">
               <div className="title-style-five mb-45 md-mb-10">
                 <div className="sc-title-two fst-italic position-relative">
-                  Our Services
+                  Unsere Leistungen
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                  Our Provided Services.
+                Maßgeschneiderte Lösungen
                 </h2>
               </div>
             </div>

@@ -72,7 +72,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Glakon IT Agentur
+                Glakon IT Agentur i.K.
               </a>
             </p>
           </div>

@@ -95,7 +95,7 @@ const AboutUsV1 = () => {
 				Feature Section Fifty Two
 			============================================== 
 			--> */}
-      <VideoBlock />
+      {/* <VideoBlock /> */}
       
       {/* <!-- /.fancy-feature-fiftyTwo --> */}
 

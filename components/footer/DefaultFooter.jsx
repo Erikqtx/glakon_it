@@ -12,7 +12,7 @@ const DefaultFooter = () => {
             <div className="col-xl-2 footer-intro mb-40">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/logo_01.png" alt="brand" />
+                  <img src="/images/logo/GlakonLogo_115x50_black.png" alt="brand" />
                 </Link>
               </div>
             </div>
@@ -21,11 +21,11 @@ const DefaultFooter = () => {
             <Footer2 />
 
             <div className="col-xl-4 col-lg-5 mb-30 form-widget">
-              <h5 className="footer-title tx-dark fw-normal">Newslettert</h5>
-              <h6 className="pt-15 pb-20 md-pt-10">Join our newsletter</h6>
+              <h5 className="footer-title tx-dark fw-normal">Erstgespräch</h5>
+              <h6 className="pt-15 pb-20 md-pt-10">Termin vereinbaren!</h6>
               <NewsLetter />
               <div className="fs-14 mt-10">
-                We only send interesting and relevant emails.
+              Unsere Rückmeldung an Sie erfolgt schnellstmöglich. 
               </div>
             </div>
             {/* End .col-xl-4 */}

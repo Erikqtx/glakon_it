@@ -2,34 +2,40 @@ import Link from "next/link";
 
 const services = [
   {
-    iconSrc: "/images/icon/icon_104.svg",
-    title: "Home Loan",
+    iconSrc: "/images/icon/softwareentwicklung.svg",
+    title: "Softwareentwicklung",
     delay: "100",
+    class: "svg-icons"
   },
   {
-    iconSrc: "/images/icon/icon_105.svg",
-    title: "Travel Insurance",
+    iconSrc: "/images/icon/icon_14.svg",
+    title: "Design",
     delay: "200",
+    class: "svg-icons"
   },
   {
-    iconSrc: "/images/icon/icon_106.svg",
+    iconSrc: "/images/icon/icon_15.svg",
     title: "Insure the Car",
     delay: "300",
+    class: "svg-icons"
   },
   {
-    iconSrc: "/images/icon/icon_107.svg",
+    iconSrc: "/images/icon/icon_16.svg",
     title: "Health Insurance",
     delay: "100",
+    class: "svg-icons"
   },
   {
-    iconSrc: "/images/icon/icon_141.svg",
+    iconSrc: "/images/icon/icon_17.svg",
     title: "Life Insurance",
     delay: "200",
+    class: "svg-icons"
   },
   {
-    iconSrc: "/images/icon/icon_142.svg",
+    iconSrc: "/images/icon/icon_18.svg",
     title: "Family Inurance",
     delay: "300",
+    class: "svg-icons"
   },
 ];
 
@@ -44,7 +50,7 @@ const Service1 = () => {
           key={index}
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-40">
-            <div className="icon">
+            <div className={service.class}>
               <img
                 src={service.iconSrc}
                 alt="icon"
