@@ -44,10 +44,10 @@ const PortfolioV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        Have Any Project?
+                        Noch Fragen?
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
-                        Don’t hesitate to send us message.
+                      Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ const PortfolioV1 = () => {
                       href="/contact"
                       className="btn-twentyOne fw-500 tran3s"
                     >
-                      Get Started Today!
+                      Kostenloses Erstgespräch
                     </Link>
                   </div>
                 </div>

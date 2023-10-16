@@ -5,7 +5,7 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import Image from "next/image";
 
-const PortfolioGallery1 = () => {
+const   PortfolioGallery1 = () => {
   const [filter, setFilter] = useState("*");
 
   const filteredItems =
@@ -16,38 +16,7 @@ const PortfolioGallery1 = () => {
   return (
     <div className="portfolio-gallery-three pt-30">
       <div className="container">
-        <ul className="style-none text-center isotop-menu-wrapper g-control-nav-two">
-          <li
-            className={filter === "*" ? "is-checked" : ""}
-            onClick={() => setFilter("*")}
-          >
-            All
-          </li>
-          <li
-            className={filter === "marketing" ? "is-checked" : ""}
-            onClick={() => setFilter("marketing")}
-          >
-            Marketing
-          </li>
-          <li
-            className={filter === "application" ? "is-checked" : ""}
-            onClick={() => setFilter("application")}
-          >
-            Application
-          </li>
-          <li
-            className={filter === "design" ? "is-checked" : ""}
-            onClick={() => setFilter("design")}
-          >
-            Design
-          </li>
-          <li
-            className={filter === "dev" ? "is-checked" : ""}
-            onClick={() => setFilter("dev")}
-          >
-            Development
-          </li>
-        </ul>
+        
         <div className="row pt-90 lg-pt-50">
           <Gallery>
             {filteredItems.map((item) => (
