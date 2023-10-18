@@ -10,7 +10,7 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "Online-Präsenz",
+    title: "shfeoi",
     description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
     value: 94,
   },

@@ -10,13 +10,13 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "Online-Präsenz",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
-    value: 94,
+    title: "Social Media Turbo",
+    description: "Über 70% der Verbraucher teilen Markenvideos auf ihren sozialen Medien, was zu einer erweiterten organischen Reichweite führt.",
+    value: 70,
   },
   {
-    title: "Markenbindung",
-    description: "Über 80% der Konsumenten geben an, dass authentische Fotos ihre Markenloyalität stärken.",
+    title: "Storytelling",
+    description: "Mehr als 80% der Verbraucher geben an, eher zum Kauf zu neigen, nachdem sie ein Erklärvideo gesehen haben.",
     value: 80,
   },
 ];

@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar1 from "./service-details/ProgressBar-v1";
+import ProgressBar3 from "./service-details/ProgressBar-v3";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Softwareentwicklung" />
+      <Seo pageTitle="Social Media" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -27,10 +27,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Softwareentwicklung
+                  Social Media
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Code, der beeindruckt!
+                Verbindungen schaffen.
                 </h2>
               </div>
             </div>
@@ -58,40 +58,39 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Softwareentwicklung.</h2>
+                <h2 className="main-title tx-dark mb-30">Social Media.</h2>
                 <p className="text-lg tx-dark">
-                Entfesseln Sie das volle Potenzial Ihrer Ideen mit unserer maßgeschneiderten Softwareentwicklung.
-                </p>
-                
+                Steigern Sie Ihre Präsenz mit unserer Social-Media-Expertise – wir machen Ihre Marke sichtbar und unvergesslich.</p>
                 <p>
-                Wir sind Architekten digitaler Erlebnisse, die nicht nur funktionieren, sondern begeistern. Mit einer Mischung aus Kreativität, Präzision und einem tiefen Verständnis für Ihre Bedürfnisse schaffen wir Lösungen, die nicht nur dem aktuellen Stand der Technik entsprechen, sondern ihn auch definieren. Ihre Zufriedenheit ist unser Code für Erfolg.
-                </p>
+                In einer digital vernetzten Welt ist Social Media mehr als nur Plattformen und Posts – es ist eine lebendige Geschichte, die erzählt werden muss. 
+                Unsere Experten verstehen die Dynamik von sozialen Netzwerken und bringen Ihre Marke in die Herzen Ihrer Zielgruppe. 
+                Wir setzen nicht nur Trends, sondern bauen langfristige Verbindungen auf. 
+                Von der Strategie bis zur Ausführung – wir sind Ihre Partner auf dem Weg zum Social-Media-Erfolg.</p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
                       <ul className="style-none list-item md-mb-40">     
-                        <li>Web & Mobile</li>
-                        <li>Extended Reality</li>
-                        <li>3D</li>
-                        <li>Gamedesign</li>
-                        <li>Data Science</li>
-                        <li>Individuallösungen</li>
+                        <li>Management</li>
+                        <li>Marketing</li>
+                        <li>Werbung</li>
+                        <li>Leedgenerierung</li>
+                        <li>Thunnels</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Mit einem klaren Fokus auf Zeiteffizienz sind wir stolz darauf, Projekte agil und effizient umzusetzen, um Ihre Produkte oder Dienstleistungen schnell auf den Markt zu bringen.
-                      Dabei haben wir stets die Kosten und die Sicherstellung höchster Qualität im Blick.
-                      Unsere maßgeschneiderte Softwareentwicklung zielt darauf ab, diese Erwartungen zu erfüllen und einen Mehrwert für das Unternehmen unseres Kunden zu schaffen.
+                      Unser vorrangiges Ziel ist es, Ihr Unternehmen in den sozialen Medien optimal zu positionieren und echte Verbindungen zu Ihrer Zielgruppe aufzubauen.
+                      Durch maßgeschneiderte Inhalte und Strategien möchten wir sicherstellen, dass Sie in den relevanten Kanälen sichtbar sind.
+                      Wir setzen uns dafür ein, nicht nur Ihre Sichtbarkeit, sondern auch die positive Wahrnehmung Ihrer Marke in den sozialen Medien zu fördern.
                     </p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar1 />
+                    <ProgressBar3 />
                   </div>
                 </div>
                 
@@ -108,13 +107,13 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                    <li className="current-page">
+                  <li>
                       <Link href="/pages-menu/service-details-v1">Softwareentwicklung </Link> 
                     </li>
                     <li>
                       <Link href="/pages-menu/service-details-v2">Design</Link>
                     </li>
-                    <li>
+                    <li className="current-page">
                       <Link href="/pages-menu/service-details-v3">Social Media</Link>
                     </li>
                     <li>
@@ -140,9 +139,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
+                  Soziale Medien bieten nicht nur eine weitere Möglichkeit; sie bieten eine andere Welt.
                   </p>
-                  <div className="name">- Erik Glaser</div>
+                  <div className="name">- Amy Jo Martin</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

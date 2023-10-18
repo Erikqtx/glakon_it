@@ -11,7 +11,7 @@ const styles = buildStyles({
 const data = [
   {
     title: "Online-Präsenz",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
+    description: "Unternehmen mit professionellen Fotos auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe der Internetseite.",
     value: 94,
   },
   {
@@ -21,7 +21,7 @@ const data = [
   },
 ];
 
-const ProgressBar = () => {
+const ProgressBar5 = () => {
   return (
     <>
       {data.map((item, index) => (
@@ -51,4 +51,4 @@ const ProgressBar = () => {
   );
 };
 
-export default ProgressBar;
+export default ProgressBar5;

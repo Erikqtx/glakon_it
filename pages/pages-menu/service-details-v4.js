@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar1 from "./service-details/ProgressBar-v1";
+import ProgressBar4 from "./service-details/ProgressBar-v4";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Softwareentwicklung" />
+      <Seo pageTitle="Videografie" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -27,10 +27,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Softwareentwicklung
+                  Videografie
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Code, der beeindruckt!
+                Bewegte Bilder - Bleibender Eindruck.
                 </h2>
               </div>
             </div>
@@ -58,40 +58,43 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Softwareentwicklung.</h2>
+                <h2 className="main-title tx-dark mb-30">Videografie.</h2>
                 <p className="text-lg tx-dark">
-                Entfesseln Sie das volle Potenzial Ihrer Ideen mit unserer maßgeschneiderten Softwareentwicklung.
-                </p>
-                
+                Von der Idee bis zum Schnitt, wir verwandeln Ihre Geschichte in fesselnde Videos, die Emotionen wecken.</p>
                 <p>
-                Wir sind Architekten digitaler Erlebnisse, die nicht nur funktionieren, sondern begeistern. Mit einer Mischung aus Kreativität, Präzision und einem tiefen Verständnis für Ihre Bedürfnisse schaffen wir Lösungen, die nicht nur dem aktuellen Stand der Technik entsprechen, sondern ihn auch definieren. Ihre Zufriedenheit ist unser Code für Erfolg.
-                </p>
+                In der Ära der visuellen Kommunikation sind bewegte Bilder nicht nur Inhalte – sie sind Erlebnisse. Unsere Videografen sind Geschichtenerzähler mit der Kamera. 
+                Wir verstehen, dass jedes Video eine einzigartige Geschichte erzählen kann, und wir setzen modernste Technologie ein, um diese Geschichten zum Leben zu erwecken. 
+                Vom Drehbuch bis zum finalen Schnitt sind wir Ihr Partner für bewegende und beeindruckende visuelle Inhalte.</p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
                       <ul className="style-none list-item md-mb-40">     
-                        <li>Web & Mobile</li>
-                        <li>Extended Reality</li>
-                        <li>3D</li>
-                        <li>Gamedesign</li>
-                        <li>Data Science</li>
-                        <li>Individuallösungen</li>
+                        <li>Imagevideografie</li>
+                        <li>Werbung</li>
+                        <li>Produktvideografie</li>
+                        <li>Social Media</li>
+                        <li>Musikvideografie</li>
+                        <li>Event-Videografie</li>
+                        <li>Hybride Veranstaltungen</li>
+                        <li>Dronenaufnahmen</li>
+                        <li>CGI</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Mit einem klaren Fokus auf Zeiteffizienz sind wir stolz darauf, Projekte agil und effizient umzusetzen, um Ihre Produkte oder Dienstleistungen schnell auf den Markt zu bringen.
-                      Dabei haben wir stets die Kosten und die Sicherstellung höchster Qualität im Blick.
-                      Unsere maßgeschneiderte Softwareentwicklung zielt darauf ab, diese Erwartungen zu erfüllen und einen Mehrwert für das Unternehmen unseres Kunden zu schaffen.
+                      Unser Hauptziel ist es, die einzigartige Persönlichkeit Ihres Unternehmens einzufangen und sie in bewegenden visuellen Geschichten zum Leben zu erwecken.
+                      Jeder Auftrag wird mit größter Sorgfalt und Kreativität bearbeitet, um ein maßgeschneidertes Video zu schaffen, das Ihre Botschaft perfekt kommuniziert.
+                      Wir möchten sicherstellen, dass jedes Video, das wir erstellen, maximale Wirkung erzielt und Ihre Markenbotschaft auf unvergessliche Weise vermittelt.
+                      Unser Ziel ist es, nicht nur mit visueller Schönheit zu überzeugen, sondern auch durch technische Brillanz, die Ihre Videos auf ein professionelles Level hebt.
                     </p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar1 />
+                    <ProgressBar4 />
                   </div>
                 </div>
                 
@@ -108,7 +111,7 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                    <li className="current-page">
+                  <li>
                       <Link href="/pages-menu/service-details-v1">Softwareentwicklung </Link> 
                     </li>
                     <li>
@@ -117,7 +120,7 @@ const PortfolioV1 = () => {
                     <li>
                       <Link href="/pages-menu/service-details-v3">Social Media</Link>
                     </li>
-                    <li>
+                    <li className="current-page">
                       <Link href="/pages-menu/service-details-v4">Videografie</Link>
                     </li>
                     <li>
@@ -140,9 +143,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
+                  Ein gut gemachtes Video ist die kürzeste Verbindung zwischen Emotion und Information.
                   </p>
-                  <div className="name">- Erik Glaser</div>
+                  <div className="name">- Daniel Glickman</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

@@ -10,14 +10,14 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "Online-Präsenz",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
-    value: 94,
+    title: " Fokus: Datensicherheit",
+    description: "85% der Unternehmen erleben eine verbesserte Sicherheit durch professionelle Systemintegration.",
+    value: 85,
   },
   {
-    title: "Markenbindung",
-    description: "Über 80% der Konsumenten geben an, dass authentische Fotos ihre Markenloyalität stärken.",
-    value: 80,
+    title: "Effizientsteigerung",
+    description: "Eine bis zu 30% Steigerung der Produktivität durch optimierte und effizientere IT-Systeme.",
+    value: 30,
   },
 ];
 

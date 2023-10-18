@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar1 from "./service-details/ProgressBar-v1";
+import ProgressBar6 from "./service-details/ProgressBar-v6";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Softwareentwicklung" />
+      <Seo pageTitle="Systemintegration" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -27,10 +27,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Softwareentwicklung
+                  Systemintegration
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Code, der beeindruckt!
+                Reibungsloser Betrieb.
                 </h2>
               </div>
             </div>
@@ -58,40 +58,35 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Softwareentwicklung.</h2>
+                <h2 className="main-title tx-dark mb-30">Systemintegration.</h2>
                 <p className="text-lg tx-dark">
-                Entfesseln Sie das volle Potenzial Ihrer Ideen mit unserer maßgeschneiderten Softwareentwicklung.
-                </p>
-                
+                Optimieren Sie Ihre Abläufe mit unserer Systemintegration – wir machen Technologien miteinander kompatibel und Ihr Unternehmen effizienter.</p>
                 <p>
-                Wir sind Architekten digitaler Erlebnisse, die nicht nur funktionieren, sondern begeistern. Mit einer Mischung aus Kreativität, Präzision und einem tiefen Verständnis für Ihre Bedürfnisse schaffen wir Lösungen, die nicht nur dem aktuellen Stand der Technik entsprechen, sondern ihn auch definieren. Ihre Zufriedenheit ist unser Code für Erfolg.
-                </p>
+                Im Herzschlag Ihres Unternehmens sorgen wir für Ordnung. 
+                Systemintegration ist für uns nicht nur das Verbinden von Technologien, sondern das Schaffen eines harmonischen Zusammenspiels, das die Effizienz steigert. 
+                Unsere Experten verstehen die Komplexität Ihrer Systeme und bringen sie nahtlos zusammen. 
+                Von der Analyse bis zur Implementierung bieten wir Lösungen, die nicht nur kurzfristig funktionieren, sondern Ihr Unternehmen für die Zukunft rüsten. 
+                Mit uns wird Technologie zu einem treuen Partner, der Ihr Wachstum unterstützt.</p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
                       <ul className="style-none list-item md-mb-40">     
-                        <li>Web & Mobile</li>
-                        <li>Extended Reality</li>
-                        <li>3D</li>
-                        <li>Gamedesign</li>
-                        <li>Data Science</li>
-                        <li>Individuallösungen</li>
+                        <li>Hardwareverkauf</li>
+                        <li>Systemintegration</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Mit einem klaren Fokus auf Zeiteffizienz sind wir stolz darauf, Projekte agil und effizient umzusetzen, um Ihre Produkte oder Dienstleistungen schnell auf den Markt zu bringen.
-                      Dabei haben wir stets die Kosten und die Sicherstellung höchster Qualität im Blick.
-                      Unsere maßgeschneiderte Softwareentwicklung zielt darauf ab, diese Erwartungen zu erfüllen und einen Mehrwert für das Unternehmen unseres Kunden zu schaffen.
+                      Wir setzen uns das Ziel, Ihre Geschäftsprozesse durch maßgeschneiderte Systemintegration zu harmonisieren. Durch die nahtlose Verbindung verschiedener Systeme streben wir nach einer reibungslosen und effizienten Arbeitsweise.
                     </p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar1 />
+                    <ProgressBar6 />
                   </div>
                 </div>
                 
@@ -108,7 +103,7 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                    <li className="current-page">
+                  <li>
                       <Link href="/pages-menu/service-details-v1">Softwareentwicklung </Link> 
                     </li>
                     <li>
@@ -123,7 +118,7 @@ const PortfolioV1 = () => {
                     <li>
                       <Link href="/pages-menu/service-details-v5">Fotografie</Link>
                     </li>
-                    <li>
+                    <li className="current-page">
                       <Link href="/pages-menu/service-details-v6">Systemintegration</Link>
                     </li>
                     <li>
@@ -140,9 +135,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
+                  Die Kunst der Systemintegration liegt darin, aus vielen Teilen ein harmonisches Ganzes zu formen.
                   </p>
-                  <div className="name">- Erik Glaser</div>
+                  <div className="name">- Johannes Billenstein</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

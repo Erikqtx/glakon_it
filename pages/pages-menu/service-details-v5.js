@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar1 from "./service-details/ProgressBar-v1";
+import ProgressBar5 from "./service-details/ProgressBar-v5";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Softwareentwicklung" />
+      <Seo pageTitle="Fotografie" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -27,10 +27,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Softwareentwicklung
+                  Fotografie
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Code, der beeindruckt!
+                Momente einfangen.
                 </h2>
               </div>
             </div>
@@ -58,40 +58,45 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Softwareentwicklung.</h2>
+                <h2 className="main-title tx-dark mb-30">Fotografie.</h2>
                 <p className="text-lg tx-dark">
-                Entfesseln Sie das volle Potenzial Ihrer Ideen mit unserer maßgeschneiderten Softwareentwicklung.
-                </p>
-                
+                Jedes Bild erzählt eine Geschichte – lassen Sie uns Ihre Geschichte mit unserer professionellen Fotografie erzählen.</p>
                 <p>
-                Wir sind Architekten digitaler Erlebnisse, die nicht nur funktionieren, sondern begeistern. Mit einer Mischung aus Kreativität, Präzision und einem tiefen Verständnis für Ihre Bedürfnisse schaffen wir Lösungen, die nicht nur dem aktuellen Stand der Technik entsprechen, sondern ihn auch definieren. Ihre Zufriedenheit ist unser Code für Erfolg.
-                </p>
+                In der Welt der visuellen Überflutung ist jedes Bild eine Gelegenheit, eine emotionale Verbindung herzustellen. 
+                Unsere Fotografen sind nicht nur Handwerker, sondern Geschichtenerzähler mit der Linse. 
+                Wir fangen nicht nur Momente ein, sondern schaffen Erinnerungen, die bleiben. 
+                Mit einem Auge für das Besondere und einem Engagement für Perfektion setzen wir Ihre Visionen in atemberaubende Bilder um. 
+                Für uns ist Fotografie nicht nur ein Beruf, sondern eine Leidenschaft, die sich in jedem Bild zeigt.</p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
                       <ul className="style-none list-item md-mb-40">     
-                        <li>Web & Mobile</li>
-                        <li>Extended Reality</li>
-                        <li>3D</li>
-                        <li>Gamedesign</li>
-                        <li>Data Science</li>
-                        <li>Individuallösungen</li>
+                        <li>Eventfotografie</li>
+                        <li>Produktfotografie</li>
+                        <li>Porträtfotografie</li>
+                        <li>Werbefotografie</li>
+                        <li>Hochzeitsfotografie</li>
+                        <li>Modefotografie</li>
+                        <li>Aktfotografie</li>
+                        <li>Luftbildaufnahmen</li>
+                        <li>Stockfotografie</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Mit einem klaren Fokus auf Zeiteffizienz sind wir stolz darauf, Projekte agil und effizient umzusetzen, um Ihre Produkte oder Dienstleistungen schnell auf den Markt zu bringen.
-                      Dabei haben wir stets die Kosten und die Sicherstellung höchster Qualität im Blick.
-                      Unsere maßgeschneiderte Softwareentwicklung zielt darauf ab, diese Erwartungen zu erfüllen und einen Mehrwert für das Unternehmen unseres Kunden zu schaffen.
+                      Unser Fokus liegt darauf, authentische Momente einzufangen und durch unsere Fotografien eine tiefere Verbindung zu Ihrer Zielgruppe herzustellen. 
+                      Wir möchten nicht nur Bilder erstellen, sondern Geschichten erzählen, die Emotionen wecken und langfristige Erinnerungen schaffen.
+                      Egal ob Corporate-Events, Produktfotografie oder Mitarbeiterporträts – unser Ziel ist es, in jeder fotografischen Herausforderung brillante Ergebnisse zu liefern.
+                      Unser Ziel ist es, stets innovative Technologien und Fotografie-Techniken zu nutzen, um sicherzustellen, dass Ihre Bilder nicht nur zeitgemäß sind, sondern auch den höchsten Qualitätsstandards entsprechen.
                     </p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar1 />
+                    <ProgressBar5 />
                   </div>
                 </div>
                 
@@ -108,7 +113,7 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                    <li className="current-page">
+                  <li>
                       <Link href="/pages-menu/service-details-v1">Softwareentwicklung </Link> 
                     </li>
                     <li>
@@ -120,7 +125,7 @@ const PortfolioV1 = () => {
                     <li>
                       <Link href="/pages-menu/service-details-v4">Videografie</Link>
                     </li>
-                    <li>
+                    <li className="current-page">
                       <Link href="/pages-menu/service-details-v5">Fotografie</Link>
                     </li>
                     <li>
@@ -140,9 +145,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
+                  Fotografie ist die Kunst, den Blick auf das Wesentliche zu lenken und die Schönheit im Detail einzufangen.
                   </p>
-                  <div className="name">- Erik Glaser</div>
+                  <div className="name">- Dorothea Lange</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

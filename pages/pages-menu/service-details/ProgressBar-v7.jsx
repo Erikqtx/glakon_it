@@ -10,13 +10,13 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "Online-Präsenz",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
-    value: 94,
+    title: "Ununterbrochene Präsenz",
+    description: "Über 70% der Unternehmen erleben eine Steigerung ihrer Online-Verfügbarkeit durch zuverlässiges Hosting.",
+    value: 70,
   },
   {
     title: "Markenbindung",
-    description: "Über 80% der Konsumenten geben an, dass authentische Fotos ihre Markenloyalität stärken.",
+    description: "Über 80% der Konsumenten erleben eine verbesserte digitale Performance Ihrer Webseite durch unser effizientes und preiswertes Hosting.",
     value: 80,
   },
 ];

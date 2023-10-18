@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar1 from "./service-details/ProgressBar-v1";
+import ProgressBar7 from "./service-details/ProgressBar-v7";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Softwareentwicklung" />
+      <Seo pageTitle="Hosting" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -27,10 +27,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Softwareentwicklung
+                  Hosting
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Code, der beeindruckt!
+                Sicherheit & Zuverlässigkeit.
                 </h2>
               </div>
             </div>
@@ -58,40 +58,35 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Softwareentwicklung.</h2>
+                <h2 className="main-title tx-dark mb-30">Hosting.</h2>
                 <p className="text-lg tx-dark">
-                Entfesseln Sie das volle Potenzial Ihrer Ideen mit unserer maßgeschneiderten Softwareentwicklung.
+                Vertrauen Sie uns Ihr Hosting an – wir bieten sichere und skalierbare Lösungen, damit Ihre Website immer in Bestform ist.
                 </p>
-                
                 <p>
-                Wir sind Architekten digitaler Erlebnisse, die nicht nur funktionieren, sondern begeistern. Mit einer Mischung aus Kreativität, Präzision und einem tiefen Verständnis für Ihre Bedürfnisse schaffen wir Lösungen, die nicht nur dem aktuellen Stand der Technik entsprechen, sondern ihn auch definieren. Ihre Zufriedenheit ist unser Code für Erfolg.
-                </p>
+                Ihre digitale Präsenz verdient mehr als nur Speicherplatz – sie verdient ein Zuhause, das sicher, zuverlässig und skalierbar ist. 
+                Unser Hosting-Service geht über die Standardangebote hinaus. 
+                Wir verstehen, dass Ihre Website das Gesicht Ihres Unternehmens ist, und deshalb bieten wir maßgeschneiderte Hosting-Lösungen, die Ihre individuellen Anforderungen erfüllen. 
+                Mit modernster Technologie, regelmäßigen Sicherheitsüberprüfungen und einem engagierten Support-Team stellen wir sicher, dass Ihre Website nicht nur online ist, sondern auch herausragend performt. 
+                Wir sind nicht nur Ihr Hosting-Provider, sondern Ihr Partner für digitale Exzellenz.</p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
                       <ul className="style-none list-item md-mb-40">     
-                        <li>Web & Mobile</li>
-                        <li>Extended Reality</li>
-                        <li>3D</li>
-                        <li>Gamedesign</li>
-                        <li>Data Science</li>
-                        <li>Individuallösungen</li>
+                        <li>Hosting</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Mit einem klaren Fokus auf Zeiteffizienz sind wir stolz darauf, Projekte agil und effizient umzusetzen, um Ihre Produkte oder Dienstleistungen schnell auf den Markt zu bringen.
-                      Dabei haben wir stets die Kosten und die Sicherstellung höchster Qualität im Blick.
-                      Unsere maßgeschneiderte Softwareentwicklung zielt darauf ab, diese Erwartungen zu erfüllen und einen Mehrwert für das Unternehmen unseres Kunden zu schaffen.
+                      Unser Ziel ist es, Hosting-Dienstleistungen anzubieten, auf die Sie sich jederzeit verlassen können. Wir setzen auf erstklassige Serverinfrastrukturen, um sicherzustellen, dass Ihre Online-Präsenz immer erreichbar ist.
                     </p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar1 />
+                    <ProgressBar7 />
                   </div>
                 </div>
                 
@@ -108,7 +103,7 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                    <li className="current-page">
+                  <li>
                       <Link href="/pages-menu/service-details-v1">Softwareentwicklung </Link> 
                     </li>
                     <li>
@@ -126,7 +121,7 @@ const PortfolioV1 = () => {
                     <li>
                       <Link href="/pages-menu/service-details-v6">Systemintegration</Link>
                     </li>
-                    <li>
+                    <li className="current-page">
                       <Link href="/pages-menu/service-details-v7">Hosting</Link>
                     </li>
                   </ul>
@@ -140,9 +135,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
+                  In der digitalen Welt ist zuverlässiges Hosting der Grundstein, auf dem Unternehmensvisionen aufbauen.
                   </p>
-                  <div className="name">- Erik Glaser</div>
+                  <div className="name">- Michael Goldenberg</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

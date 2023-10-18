@@ -10,13 +10,13 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "Online-Präsenz",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
-    value: 94,
+    title: "Der Erste Eindruck",
+    description: "85% der Konsumenten geben an, dass das Design eines Produkts einen entscheidenden Einfluss auf ihre Kaufentscheidung hat.",
+    value: 85,
   },
   {
-    title: "Markenbindung",
-    description: "Über 80% der Konsumenten geben an, dass authentische Fotos ihre Markenloyalität stärken.",
+    title: "Aufmerksamkeit",
+    description: "80% der Internetnutzer geben an, dass sie Inhalte eher lesen, wenn sie mit ansprechenden Grafiken oder Designs präsentiert werden.",
     value: 80,
   },
 ];

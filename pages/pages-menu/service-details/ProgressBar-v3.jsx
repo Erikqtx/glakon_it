@@ -11,13 +11,13 @@ const styles = buildStyles({
 const data = [
   {
     title: "Online-Präsenz",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
-    value: 94,
+    description: "Ca. 80% der Konsumenten geben an, dass sie eher bei Marken kaufen, die eine aktive und kontinuierliche Präsenz in den sozialen Medien haben.",
+    value: 80,
   },
   {
-    title: "Markenbindung",
-    description: "Über 80% der Konsumenten geben an, dass authentische Fotos ihre Markenloyalität stärken.",
-    value: 80,
+    title: "Social Media Boom",
+    description: "Etwa 75% der Menschen geben an, dass sie Produkte oder Dienstleistungen aufgrund von Empfehlungen in den sozialen Medien in Betracht ziehen.",
+    value: 75,
   },
 ];
 
