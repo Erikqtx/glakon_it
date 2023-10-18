@@ -72,13 +72,13 @@ export const pagesItems = [
   },
 ];
 
-export const portfolioItems = [
+/* export const portfolioItems = [
   { name: "Softwareentwicklung", link: "/portfolio/portfolio-v1" },
   { name: "Design", link: "/portfolio/portfolio-v2" },
   { name: "Social Media", link: "/portfolio/portfolio-v3" },
   { name: "Videografie", link: "/portfolio/portfolio-v4" },
   { name: "Fotografie", link: "/portfolio/portfolio-v5" },
-];
+]; */
 
 /* export const blogItems = [
   { link: "/blog/blog-v1", text: "List With sidebar" },
@@ -93,5 +93,5 @@ export const aboutItems = [
 ];
 
 export const leistungsItem = [
-{  name: "Leistungen", link: "/pages-menu/service-v1"}
-]
+  { name: "Leistungen", link: "/pages-menu/service-v1" },
+];

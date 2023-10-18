@@ -1,8 +1,5 @@
 import Link from "next/link";
-import {
-  pagesItems,
-  portfolioItems,
-} from "../../data/menu";
+import { pagesItems, portfolioItems } from "../../data/menu";
 import {
   isActiveLink,
   isActiveParent,
@@ -34,7 +31,12 @@ const MainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <Image src="/images/logo/Glakon_Logo_Black.png" alt="Glakon IT Agentur Ansbach" width={105} height={40}/>
+                <Image
+                  src="/images/logo/Glakon_Logo_Black.png"
+                  alt="Glakon IT Agentur Ansbach"
+                  width={105}
+                  height={40}
+                />
               </Link>
             </div>
           </li>
@@ -49,7 +51,6 @@ const MainMenu = () => {
             >
               Home
             </a>
-
           </li>
           {/* End li (home mega menu) */}
           <li className="nav-item  dropdown">
@@ -137,29 +138,17 @@ const MainMenu = () => {
           {/* End li (pages) */}
 
           <li className="nav-item">
-            <a
-              className="nav-link "
-              href="#"
+            <Link
+              className="nav-link"
+              href="/portfolio/portfolio-v1"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
             >
               Portfolio
-            </a>
-            <ul className="dropdown-menu">
-              {portfolioItems.map((item, index) => (
-                <li key={index}>
-                  <Link href={item.link} className="dropdown-item">
-                    <span>{item.name}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            </Link>
           </li>
           {/* End li (portfolio) */}
 
-{/*           <li className="nav-item dropdown">
+          {/*           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
