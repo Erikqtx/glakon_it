@@ -8,7 +8,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Portfolio V1" />
+      <Seo pageTitle="Portfolio" />
       {/* <!-- 
       =============================================
       Theme Default Menu

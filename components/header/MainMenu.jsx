@@ -43,44 +43,24 @@ const MainMenu = () => {
           {/* End li */}
 
           <li className="nav-item dropdown mega-dropdown-md active">
-            <a
+            <Link
               className="nav-link"
-              href="#"
+              href="/"
               role="button"
               aria-expanded="false"
             >
               Home
-            </a>
+            </Link>
           </li>
           {/* End li (home mega menu) */}
-          <li className="nav-item  dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              href="/pages-menu/about-us-v1"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
-              aria-expanded="false"
             >
-              Über
-            </a>
-            <ul className="dropdown-menu">
-              <li>
-                <Link href="/pages-menu/about-us-v1" className="dropdown-item">
-                  <span>Über Uns</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/pages-menu/testimonials" className="dropdown-item">
-                  <span>Team</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/pages-menu/testimonials" className="dropdown-item">
-                  <span>Partner</span>
-                </Link>
-              </li>
-            </ul>
+              Über Uns
+            </Link>
           </li>
           {/* End li (pages) */}
 
@@ -96,41 +76,44 @@ const MainMenu = () => {
               Leistungen
             </Link>
             <ul className="dropdown-menu">
-              {pagesItems.map((item, index) => (
-                <li className="dropdown-submenu dropdown" key={index}>
-                  <a
-                    className="dropdown-item dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside"
-                    aria-expanded="false"
-                    href="#"
-                  >
-                    <span>{item.title}</span>
-                  </a>
-                  <ul className="dropdown-menu">
-                    {item.subItems.map((subMenu, i) => (
-                      <li key={i}>
-                        <Link href={subMenu.link} className="dropdown-item">
-                          <span>{subMenu.title}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </li>
-              ))}
               <li>
-                <Link href="/pages-menu/testimonials" className="dropdown-item">
+                <Link href="/pages-menu/service-details-v1" className="dropdown-item">
+                  <span>Softwareentwickluung</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages-menu/service-details-v2" className="dropdown-item">
+                  <span>Design</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages-menu/service-details-v3" className="dropdown-item">
+                  <span>Social Media</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages-menu/service-details-v4" className="dropdown-item">
+                  <span>Videografie</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages-menu/service-details-v5" className="dropdown-item">
+                  <span>Fotografie</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages-menu/service-details-v6" className="dropdown-item">
+                  <span>Systemintegration</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages-menu/service-details-v7" className="dropdown-item">
                   <span>Hosting</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/pricing" className="dropdown-item">
+                <Link href="/contact" className="dropdown-item">
                   <span>Fragen?</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/pages-menu/testimonials" className="dropdown-item">
-                  <span>Kundenstimmen</span>
                 </Link>
               </li>
             </ul>

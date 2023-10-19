@@ -10,14 +10,14 @@ const styles = buildStyles({
 
 const data = [
   {
-    title: "shfeoi",
-    description: "Unternehmen mit professioneller Fotografie auf ihren Websites erhalten bis zu 94% mehr Kundenaufrufe.",
-    value: 94,
+    title: "Zeit ist Geld",
+    description: " Die Integration automatisierter Prozesse und optimierter Software führt zu erheblichen Zeitersparnissen, wie von 85% der Unternehmen berichtet wird.",
+    value: 85,
   },
   {
-    title: "Markenbindung",
-    description: "Über 80% der Konsumenten geben an, dass authentische Fotos ihre Markenloyalität stärken.",
-    value: 80,
+    title: "Kundenbindung",
+    description: "75% der Verbraucher geben an, dass sie Unternehmen bevorzugen, die innovative und benutzerfreundliche Softwarelösungen anbieten.",
+    value: 75,
   },
 ];
 
