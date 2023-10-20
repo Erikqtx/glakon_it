@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     category: "application dev",
-    name: "Minimal Iphone",
+    name: "z.B. Logoentwurf",
     tag: "Design",
     image: "/images/gallery/img_10.jpg",
     projectInfo: {

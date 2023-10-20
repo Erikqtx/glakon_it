@@ -56,7 +56,7 @@ const MainMenu = () => {
           <li className="nav-item">
             <Link
               className="nav-link"
-              href="/pages-menu/about-us-v1"
+              href="/Leistungen/UeberUns"
               role="button"
             >
               Über Uns
@@ -67,7 +67,7 @@ const MainMenu = () => {
           <li className="nav-item  dropdown">
             <Link
               className="nav-link dropdown-toggle"
-              href="/pages-menu/service-v1"
+              href="/Leistungen/Softwareentwicklung"
               role="button"
               data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
@@ -77,37 +77,37 @@ const MainMenu = () => {
             </Link>
             <ul className="dropdown-menu">
               <li>
-                <Link href="/pages-menu/service-details-v1" className="dropdown-item">
+                <Link href="/Leistungen/Softwareentwicklung" className="dropdown-item">
                   <span>Softwareentwickluung</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/service-details-v2" className="dropdown-item">
+                <Link href="/Leistungen/Design" className="dropdown-item">
                   <span>Design</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/service-details-v3" className="dropdown-item">
+                <Link href="/Leistungen/Social Media" className="dropdown-item">
                   <span>Social Media</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/service-details-v4" className="dropdown-item">
+                <Link href="/Leistungen/Videografie" className="dropdown-item">
                   <span>Videografie</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/service-details-v5" className="dropdown-item">
+                <Link href="/Leistungen/Fotografie" className="dropdown-item">
                   <span>Fotografie</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/service-details-v6" className="dropdown-item">
+                <Link href="/Leistungen/Systemintegration" className="dropdown-item">
                   <span>Systemintegration</span>
                 </Link>
               </li>
               <li>
-                <Link href="/pages-menu/service-details-v7" className="dropdown-item">
+                <Link href="/Leistungen/Hosting" className="dropdown-item">
                   <span>Hosting</span>
                 </Link>
               </li>
@@ -123,7 +123,7 @@ const MainMenu = () => {
           <li className="nav-item">
             <Link
               className="nav-link"
-              href="/portfolio/portfolio-v1"
+              href="/Portfolio/Portfolio"
               role="button"
             >
               Portfolio
@@ -155,7 +155,7 @@ const MainMenu = () => {
           {/* End li (blog) */}
 
           <li className="nav-item">
-            <Link className="nav-link" href="/contact" role="button">
+            <Link className="nav-link" href="/Kontakt" role="button">
               Kontakt
             </Link>
           </li>

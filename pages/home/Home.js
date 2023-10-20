@@ -76,7 +76,7 @@ const Home = () => {
                   Zukunft begleiten wird.
                 </p>
                 <Link
-                  href="/pages-menu/about-us-v1"
+                  href="Leistungen/about-us-v1"
                   className="btn-four fw-500"
                 >
                   Erfahre mehr
@@ -178,7 +178,7 @@ const Home = () => {
                 Unser Hauptfokus liegt darauf, Ihre Zufriedenheit zu gewährleisten. Keine Herausforderung ist uns zu groß – wir meistern jede Aufgabe mit Erfolg.
                 </p>
                 <Link
-                  href="/pages-menu/about-us-v1"
+                  href="Leistungen/about-us-v1"
                   className="btn-four fw-500"
                 >
                   Kostenloses Erstgespräch
@@ -231,7 +231,7 @@ const Home = () => {
               </div>
               {/* /.title-style-three */}
               <Link
-                href="/pages-menu/service-v1"
+                href="Leistungen/service-v1"
                 className="btn-five tran3s fw-500 fs-17 text-decoration-underline"
               >
                 Mehr Informationen <i className="bi bi-chevron-right" />
@@ -467,7 +467,7 @@ const Home = () => {
                 Kostenloses Erstgespräch vereinbaren.
               </p>
               <Link
-                  href="/pages-menu/about-us-v1"
+                  href="Leistungen/about-us-v1"
                   className="btn-four fw-500"
                 >
                   Erstgespräch

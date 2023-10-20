@@ -15,7 +15,8 @@ const Hero = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="u0aMCH-AFvg"
+        videoId="BssFMkGOLvY"
+        
         onClose={() => setOpen(false)}
       />
 
@@ -101,7 +102,7 @@ const Hero = () => {
               <div className="ps-3 text-start">
                 <span className="d-block">Watch</span>
                 <strong className="fs-18 fw-500 tx-dark d-block">
-                  Chefket
+                  Preview
                 </strong>
               </div>
             </div>
@@ -109,16 +110,16 @@ const Hero = () => {
               <Image
                 onClick={() => setOpen(true)}
                 role="button"
-                src="/videos/chefket/EndCover.png"
+                src="/images/media/beka-thumbnail.jpg"
                 alt="media"
-                width="800"
-                height="800"
+                width="1080"
+                height="720"
                 className="lazy-img main-screen w-100"
                 style={{ position: "relative", width: "100%", height: "100%" }}
               />
               <div className="ps-3 text-start center">
                 <strong className="fs-18 fw-500 tx-dark d-block">
-                  © Chefket - Videoaufnahmen & Edit by Glakon
+                  © BEKA - Videoaufnahmen & Edit by Glakon
                 </strong>
               </div>
             </div>

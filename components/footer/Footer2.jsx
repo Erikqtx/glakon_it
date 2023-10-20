@@ -3,9 +3,9 @@ const columns = [
     title: "Links",
     links: [
       { label: "Home", url: "/" },
-      { label: "Über Uns", url: "/pages-menu/about-us-v1" },
-      { label: "Leistungen", url: "/pages-menu/service-v1" },
-      { label: "Portfolio", url: "/portfolio/portfolio-v1" },
+      { label: "Über Uns", url: "Leistungen/about-us-v1" },
+      { label: "Leistungen", url: "Leistungen/service-v1" },
+      { label: "Portfolio", url: "/portfolio/Portfolio" },
       { label: "Kontakt", url: "/contact" },
     ],
   },
@@ -22,13 +22,13 @@ const columns = [
   {
     title: "Leistungen",
     links: [
-      { label: "Softwareentwicklung", url: "/pages-menu/service-details-v1" },
-      { label: "Design", url: "/pages-menu/service-details-v2" },
-      { label: "Social Media", url: "/pages-menu/service-details-v3" },
-      { label: "Videografie", url: "/pages-menu/service-details-v4" },
-      { label: "Fotografie", url: "/pages-menu/service-details-v5" },
-      { label: "Systemintegration", url: "/pages-menu/service-details-v6" },
-      { label: "Hosting", url: "/pages-menu/service-details-v7" },
+      { label: "Softwareentwicklung", url: "Leistungen/service-details-v1" },
+      { label: "Design", url: "Leistungen/service-details-v2" },
+      { label: "Social Media", url: "Leistungen/service-details-v3" },
+      { label: "Videografie", url: "Leistungen/service-details-v4" },
+      { label: "Fotografie", url: "Leistungen/service-details-v5" },
+      { label: "Systemintegration", url: "Leistungen/service-details-v6" },
+      { label: "Hosting", url: "Leistungen/service-details-v7" },
     ],
   },
 ];
