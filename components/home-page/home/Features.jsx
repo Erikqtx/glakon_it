@@ -3,21 +3,22 @@ import Link from "next/link";
 const FeatureData = [
   {
     id: 1,
-    iconSrc: "/images/icon/icon_13.svg",
+    iconSrc: "/images/icon/Icon_SoftwareDevelopment.svg",
     title: "Softwareentwicklung",
     description:
       "Maßgeschneiderte Software, die Ihre Ideen in leistungsstarke Lösungen umsetzt und Ihr Unternehmen vorantreibt.",
+      
   },
   {
     id: 2,
-    iconSrc: "/images/icon/icon_14.svg",
+    iconSrc: "/images/icon/Icon_Systemintegration.svg",
     title: "Design",
     description:
       "Ansprechende Designs, die Eindruck hinterlassen und Ihre Botschaft prägnant vermitteln.",
   },
   {
     id: 3,
-    iconSrc: "/images/icon/icon_15.svg",
+    iconSrc: "/images/icon/Icon_Videografie.svg",
     title: "Videografie",
     description:
       "Kreative Werbespots und inspirierende Tutorials, die Ihre Zielgruppe begeistern.",
@@ -36,6 +37,27 @@ const FeatureData = [
     description:
       "Von Produktaufnahmen bis zu Unternehmensporträts, verleihen wir Ihrer Identität Leben.",
   },
+  {
+    id: 6,
+    iconSrc: "/images/icon/Icon_SystemIntegration.svg",
+    title: "Systemintegration",
+    description:
+      "Wir optimieren Prozesse, erhöhen die Effizienz und sorgen dafür, dass Ihre Systeme reibungslos zusammenarbeiten.",
+  },
+  {
+    id: 7,
+    iconSrc: "/images/icon/icon_17.svg",
+    title: "Hosting",
+    description:
+      "Mit zuverlässigen Hosting-Lösungen bieten wir nicht nur Speicherplatz, sondern auch Sicherheit und Geschwindigkeit.",
+  },
+  {
+    id: 8,
+    iconSrc: "/images/icon/icon_17.svg",
+    title: "Noch Fragen?",
+    description:
+      " Keine Sorge, wir sind hier, um Ihnen zu helfen. Unser Expertenteam steht bereit, um all Ihre Fragen zu beantworten.",
+  },
 ];
 
 const Features = () => {
@@ -53,8 +75,9 @@ const Features = () => {
               <img src={feature.iconSrc} alt="icon" className="lazy-img" />
             </div>
             <h4 className="mt-25 mb-20">{feature.title}</h4>
-            <p className="mb-50">{feature.description}</p>
-            <Link href="Leistungen/service-details">
+            <p className="mb-10">{feature.description}</p>
+            
+            <Link href="/Leistungen/UnsereLeistungen">
               <img
                 src="/images/icon/icon_18.svg"
                 alt="icon"

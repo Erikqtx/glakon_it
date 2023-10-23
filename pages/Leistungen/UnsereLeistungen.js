@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar2 from "./service-details/ProgressBar-v2";
+import ProgressBar1 from "./service-details/ProgressBar-v1";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
@@ -9,7 +9,7 @@ import Link from "next/link";
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Design" />
+      <Seo pageTitle="Unsere Leistungen" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -27,10 +27,10 @@ const PortfolioV1 = () => {
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 lg-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                  Design
+                  Unsere Leistungen
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Ästhetik mit Funktion.
+                Für jede digitale Herausforderung.
                 </h2>
               </div>
             </div>
@@ -58,49 +58,43 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Design.</h2>
+                <h2 className="main-title tx-dark mb-30">Dienstleistungen.</h2>
                 <p className="text-lg tx-dark">
-                Von der Konzeptskizze bis zum finalen Design – lassen Sie uns Ihre Vision Wirklichkeit werden lassen.
+                Unsere hochspezialisierten Dienstleistungen sind darauf ausgerichtet, Ihren Geschäftserfolg durch innovative Lösungen zu maximieren.
                 </p>
                 
                 <p>
-                Wir verstehen, dass gutes Design nicht nur schön, sondern auch funktional sein muss. Jedes Detail wird durchdacht, jeder Farbton hat Bedeutung.
-                Ihre Marke wird nicht nur gesehen, sondern erlebt. 
-                In einer Welt, in der Aufmerksamkeit kostbar ist, setzen wir Ihre Marke in Szene und machen sie unvergesslich.
+                Wir streben danach, Sie und Ihr Unternehmen zu befähigen, digital herausragend zu sein. 
+                Von maßgeschneiderter Softwareentwicklung bis zur Optimierung Ihrer digitalen Präsenz arbeiten wir daran, Ihre digitale Zukunft zu gestalten.<br></br>
+                Treten Sie ein in die Welt von Glakon, wo Ihr Erfolg unser Ziel ist.
                 </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
                       <ul className="style-none list-item md-mb-40">     
-                        <li>Branding</li>
-                        <li>Logodesign</li>
-                        <li>Werbung</li>
-                        <li>Textildesign</li>
+                        <li>Softwareentwicklung</li>
+                        <li>Design</li>
                         <li>Social Media</li>
-                        <li>Printdesign</li>
-                        <li>3D-Design</li>
-                        <li>Animation</li>
-                        <li>Lyricvideos</li>
-                        <li>CGI</li>
+                        <li>Videografie</li>
+                        <li>Fotografie</li>
+                        <li>Systemintegration</li>
+                        <li>Hosting</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Unser Fokus liegt auf Ihnen – unserem geschätzten Kunden. 
-                      Wir streben danach, durch nutzerzentriertes Design ein nahtloses und bereicherndes Erlebnis zu schaffen. 
-                      Ihr Komfort und Ihre Zufriedenheit stehen im Mittelpunkt jeder Designentscheidung, die wir treffen.
-                      Wir setzen uns das Ziel, ständig innovative Designlösungen zu schaffen. 
-                      Durch kontinuierliche Entwicklung und kreative Entfaltung möchten wir stets einen Schritt voraus sein und Designs gestalten, die nicht nur Trends setzen, sondern auch Ihre Erwartungen übertreffen.
-                      
+                      Es ist unser Ziel, nicht nur Dienstleistungen zu erbringen, sondern eine unvergleichliche Kundenzufriedenheit sicherzustellen. 
+                      Unsere transparente Kommunikation stellt sicher, dass Sie stets informiert sind und vollständiges Vertrauen in unsere Dienstleistungen haben.
+                      Wir verstehen, dass Ihr Erfolg untrennbar mit unserem eigenen verbunden ist, und deshalb setzen wir alles daran, Ihre Erwartungen zu übertreffen.
                     </p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar2 />
+                    <ProgressBar1 />
                   </div>
                 </div>
                 
@@ -117,10 +111,10 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                  <li>
+                    <li className="current-page">
                       <Link href="Leistungen/service-details-v1">Softwareentwicklung </Link> 
                     </li>
-                    <li className="current-page">
+                    <li>
                       <Link href="Leistungen/service-details-v2">Design</Link>
                     </li>
                     <li>
@@ -149,9 +143,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Design ist, wie man Dinge löst.
+                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
                   </p>
-                  <div className="name">- Steve Jobs</div>
+                  <div className="name">- Erik Glaser</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

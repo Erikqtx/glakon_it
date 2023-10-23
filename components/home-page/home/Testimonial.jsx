@@ -28,7 +28,7 @@ const Testimonial = () => {
     {
       id: 3,
       text: "Genailed!",
-      name: "Chefket",
+      name: "BEKA",
       role: "Künstler",
     },
   ];

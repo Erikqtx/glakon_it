@@ -53,15 +53,7 @@ const MainMenu = () => {
             </Link>
           </li>
           {/* End li (home mega menu) */}
-          <li className="nav-item">
-            <Link
-              className="nav-link"
-              href="/Leistungen/UeberUns"
-              role="button"
-            >
-              Über Uns
-            </Link>
-          </li>
+          
           {/* End li (pages) */}
 
           <li className="nav-item  dropdown">
@@ -87,7 +79,7 @@ const MainMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/Leistungen/Social Media" className="dropdown-item">
+                <Link href="/Leistungen/SocialMedia" className="dropdown-item">
                   <span>Social Media</span>
                 </Link>
               </li>
@@ -129,6 +121,15 @@ const MainMenu = () => {
               Portfolio
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              href="/Leistungen/UeberUns"
+              role="button"
+            >
+              Über Uns
+            </Link>
+          </li>
           {/* End li (portfolio) */}
 
           {/*           <li className="nav-item dropdown">
@@ -154,11 +155,6 @@ const MainMenu = () => {
           </li> */}
           {/* End li (blog) */}
 
-          <li className="nav-item">
-            <Link className="nav-link" href="/Kontakt" role="button">
-              Kontakt
-            </Link>
-          </li>
           {/* End li (contact) */}
         </ul>
         {/* End ul */}

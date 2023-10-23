@@ -40,7 +40,7 @@ const Hero = () => {
         
           <div className="row">
             <div
-              className="col-lg-8 col-md-9 m-auto text-center"
+              className="col-lg-12 col-md-9 m-auto text-center"
               data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
@@ -52,60 +52,25 @@ const Hero = () => {
                   height={40}
                   color={"#f8af3c"}
                 />
-                Lass deiner &nbsp;
-                <span
-                  className="position-relative d-inline-block"
-                  style={{ color: "#e4114b" }}
-                >
-                  Kreativität
-                </span>
-                freien Lauf.
+                 Die Glakon IT-Agentur
               </h1>
               <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
-                Glakon unterstützt dich auf deinem Weg.
+              Willkommen bei Glakon IT Agentur – wir gestalten die Zukunft digital!</p>
+              <p className="text-base mb-75 pt-20 lg-mb-50 lg-pt-10">
+                Unser erfahrenes Team aus Entwicklern, Designern und Digitalstrategen arbeitet Hand in Hand, um maßgeschneiderte Lösungen zu schaffen, die Ihre individuellen Anforderungen erfüllen. 
+                Wir verstehen die Bedeutung eines starken digitalen Auftritts und setzen alles daran, Ihr Unternehmen erfolgreich im digitalen Raum zu positionieren und ettablieren.
               </p>
-              <div className="d-sm-flex justify-content-center align-items-center">
-                <Link
-                  href="/contact"
-                  className="tran3s fs-17 fw-500 btn-three mb-25 ms-2 me-3"
-                >
-                  Kontakt
-                </Link>
-                {/*   Intro Video Glakon hier              <div
-                  role="button"
-                  className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center"
-                  onClick={() => setOpen(true)}
-                >
-                  <i className="fas fa-play" />
-                  <div className="ps-3 text-start">
-                    <span className="d-block">Watch</span>
-                    <strong className="fs-18 fw-500 tx-dark d-block">
-                      Intro video
-                    </strong>
-                  </div>
-                </div> */}
-              </div>
+              
+              
             </div>
           </div>
           {/* End .row */}
 
           <div
-            className="illustration-holder position-relative mt-120 lg-mt-80 xs-mt-30"
+            className="illustration-holder position-relative mt-100 lg-mt-80 xs-mt-30"
             data-aos="fade-up"
           >
-            <div
-              role="button"
-              className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center mt-50 center-icon-container"
-              onClick={() => setOpen(true)}
-            >
-              <i className="fas fa-play" />
-              <div className="ps-3 text-start">
-                <span className="d-block">Watch</span>
-                <strong className="fs-18 fw-500 tx-dark d-block">
-                  Preview
-                </strong>
-              </div>
-            </div>
+            
             <div className="bg-wrapper w-100 h-100">
               <Image
                 onClick={() => setOpen(true)}

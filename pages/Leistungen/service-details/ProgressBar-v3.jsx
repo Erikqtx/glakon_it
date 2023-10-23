@@ -15,7 +15,7 @@ const data = [
     value: 80,
   },
   {
-    title: "Social Media Boom",
+    title: "Vertrauen",
     description: "Etwa 75% der Menschen geben an, dass sie Produkte oder Dienstleistungen aufgrund von Empfehlungen in den sozialen Medien in Betracht ziehen.",
     value: 75,
   },

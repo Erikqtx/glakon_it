@@ -51,32 +51,23 @@ const Home = () => {
                     Integriere dich digital
                   </div>
                   <h2 className="main-title fw-500">
-                    Erfolgreich im digitalen
-                    <span className="d-inline-block position-relative">
-                      &nbsp; Zeitalter &nbsp;
-                      <span
-                        className="mark-bg"
-                        style={{ backgroundColor: "#ffebe5" }}
-                      />
-                    </span>
+                    Erfolgreich im digitalen Zeitalter
                   </h2>
                 </div>
                 {/* /.title-style-three */}
                 <p className="text-sm mt-25 mb0 lg-mb-40">
-                  Wenn es um die digitale Welt geht, ist die Glakon IT Agentur
-                  zweifellos eine erstklassige Wahl. Unser Team besteht aus
-                  hochqualifizierten Experten, die ihre umfassende Erfahrung und
+                  Unser Team besteht aus hochqualifizierten Experten, die ihre umfassende Erfahrung und
                   ihr tiefes Verständnis innovativer Technologien einsetzen, um
                   maßgeschneiderte Lösungen zu entwickeln, die genau auf Ihre
                   individuellen Geschäftsanforderungen zugeschnitten sind. Bei
-                  Glakon werden Sie nicht nur von einer beeindruckenden
+                  Uns werden Sie nicht nur von einer beeindruckenden
                   Bandbreite an technologischen und kreativen Lösungen
                   profitieren, sondern auch von einem engagierten und
                   professionellen Team, das Sie auf Ihrem Weg in die digitale
                   Zukunft begleiten wird.
                 </p>
                 <Link
-                  href="Leistungen/about-us-v1"
+                  href="/Leistungen/Softwareentwicklung"
                   className="btn-four fw-500"
                 >
                   Erfahre mehr
@@ -103,40 +94,7 @@ const Home = () => {
         Feature Section Four
         ============================================== 
         */}
-      <div className="fancy-feature-four pt-250 lg-pt-120">
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-xxl-7 col-md-8 m-auto text-center"
-              data-aos="fade-up"
-            >
-              <div className="title-style-three">
-                <h2 className="main-title fw-500">
-                  Vereine alle
-                  <span className="d-inline-block position-relative">
-                    Dienstleistungen &nbsp;
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "#ffebe5" }}
-                    />
-                  </span>
-                  &amp; erschaffe ein einzigartiges Produkt.
-                </h2>
-              </div>
-              {/* /.title-style-three */}
-              <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
-                Nach einem Erstgespräch geht es erst richtig los.
-              </p>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <ProductTabs />
-
-          {/* /.tab-content */}
-        </div>
-        {/* /.container */}
-      </div>
+      
 
       {/* 
         =============================================
@@ -153,24 +111,10 @@ const Home = () => {
               >
                 <div className="title-style-three">
                   <div className="sc-title text-uppercase">
-                    Über
-                    <span
-                      className="text-decoration-underline"
-                      style={{ color: "#fbb72d" }}
-                    >
-                      &nbsp; 100+ Kunden
-                    </span>
+                    Was uns wichtig ist.
                   </div>
                   <h2 className="main-title fw-500">
-                    Warum Sie Glakon &nbsp;
-                    <span className="d-inline-block position-relative">
-                      wählen
-                      <span
-                        className="mark-bg"
-                        style={{ backgroundColor: "#ffebe5" }}
-                      />
-                    </span>
-                    sollten.
+                    Glakon IT- Ihr Partner in der Digitalen Welt
                   </h2>
                 </div>
                 {/* /.title-style-three */}
@@ -178,7 +122,7 @@ const Home = () => {
                 Unser Hauptfokus liegt darauf, Ihre Zufriedenheit zu gewährleisten. Keine Herausforderung ist uns zu groß – wir meistern jede Aufgabe mit Erfolg.
                 </p>
                 <Link
-                  href="Leistungen/about-us-v1"
+                  href="/Kontakt"
                   className="btn-four fw-500"
                 >
                   Kostenloses Erstgespräch
@@ -195,9 +139,9 @@ const Home = () => {
                   alt="shape"
                   className="lazy-img shapes shape-one"
                 />
-                <div className="h3 m0 fw-normal tx-dark">13+</div>
+                <div className="h3 m0 fw-normal tx-dark">Die Bausteine</div>
                 <p className="text-lg opacity-50 pb-25 lg-pb-10">
-                  Gründe Glakon zu wählen
+                  der Glakon IT
                 </p>
                 <TagList />
               </div>
@@ -218,24 +162,11 @@ const Home = () => {
             <div className="col-lg-4 col-md mt-40" data-aos="fade-up">
               <div className="title-style-three mb5 lg-mb-40">
                 <h2 className="main-title fw-500">
-                   <br />
-                  <span className="d-inline-block position-relative">
-                    Entdecke
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "#ffebe5" }}
-                    />
-                  </span>
-                  unsere Leistungen
+                Entdecke unsere Leistungen
                 </h2>
               </div>
               {/* /.title-style-three */}
-              <Link
-                href="Leistungen/service-v1"
-                className="btn-five tran3s fw-500 fs-17 text-decoration-underline"
-              >
-                Mehr Informationen <i className="bi bi-chevron-right" />
-              </Link>
+              
             </div>
             <Features />
           </div>
@@ -257,6 +188,33 @@ const Home = () => {
         Feedback Section Two
         =====================================================
         */}
+        <div className="fancy-feature-four pt-250 lg-pt-120">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-xxl-7 col-md-8 m-auto text-center"
+              data-aos="fade-up"
+            >
+              <div className="title-style-three">
+                <h2 className="main-title fw-500">
+                  Vereine alle Leistungen
+                  &amp; erschaffe ein einzigartiges Produkt.
+                </h2>
+              </div>
+              {/* /.title-style-three */}
+              <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
+                Nach einem Erstgespräch geht es erst richtig los.
+              </p>
+            </div>
+          </div>
+          {/* End .row */}
+
+          <ProductTabs />
+
+          {/* /.tab-content */}
+        </div>
+        {/* /.container */}
+      </div>
       <div
         className="feedback-section-two position-relative mt-170 pt-150 pb-150 lg-mt-100 lg-pt-100 lg-pb-100 sm-pt-10 sm-pb-10"
         data-data-aos="fade-up"
@@ -409,30 +367,7 @@ const Home = () => {
         Fancy Short Banner Two
         =====================================================
         */}
-      <div
-        className="fancy-short-banner-two mt-150 lg-mt-100"
-        data-data-aos="fade-up"
-      >
-        <div className="container">
-          <div className="bg-wrapper ms-xxl-4 me-xxl-4 position-relative">
-            <div className="shapes rounded-circle shape-one" />
-            <div className="inner-wrapper m-auto">
-              <div className="row align-items-center">
-                <div className="col-md text-center text-md-start sm-mb-30">
-                  <h6 className="mb-5">Sie benötigen Hilfe?</h6>
-                  <h3 className="fw-normal m0">Senden Sie uns eine Nachricht.</h3>
-                </div>
-                <div className="col-md text-center text-md-end">
-                  <Link href="/contact" className="btn-six fw-500">
-                    Kontakt
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* /.bg-wrapper */}
-        </div>
-      </div>
+      
 
       {/*
         =====================================================
@@ -460,17 +395,20 @@ const Home = () => {
                 </h2>
               </div>
               {/* /.title-style-three */}
+              
               <p
                 className="text-lg tx-dark pt-30 pb-55 lg-pb-30 "
                 data-aos="fade-up"
               >
-                Kostenloses Erstgespräch vereinbaren.
+              
+                Dein erster Schritt zu einer erfolgreichen Zusammenarbeit – unverbindlich und kostenfrei.<br></br>
+                Jetzt Termin vereinbaren und den Grundstein für deinen Erfolg legen!
               </p>
               <Link
-                  href="Leistungen/about-us-v1"
+                  href="/Kontakt"
                   className="btn-four fw-500"
                 >
-                  Erstgespräch
+                  Kostenloses Erstgespräch vereinbaren.
                 </Link>
 {/*               <div
                 className="subscribe-form m-auto"

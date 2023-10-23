@@ -36,7 +36,7 @@ const   PortfolioGallery1 = () => {
                   </div>
                   <div className="meta-data tran3s d-flex align-items-center justify-content-between">
                     <Link
-                      href={`/portfolio/${item.id}`}
+                      href={`portfolio-details/ProjectDetails${item.id}`}
                       className="title tran3s d-flex flex-column"
                     >
                       <span className="pj-name tran3s fw-500">{item.name}</span>

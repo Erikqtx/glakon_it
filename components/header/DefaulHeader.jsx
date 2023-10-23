@@ -47,7 +47,7 @@ const DefaulHeader = () => {
               <i className="bi bi-person" />
             </Link> */}
             <Link
-              href="/contact"
+              href="/Kontakt"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
             >
               KONTAKT

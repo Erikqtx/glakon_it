@@ -84,7 +84,7 @@ const PortfolioV1 = () => {
                       <p className="pe-xxl-5">
                       Mit einem klaren Fokus auf Zeiteffizienz sind wir stolz darauf, Projekte agil und effizient umzusetzen, um Ihre Produkte oder Dienstleistungen schnell auf den Markt zu bringen.
                       Dabei haben wir stets die Kosten und die Sicherstellung höchster Qualität im Blick.
-                      Unsere maßgeschneiderte Softwareentwicklung zielt darauf ab, diese Erwartungen zu erfüllen und einen Mehrwert für das Unternehmen unseres Kunden zu schaffen.
+                      Unsere Softwareentwicklung zielt darauf ab, Ihre Erwartungen zu erfüllen und einen Mehrwert für Sie und Ihr Unternehmen zu schaffen.
                     </p>
                     </div>
                   </div>
