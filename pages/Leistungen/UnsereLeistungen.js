@@ -111,26 +111,26 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                    <li className="current-page">
-                      <Link href="Leistungen/service-details-v1">Softwareentwicklung </Link> 
+                    <li>
+                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v2">Design</Link>
+                      <Link href="/Leistungen/Design">Design</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v3">Social Media</Link>
+                      <Link href="/Leistungen/Social Media">Social Media</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v4">Videografie</Link>
+                      <Link href="/Leistungen/Videografie">Videografie</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v5">Fotografie</Link>
+                      <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v6">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v7">Hosting</Link>
+                      <Link href="/Leistungen/Hosting">Hosting</Link>
                     </li>
                   </ul>
                 </div>
@@ -143,9 +143,9 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Softwareentwicklung ist die Kunst, aus Nullen und Einsen ein Meisterwerk zu schaffen.
+                  Wir sind nicht nur Experten in Technologie, sondern auch Ihre Partner auf dem Weg zu Innovation und Erfolg.
                   </p>
-                  <div className="name">- Erik Glaser</div>
+                  <div className="name">- Erik Glaser (CEO)</div>
                 </div>
                 {/* /.sidebar-quote */}
                 <h4 className="tx-dark mb-15">Kontakt.</h4>

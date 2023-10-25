@@ -11,13 +11,13 @@ const styles = buildStyles({
 const data = [
   {
     title: "Zeit ist Geld",
-    description: " Die Integration automatisierter Prozesse und optimierter Software führt zu erheblichen Zeitersparnissen, wie von 85% der Unternehmen berichtet wird.",
+    description: "Durch den Einsatz agiler IT-Lösungen erreichen Kunden eine 85% schnellere Markteinführung neuer Produkte oder Dienstleistungen.",
     value: 85,
   },
   {
-    title: "Kundenbindung",
-    description: "75% der Verbraucher geben an, dass sie Unternehmen bevorzugen, die innovative und benutzerfreundliche Softwarelösungen anbieten.",
-    value: 75,
+    title: "Sicherheit erhöhen",
+    description: "Kunden profitieren von einer um 80% verbesserten Sicherheit ihrer digitalen Infrastruktur durch professionelle IT-Sicherheitsdienstleistungen.",
+    value: 80,
   },
 ];
 

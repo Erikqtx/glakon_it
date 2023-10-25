@@ -67,7 +67,7 @@ const Home = () => {
                   Zukunft begleiten wird.
                 </p>
                 <Link
-                  href="/Leistungen/Softwareentwicklung"
+                  href="/Leistungen/UnsereLeistungen"
                   className="btn-four fw-500"
                 >
                   Erfahre mehr
@@ -197,8 +197,7 @@ const Home = () => {
             >
               <div className="title-style-three">
                 <h2 className="main-title fw-500">
-                  Vereine alle Leistungen
-                  &amp; erschaffe ein einzigartiges Produkt.
+                  Kostenloses Erstgespräch!
                 </h2>
               </div>
               {/* /.title-style-three */}

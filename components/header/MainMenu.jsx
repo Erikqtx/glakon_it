@@ -59,7 +59,7 @@ const MainMenu = () => {
           <li className="nav-item  dropdown">
             <Link
               className="nav-link dropdown-toggle"
-              href="/Leistungen/Softwareentwicklung"
+              href="/Leistungen/UnsereLeistungen"
               role="button"
               data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
@@ -104,7 +104,7 @@ const MainMenu = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="dropdown-item">
+                <Link href="/Kontakt" className="dropdown-item">
                   <span>Fragen?</span>
                 </Link>
               </li>

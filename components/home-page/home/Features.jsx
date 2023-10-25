@@ -3,7 +3,7 @@ import Link from "next/link";
 const FeatureData = [
   {
     id: 1,
-    iconSrc: "/images/icon/Icon_SoftwareDevelopment.svg",
+    iconSrc: "/images/icon/Icon-Softwareentwicklung.svg",
     title: "Softwareentwicklung",
     description:
       "Maßgeschneiderte Software, die Ihre Ideen in leistungsstarke Lösungen umsetzt und Ihr Unternehmen vorantreibt.",
@@ -11,49 +11,49 @@ const FeatureData = [
   },
   {
     id: 2,
-    iconSrc: "/images/icon/Icon_Systemintegration.svg",
+    iconSrc: "/images/icon/Icon-Design.svg",
     title: "Design",
     description:
       "Ansprechende Designs, die Eindruck hinterlassen und Ihre Botschaft prägnant vermitteln.",
   },
   {
     id: 3,
-    iconSrc: "/images/icon/Icon_Videografie.svg",
-    title: "Videografie",
-    description:
-      "Kreative Werbespots und inspirierende Tutorials, die Ihre Zielgruppe begeistern.",
-  },
-  {
-    id: 4,
-    iconSrc: "/images/icon/icon_16.svg",
+    iconSrc: "/images/icon/Icon-SocialMedia.svg",
     title: "Social Media",
     description:
       "Wir erreichen Ihre Zielgruppe, fördern Engagement und präsentieren Ihre Marke optimal auf Plattformen.",
   },
   {
+    id: 4,
+    iconSrc: "/images/icon/Icon-Videografie.svg",
+    title: "Videografie",
+    description:
+      "Kreative Werbespots und inspirierende Tutorials, die Ihre Zielgruppe begeistern.",
+  },
+  {
     id: 5,
-    iconSrc: "/images/icon/icon_17.svg",
+    iconSrc: "/images/icon/Icon-Fotografie.svg",
     title: "Fotografie",
     description:
       "Von Produktaufnahmen bis zu Unternehmensporträts, verleihen wir Ihrer Identität Leben.",
   },
   {
     id: 6,
-    iconSrc: "/images/icon/Icon_SystemIntegration.svg",
+    iconSrc: "/images/icon/Icon-Systemintegration.svg",
     title: "Systemintegration",
     description:
       "Wir optimieren Prozesse, erhöhen die Effizienz und sorgen dafür, dass Ihre Systeme reibungslos zusammenarbeiten.",
   },
   {
     id: 7,
-    iconSrc: "/images/icon/icon_17.svg",
+    iconSrc: "/images/icon/Icon-Hosting.svg",
     title: "Hosting",
     description:
       "Mit zuverlässigen Hosting-Lösungen bieten wir nicht nur Speicherplatz, sondern auch Sicherheit und Geschwindigkeit.",
   },
   {
     id: 8,
-    iconSrc: "/images/icon/icon_17.svg",
+    iconSrc: "/images/icon/Icon-Fragen.svg",
     title: "Noch Fragen?",
     description:
       " Keine Sorge, wir sind hier, um Ihnen zu helfen. Unser Expertenteam steht bereit, um all Ihre Fragen zu beantworten.",
