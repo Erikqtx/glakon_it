@@ -12,18 +12,12 @@ const links = [
 ];
 
 const icons = [
-  {
-    icon: "fab fa-facebook-f",
-    href: "https://www.facebook.com/",
-  },
-  {
-    icon: "fab fa-instagram",
-    href: "https://www.twitter.com/",
-  },
-  {
-    icon: "fab fa-linkedin-in",
-    href: "https://www.linkedin.com/",
-  },
+  
+  { icon: "fab fa-facebook-f", href: "https://www.facebook.com/GlakonIT/" },
+  { icon: "fab fa-instagram", href: "https://www.instagram.com/glakon.it/" },
+  { icon: "fab fa-tiktok", href: "https://www.tiktok.com/@glakonit" },
+  { icon: "fab fa-linkedin-in", href: "https://de.linkedin.com/company/glakon-it-agentur" },
+  { icon: "fab fa-youtube", href: "https://www.youtube.com/@glakonit2246" },
 ];
 
 const LinkItem = ({ title, href }) => {

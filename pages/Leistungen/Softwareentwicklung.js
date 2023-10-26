@@ -109,25 +109,28 @@ const PortfolioV1 = () => {
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
                     <li className="current-page">
-                      <Link href="Leistungen/service-details-v1">Softwareentwicklung </Link> 
+                      <Link href="Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v2">Design</Link>
+                      <Link href="Leistungen/Design">Design</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v3">Social Media</Link>
+                      <Link href="Leistungen/SocialMedia">Social Media</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v4">Videografie</Link>
+                      <Link href="Leistungen/Videografie">Videografie</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v5">Fotografie</Link>
+                      <Link href="Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v6">Systemintegration</Link>
+                      <Link href="Leistungen/Systemintegration">Systemintegration</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/service-details-v7">Hosting</Link>
+                      <Link href="Leistungen/Hosting">Hosting</Link>
+                    </li>
+                    <li>
+                      <Link href="/Leistungen/Fragen">Fragen</Link>
                     </li>
                   </ul>
                 </div>

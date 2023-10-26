@@ -19,7 +19,7 @@ const FeatureData = [
   {
     id: 3,
     iconSrc: "/images/icon/Icon-SocialMedia.svg",
-    title: "Social Media",
+    title: "SocialMedia",
     description:
       "Wir erreichen Ihre Zielgruppe, fördern Engagement und präsentieren Ihre Marke optimal auf Plattformen.",
   },
@@ -54,7 +54,7 @@ const FeatureData = [
   {
     id: 8,
     iconSrc: "/images/icon/Icon-Fragen.svg",
-    title: "Noch Fragen?",
+    title: "Fragen",
     description:
       " Keine Sorge, wir sind hier, um Ihnen zu helfen. Unser Expertenteam steht bereit, um all Ihre Fragen zu beantworten.",
   },
@@ -77,12 +77,14 @@ const Features = () => {
             <h4 className="mt-25 mb-20">{feature.title}</h4>
             <p className="mb-10">{feature.description}</p>
             
-            <Link href="/Leistungen/UnsereLeistungen">
-              <img
-                src="/images/icon/icon_18.svg"
-                alt="icon"
-                className="lazy-img"
-              />
+            <Link href={`/Leistungen/${feature.title}`}>
+              
+                <img
+                  src="/images/icon/icon_18.svg"
+                  alt="icon"
+                  className="lazy-img"
+                />
+              
             </Link>
           </div>
         </div>

@@ -1,15 +1,16 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import ProgressBar9 from "./service-details/ProgressBar-v9";
+import ProgressBar8 from "./service-details/ProgressBar-v8";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
+import ContactForm from "../../components/contact/contactForm";
 
 const PortfolioV1 = () => {
   return (
     <>
-      <Seo pageTitle="Unsere Leistungen" />
+      <Seo pageTitle="Fragen" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -30,7 +31,7 @@ const PortfolioV1 = () => {
                   Unsere Leistungen
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Für jede digitale Herausforderung.
+                Fragen? Wir haben die Antworten!
                 </h2>
               </div>
             </div>
@@ -58,45 +59,46 @@ const PortfolioV1 = () => {
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Dienstleistungen.</h2>
+                <h2 className="main-title tx-dark mb-30">Fragen?</h2>
                 <p className="text-lg tx-dark">
-                Unsere hochspezialisierten Dienstleistungen sind darauf ausgerichtet, Ihren Geschäftserfolg durch innovative Lösungen zu maximieren.
+                Bei Glakon IT setzen wir uns intensiv dafür ein, die tieferen Herausforderungen unserer Kunden zu verstehen.
                 </p>
                 
                 <p>
-                Wir streben danach, Sie und Ihr Unternehmen zu befähigen, digital herausragend zu sein. 
-                Von maßgeschneiderter Softwareentwicklung bis zur Optimierung Ihrer digitalen Präsenz arbeiten wir daran, Ihre digitale Zukunft zu gestalten.<br></br>
-                Treten Sie ein in die Welt von Glakon, wo Ihr Erfolg unser Ziel ist.
+                Unser Fokus liegt nicht nur auf der Lösung von Problemen, sondern auch auf der Entdeckung neuer Möglichkeiten. 
+                Wenn Sie nach einer Agentur suchen, die nicht nur Antworten liefert, sondern auch die richtigen Fragen stellt, um Ihre Ziele zu erreichen, dann sind Sie bei Glakon IT genau richtig. 
+                Wir transformieren Fragen in Chancen und Herausforderungen in Erfolge.
                 </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
+                    
                     <div className="col-lg-6">
-                      <h4 
-                           className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
-                        <li>Softwareentwicklung</li>
-                        <li>Design</li>
-                        <li>Social Media</li>
-                        <li>Videografie</li>
-                        <li>Fotografie</li>
-                        <li>Systemintegration</li>
-                        <li>Hosting</li>
-                        <li>Fragen</li>
-                      </ul>
+                      <h4 className="sub-title mb-20 tx-dark">Ihr kostenloses Erstgespräch:</h4>
+                      <ContactForm />
                     </div>
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
-                      <p className="pe-xxl-5">
-                      Es ist unser Ziel, nicht nur Dienstleistungen zu erbringen, sondern eine unvergleichliche Kundenzufriedenheit sicherzustellen. 
-                      Unsere transparente Kommunikation stellt sicher, dass Sie stets informiert sind und vollständiges Vertrauen in unsere Dienstleistungen haben.
-                      Wir verstehen, dass Ihr Erfolg untrennbar mit unserem eigenen verbunden ist, und deshalb setzen wir alles daran, Ihre Erwartungen zu übertreffen.
-                    </p>
+                      <ul className="style-none list-item md-mb-40">     
+                        <li>Kontaktformular ausfüllen</li>
+                        <p>
+                        Füllen Sie unser einfaches Kontaktformular aus, um uns mehr über Ihre Anforderungen und Ziele zu erzählen. 
+                        Je mehr Details Sie uns geben, desto besser können wir uns auf unser Gespräch vorbereiten.
+                        </p>
+                        <li>Experten-Dialog</li>
+                        <p>
+                        Wir möchten Ihre Vision verstehen, Herausforderungen kennenlernen und gemeinsam Chancen erkunden. 
+                        Dieses Gespräch gibt uns die Möglichkeit, Ihre Ziele zu klären und Ihnen Einblicke in unsere Herangehensweise zu geben.
+                        </p>
+                        <li>Maßgeschneiderte Empfehlungen</li>
+                        <p>
+                        Nach dem Gespräch erhalten Sie von uns maßgeschneiderte Empfehlungen und Lösungsansätze. Wir erklären Ihnen, wie unsere Dienstleistungen Ihren individuellen Anforderungen gerecht werden können.
+                        </p>
+                      </ul>
                     </div>
                   </div>
                 </div>
                 <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
                   <div className="row gx-xxl-5">
-                    <ProgressBar9 />
+                    <ProgressBar8 />
                   </div>
                 </div>
                 
@@ -134,7 +136,7 @@ const PortfolioV1 = () => {
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
                     </li>
-                    <li>
+                    <li className="current-page">
                       <Link href="/Leistungen/Fragen">Fragen</Link>
                     </li>
                   </ul>
@@ -148,7 +150,7 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Wir sind nicht nur Experten in Technologie, sondern auch Ihre Partner auf dem Weg zu Innovation und Erfolg.
+                  Die Fragen von heute sind die Grundlagen für die Innovationen von morgen. 
                   </p>
                   <div className="name">- Erik Glaser (CEO)</div>
                 </div>
