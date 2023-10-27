@@ -114,7 +114,7 @@ const DynamicBlogDetails = () => {
                     </h4>
                     <p>
                       One touch of a red-hot stove is usually all we need to
-                      avoid that kind of discomfort in future The same is true
+                      avoid that kind of discomfort in future The same is 
                       as we experienc the emotional of stress from our
                       instances. We are quickly learn to fear and thus
                       automatically. Lorem ipsum dolor sit amet, consectetur
@@ -127,7 +127,7 @@ const DynamicBlogDetails = () => {
                       same Duis aute irure dolor in reprehenderit .
                     </p>
                     <p>
-                      is true as we experience the emotional sensation of stress
+                      is  as we experience the emotional sensation of stress
                       from our firs social rejec ridicule.We quickly learn to
                       fear and thus automatically. potentially stressful
                       situation of wlir ext quiert all kinds, including the most

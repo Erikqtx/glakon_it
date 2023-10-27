@@ -33,7 +33,7 @@ const ServiceV3 = () => {
                   <span className="position-relative">
                     {" "}
                     Quality
-                    <img src="/images/shape/shape_122.svg" alt="icon shape" />
+                    Image src="/images/shape/shape_122.svg" alt="icon shape" />
                   </span>
                   Leads
                 </h2>
@@ -129,7 +129,7 @@ const ServiceV3 = () => {
                     What
                     <span className="position-relative">
                       {" "}
-                      client <img src="/images/shape/shape_129.svg" alt="" />
+                      client Image src="/images/shape/shape_129.svg" alt="" />
                     </span>
                     think about us.
                   </h2>
@@ -169,7 +169,7 @@ const ServiceV3 = () => {
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Have Any Project? <br />
                   <span className="position-relative">
-                    Let’s Talk <img src="/images/shape/shape_132.svg" alt="" />
+                    Let’s Talk Image src="/images/shape/shape_132.svg" alt="" />
                   </span>
                   &amp; Grow your Business
                 </h2>
@@ -209,7 +209,7 @@ const ServiceV3 = () => {
               <div className="col-lg-2 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/logo_06.png" alt="" width={76} />
+                    Image src="/images/logo/logo_06.png" alt="" width={76} />
                   </Link>
                 </div>
               </div>

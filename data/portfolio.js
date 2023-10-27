@@ -4,7 +4,7 @@ module.exports = [
     category: "application dev",
     name: "z.B. Logoentwurf",
     tag: "Design",
-    image: "/images/gallery/img_10.jpg",
+    image: "/images/gallery/beka.png",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
