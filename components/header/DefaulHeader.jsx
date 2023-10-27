@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);

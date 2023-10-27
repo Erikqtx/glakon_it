@@ -1,7 +1,7 @@
 import Seo from "../../components/common/Seo";
 import Team4 from "../../components/team/Team4";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const RealEstate = () => {
   return (

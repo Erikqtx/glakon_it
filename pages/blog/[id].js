@@ -13,7 +13,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import blogsData from "../../data/blog";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const DynamicBlogDetails = () => {
   const router = useRouter();

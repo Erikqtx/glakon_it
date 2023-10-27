@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const ProjectSlide = ({ slide }) => {
   const images = [slide?.image ?? "", slide?.image ?? "", slide?.image ?? ""];

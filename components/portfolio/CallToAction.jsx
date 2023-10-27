@@ -14,7 +14,7 @@ const CallToAction = () => {
                 data-aos-delay="100"
               >
                 <h2 className="main-title fw-500 tx-dark">
-                  Have Any Project? <br />
+                  Eigene Projekte? <br />
                   <span className="position-relative">
                     Let’s Talk{" "}
                     <img src="/images/shape/shape_132.svg" alt="shape" />
@@ -31,12 +31,12 @@ const CallToAction = () => {
                 We’r ready to help you. Our expert is here, just send a message.
               </p>
               <Link
-                href="/contact"
+                href="/Kontakt"
                 className="btn-twenty fw-500 tran3s"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                Send Message
+                Kostenloses Erstgespräch vereinbaren!
               </Link>
             </div>
           </div>

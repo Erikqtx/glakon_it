@@ -3,7 +3,7 @@ import items from "../../data/portfolio";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const   PortfolioGallery1 = () => {
   const [filter, setFilter] = useState("*");

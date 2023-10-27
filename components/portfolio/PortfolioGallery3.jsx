@@ -1,7 +1,7 @@
 import { useState } from "react";
 import items from "../../data/portfolio";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const PortfolioGallery3 = () => {
   const [filter, setFilter] = useState("*");

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Masonry from "react-masonry-css";
 import items from "../../data/portfolio";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const PortfolioGallery7 = () => {
   const [filter, setFilter] = useState("*");
