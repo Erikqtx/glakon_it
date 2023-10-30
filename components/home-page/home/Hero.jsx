@@ -1,4 +1,5 @@
-import Image from "next/legacy/image";
+/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
@@ -25,15 +26,15 @@ const Hero = () => {
           src="/images/shape/shape_26.svg"
           alt="shape"
           className="lazy-img shapes shape-left"
-          width={300}
-          height={300}
+          width={200}
+          height={200}
         />
         <Image
           src="/images/shape/shape_27.svg"
           alt="shape"
           className="lazy-img shapes shape-right"
-          width={300}
-          height={400}
+          width={200}
+          height={300}
         />
 
         <div className="container">
@@ -54,11 +55,13 @@ const Hero = () => {
                 />
                  Die Glakon IT-Agentur
               </h1>
-              <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
+              <p className="text-lg mb-30 pt-20 lg-mb-50 lg-pt-10">
               Willkommen bei Glakon IT Agentur – wir gestalten die Zukunft digital!</p>
-              <p className="text-base mb-75 pt-20 lg-mb-50 lg-pt-10">
+              <p className="text-base mb-30 pt-20 lg-mb-50 lg-pt-10">
                 Unser erfahrenes Team aus Entwicklern, Designern und Digitalstrategen arbeitet Hand in Hand, um maßgeschneiderte Lösungen zu schaffen, die Ihre individuellen Anforderungen erfüllen. 
                 Wir verstehen die Bedeutung eines starken digitalen Auftritts und setzen alles daran, Ihr Unternehmen erfolgreich im digitalen Raum zu positionieren und ettablieren.
+                Was uns auszeichnet, ist nicht nur unser Fachwissen, sondern auch unsere Hingabe, die Extra-Meile zu gehen.
+                Mit uns an Ihrer Seite können Sie sicher sein, dass Sie nicht nur einen Dienstleister, sondern einen Partner haben, der mit Ihnen gemeinsam an Ihrem Erfolg arbeitet.
               </p>
               
               
@@ -67,11 +70,24 @@ const Hero = () => {
           {/* End .row */}
 
           <div
-            className="illustration-holder position-relative mt-100 lg-mt-80 xs-mt-30"
+            className="illustration-holder position-relative mt-30 lg-mt-80 xs-mt-30"
             data-aos="fade-up"
           >
-            
-            <div className="bg-wrapper w-100 h-100">
+            <div
+              role="button"
+              className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center mt-50 center-icon-container"
+              onClick={() => setOpen(true)}
+            >
+              <i className="fas fa-play" />
+              <div className="ps-3 text-start">
+                <span className="d-block">Watch</span>
+                <strong className="fs-18 fw-500 tx-dark d-block">
+                  BEKA
+                   - Wofür
+                </strong>
+              </div>
+            </div>
+            <div className="bg-wrapper w-100 h-100 mb-30">
               <Image
                 onClick={() => setOpen(true)}
                 role="button"

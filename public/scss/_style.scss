@@ -376,7 +376,7 @@ p {
   font-size: 14px;
   letter-spacing: 1px;
   padding-bottom: 10px;
-  color: rgba(0, 0, 0, 0.3);
+  color: #000;
 }
 .title-style-three .main-title {
   font-family: "Recoleta";
@@ -2239,6 +2239,7 @@ body .btn-twentyFive:hover {
   background: var(--prime-two);
   border-color: var(--prime-two);
   color: #fff;
+  z-index: 2;
 }
 .hero-banner-two .illustration-holder .bg-wrapper {
   background: #ffffff;
@@ -2442,13 +2443,13 @@ body .btn-twentyFive:hover {
   padding: 0 3px;
   border-radius: 5px;
   color: #000;
+  font-weight: 500;
 }
 .fancy-feature-five .tags-wrapper .shape-one {
   top: 1%;
   right: 1%;
   width: 25%;
   z-index: 0;
-  animation: jumpThree 3s infinite linear;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .card-style-three {

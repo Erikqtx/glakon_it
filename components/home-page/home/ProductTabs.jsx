@@ -1,21 +1,23 @@
+/* eslint-disable @next/next/no-img-element */
 const tabData = [
   {
     id: "sp1",
-    title: "Konzepterstellung",
-    subtitle: "und Feedback einholen",
-    image: "/images/media/img_06.jpg",
+    title: "Kostenloses",
+    subtitle: " Erstgespräch",
+    image: "/images/media/Erstgespräch.jpg",
+    
   },
   {
     id: "sp2",
-    title: "Angebot erhalten",
-    subtitle: "und Zeitplanung",
-    image: "/images/media/img_05.jpg",
+    title: "Konzepterstellung",
+    subtitle: "und Design",
+    image: "/images/media/Konzept.jpg",
   },
   {
     id: "sp3",
     title: "Projektdurchführung",
-    subtitle: "und Nacharbeit",
-    image: "/images/media/img_06.1.jpg",
+    subtitle: "und Zeitplan",
+    image: "/images/media/Projektdurchführung.jpg",
   },
 ];
 
@@ -69,6 +71,8 @@ const ProductTabs = () => {
               className="lazy-img main-screen w-100"
             />
           </div>
+          
+
         ))}
       </div>
     </>

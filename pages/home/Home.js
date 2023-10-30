@@ -38,7 +38,7 @@ const Home = () => {
         Feature Section Three
         ============================================== 
         */}
-      <div className="fancy-feature-three pt-300 lg-pt-200 md-pt-170 sm-pt-120">
+      <div className="fancy-feature-three pt-70 lg-pt-200 md-pt-170 sm-pt-120">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md">
@@ -101,7 +101,7 @@ const Home = () => {
         Feature Section Five
         ============================================== 
         */}
-      <div className="fancy-feature-five pt-300 lg-pt-140">
+      <div className="fancy-feature-five pt-150 lg-pt-140">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md order-md-last ms-auto">
@@ -114,12 +114,15 @@ const Home = () => {
                     Was uns wichtig ist.
                   </div>
                   <h2 className="main-title fw-500">
-                    Glakon IT- Ihr Partner in der Digitalen Welt
+                    Unser Fokus
                   </h2>
                 </div>
                 {/* /.title-style-three */}
-                <p className="text-lg mt-40 mb-75 lg-mt-30 lg-mb-50">
+                <p className="text-base mt-20 mb-40 lg-mt-40 lg-mb-50">
                 Unser Hauptfokus liegt darauf, Ihre Zufriedenheit zu gewährleisten. Keine Herausforderung ist uns zu groß – wir meistern jede Aufgabe mit Erfolg.
+                Wir gehen mit Leidenschaft an jede Aufgabe heran, setzen innovative Lösungen ein und kombinieren Kreativität mit Fachkenntnissen, um optimale Ergebnisse zu erzielen.<br></br>
+                Keine Aufgabe ist zu komplex, keine Herausforderung zu groß – gemeinsam meistern wir jede Anforderung mit Erfolg.
+
                 </p>
                 <Link
                   href="/Kontakt"
@@ -139,8 +142,8 @@ const Home = () => {
                   alt="shape"
                   className="lazy-img shapes shape-one"
                 />
-                <div className="h3 m0 fw-normal tx-dark">Die Bausteine</div>
-                <p className="text-lg opacity-50 pb-25 lg-pb-10">
+                <div className="h3 m0 fw-30 tx-dark">Die Bausteine</div>
+                <p className="text-lg  opacity-50 pb-25 lg-pb-10">
                   der Glakon IT
                 </p>
                 <TagList />
@@ -156,7 +159,7 @@ const Home = () => {
         Feature Section Six
         ============================================== 
         */}
-      <div className="fancy-feature-six position-relative mt-225 lg-mt-100 xs-mt-80">
+      <div className="fancy-feature-six position-relative mt-100 lg-mt-100 xs-mt-80">
         <div className="container">
           <div className="row gx-xxl-5 align-items-center">
             <div className="col-lg-4 col-md mt-40" data-aos="fade-up">
@@ -188,7 +191,7 @@ const Home = () => {
         Feedback Section Two
         =====================================================
         */}
-        <div className="fancy-feature-four pt-250 lg-pt-120">
+        <div className="fancy-feature-four pt-150 lg-pt-120">
         <div className="container">
           <div className="row">
             <div
@@ -200,16 +203,25 @@ const Home = () => {
                   Kostenloses Erstgespräch!
                 </h2>
               </div>
+              
               {/* /.title-style-three */}
-              <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
-                Nach einem Erstgespräch geht es erst richtig los.
+              <p className="text-lg mt-20 mb-40 lg-mt-20 lg-mb-50">
+              In diesem unverbindlichen Gespräch haben Sie die Chance, uns kennenzulernen und mehr über unsere Leistungen zu erfahren. 
               </p>
+              
             </div>
           </div>
           {/* End .row */}
 
           <ProductTabs />
-
+          <div className="col-lg-5 ms-auto text-center text-lg-end">
+                    <Link
+                      href="/contact"
+                      className="btn-twentyOne fw-500 tran3s"
+                    >
+                      Kostenloses Erstgespräch
+                    </Link>
+                  </div>
           {/* /.tab-content */}
         </div>
         {/* /.container */}
