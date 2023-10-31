@@ -205,23 +205,18 @@ const Home = () => {
               </div>
               
               {/* /.title-style-three */}
-              <p className="text-lg mt-20 mb-40 lg-mt-20 lg-mb-50">
-              In diesem unverbindlichen Gespräch haben Sie die Chance, uns kennenzulernen und mehr über unsere Leistungen zu erfahren. 
-              </p>
+              
               
             </div>
+            <p className="text-lg mt-40 mb-50 lg-mt-20 lg-mb-50 text-center">
+              In diesem unverbindlichen Gespräch haben wir die Chance, Sie kennenzulernen und mehr über Ihre Ideen und Erwartungen zu erfahren.
+              </p>
+              
           </div>
           {/* End .row */}
 
           <ProductTabs />
-          <div className="col-lg-5 ms-auto text-center text-lg-end">
-                    <Link
-                      href="/contact"
-                      className="btn-twentyOne fw-500 tran3s"
-                    >
-                      Kostenloses Erstgespräch
-                    </Link>
-                  </div>
+          
           {/* /.tab-content */}
         </div>
         {/* /.container */}

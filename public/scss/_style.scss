@@ -2252,8 +2252,8 @@ body .btn-twentyFive:hover {
   border-radius: 25px;
 }
 .hero-banner-two .illustration-holder .shape-one {
-  top: -10%;
-  left: -7%;
+  top: 5%;
+  left: -2.5%;
   width: 13.5%;
   z-index: 0;
   animation: rotatedHalf 25s infinite linear;
@@ -2275,6 +2275,45 @@ body .btn-twentyFive:hover {
   left: -10%;
   width: 12%;
   z-index: 0;
+}
+.nav-tabs {
+  max-width: 1400px; /* Set the maximum width for the tabs container */
+  margin: 0 auto; /* Center the tabs */
+}
+
+.tab-content {
+  max-width: 100%; /* Set the maximum width for the tab content */
+  margin: 0 auto; /* Center the tab content */
+}
+
+.tab-pane {
+  padding: 20px; /* Add padding around the text in each tab */
+}
+.flex-container {
+  display: flex;
+  align-items: center; /* Vertikal zentrieren */
+}
+.hero-banner-two .illustration-holder .content-container {
+  display: flex;
+  justify-content: space-between; /* Verteile den Platz zwischen den Kindern */
+  align-items: center;
+}
+
+.hero-banner-two .illustration-holder .content-container .text-content {
+  max-width: 50%; /* Setze die maximale Breite für den Textinhalt */
+}
+
+.hero-banner-two .illustration-holder .content-container img {
+  border-radius: 15px; /* Füge abgerundete Ecken zum Bild hinzu */
+  max-width: 35%; /* Setze die maximale Breite für das Bild */
+  margin-right: 20px; /* Füge rechten Abstand zwischen Bild und Text hinzu */
+}
+
+/* Zusätzliche Styles für den Textinhalt in den Tabs */
+.tab-pane .text-content {
+  font-size: 18px; /* Setze die Schriftgröße für den Textinhalt in den Tabs */
+  color: #000; /* Ändere die Textfarbe nach Bedarf */
+  padding-left: 40px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-three .screen-holder-one {
