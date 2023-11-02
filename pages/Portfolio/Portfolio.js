@@ -44,7 +44,7 @@ const PortfolioV1 = () => {
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
                       <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
+                        Sie möchten Teil unseres Portfolios werden?
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
                       Vereinbaren Sie Ihr kostenloses Erstgespräch.

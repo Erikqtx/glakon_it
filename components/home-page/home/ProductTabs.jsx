@@ -13,14 +13,14 @@ const tabData = [
     title: "Konzepterstellung",
     subtitle: "und Design",
     image: "/images/media/Konzept.jpg",
-    content: "Unsere Experten für Konzepterstellung und Design arbeiten nicht nur eng mit Ihnen zusammen, sondern nehmen sich auch die Zeit, Ihre individuellen Ideen zu erforschen und zu verstehen. Vom ersten Konzept bis zum finalen Design legen wir Wert auf Kreativität, Präzision und vor allem darauf, Ihre Vision in jeder Nuance einzufangen. Lassen Sie uns gemeinsam eine beeindruckende digitale Identität für Ihr Projekt gestalten, die nicht nur ästhetisch ansprechend ist, sondern auch Ihre einzigartige Geschichte erzählt!",
+    content: "Unsere Experten für Konzepterstellung und Design arbeiten nicht nur eng mit Ihnen zusammen, sondern nehmen sich auch die Zeit, Ihre individuellen Ideen zu erforschen und zu verstehen. Vom ersten Konzept bis zum finalen Design legen wir Wert auf Kreativität, Präzision und Transparenz. Lassen Sie uns gemeinsam eine beeindruckende digitale Identität für Ihr Projekt gestalten, die nicht nur ästhetisch ansprechend ist, sondern auch Ihre einzigartige Geschichte erzählt!",
   },
   {
     id: "sp3",
     title: "Projektdurchführung",
     subtitle: "und Zeitplan",
     image: "/images/media/Projektdurchführung.jpg",
-    content: "Bei Glakon IT setzen wir nicht nur auf eine nahtlose Projektdurchführung, sondern auch auf einen transparenten und gemeinschaftlichen Ansatz. Von der detaillierten Planung bis zur präzisen Implementierung arbeiten wir zielstrebig und effizient. Unser erfahrenes Team überwacht nicht nur den Fortschritt, sondern steht Ihnen auch während des gesamten Prozesses zur Seite. So stellen wir sicher, dass Ihr Projekt nicht nur termingerecht, sondern auch in höchster Qualität abgeschlossen wird.",
+    content: "Bei Glakon IT setzen wir nicht nur auf eine nahtlose Projektdurchführung, sondern auch auf einen transparenten und gemeinschaftlichen Ansatz. Von der detaillierten Planung bis zur präzisen Implementierung arbeiten wir zielstrebig und effizient. Unser erfahrenes Team überwacht nicht nur den Fortschritt, sondern steht Ihnen auch während des gesamten Prozesses zur Seite. So stellen wir sicher, dass Ihr Projekt termingerecht und in höchster Qualität abgeschlossen wird.",
   },
 ];
 
@@ -68,7 +68,7 @@ const ProductTabs = () => {
             id={tab.id}
             key={tab.id}
           >
-            <div className="flex-container">
+            <div className="flex-container mb-20">
               <img
                 src={tab.image}
                  alt="media"
@@ -79,7 +79,7 @@ const ProductTabs = () => {
               
               <Link
                 href="/Kontakt"
-                className="btn-twentyOne fw-500 tran3s d-block text-center"
+                className="btn-twentyOne fw-500 tran3s d-block text-center mt-30"
                 >
                   Kostenloses Erstgespräch
               </Link>

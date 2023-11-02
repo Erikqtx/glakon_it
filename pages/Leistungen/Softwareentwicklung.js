@@ -112,22 +112,22 @@ const PortfolioV1 = () => {
                       <Link href="Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
                     </li>
                     <li>
-                      <Link href="Leistungen/Design">Design</Link>
+                      <Link href="/Leistungen/Design">Design</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/SocialMedia">Social Media</Link>
+                      <Link href="/Leistungen/SocialMedia">Social Media</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/Videografie">Videografie</Link>
+                      <Link href="/Leistungen/Videografie">Videografie</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/Fotografie">Fotografie</Link>
+                      <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
                     </li>
                     <li>
-                      <Link href="Leistungen/Hosting">Hosting</Link>
+                      <Link href="/Leistungen/Hosting">Hosting</Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Fragen">Fragen</Link>

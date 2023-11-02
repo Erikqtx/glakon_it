@@ -26,9 +26,7 @@ const   PortfolioGallery1 = () => {
               >
                 <div className="portfolio-block-three position-relative mb-110 lg-mb-90">
                   <div className="img-meta">
-                    <Image
-                      width={630}
-                      height={500}
+                    <img
                       src={item.image}
                       alt="gallary"
                       className="w-100"
@@ -43,24 +41,7 @@ const   PortfolioGallery1 = () => {
                       <span className="tag">{item.tag}</span>
                     </Link>
 
-                    <Item
-                      original={item.image}
-                      thumbnail={item.image}
-                      width={630}
-                      height={500}
-                    >
-                      {({ ref, open }) => (
-                        <span
-                          role="button"
-                          title="Vergrößern"
-                          className="fancybox expend-btn font-recoleta tran3s"
-                          ref={ref}
-                          onClick={open}
-                        >
-                          +
-                        </span>
-                      )}
-                    </Item>
+                    
                   </div>
                 </div>
               </div>

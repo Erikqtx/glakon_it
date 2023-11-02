@@ -10,6 +10,9 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import portfolioData from "../../data/portfolio";
 import PortfolioDetailsTitle from "../../components/portfolio/portfolio-details/PortfolioDetailsTitle";
+import Social from "../Leistungen/service-details/Social";
+import Link from "next/link";
+
 
 const DynamicPortfolioDetails = () => {
   const router = useRouter();
@@ -25,7 +28,7 @@ const DynamicPortfolioDetails = () => {
 
   return (
     <>
-      <Seo pageTitle="Portfolio Details" />
+      <Seo pageTitle="Unsere Projekte" />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -45,28 +48,28 @@ const DynamicPortfolioDetails = () => {
 				Portfolio Details Two
 			============================================== 
 			*/}
-      <div className="portfolio-details-two pt-70 pb-50 lg-pb-10 md-pt-10">
+      <div className="portfolio-details-two lg-pb-10 md-pt-10 ">
         <div className="project-desctiption">
           <div className="container">
             <div className="row">
               <div className="col-lg-8" data-aos="fade-right">
-                <ProjectSlide slide={portfolio} />
+                <img 
+                src={portfolio.image}
+                      alt="gallary"
+                      className="w-100" 
+                />
                 {/* /#gallery-carousel */}
               </div>
               {/* End .col-lg-8 */}
 
               <div className="col-lg-4" data-aos="fade-left">
                 <div className="sidebar ms-xl-5">
-                  <h3 className="mb-20">About</h3>
-                  <p className="border-bottom pb-40 mb-35 lg-pb-20">
-                    The Internet advertising famous today behaved lately.
-                  </p>
                   <div className="row">
                     <ProjectDetails details={portfolio} />
                   </div>
                   {/* End .row */}
 
-                  <SocialShare />
+                  <Social />
                 </div>
               </div>
               {/* End col-lg-4 */}
@@ -86,14 +89,14 @@ const DynamicPortfolioDetails = () => {
                     />
                     <div className="hover-content tran3s position-absolute d-flex flex-column align-items-center justify-content-center">
                       <div className="text-white fw-500 pg-title">
-                        Prev Project
+                        Zurück
                       </div>
-                      <a
-                        href="#"
+                      <Link
+                        href={`/Portfolio/${parseInt(id) === 1 ? 8 : parseInt(id) - 1}`}
                         className="arrow rounded-circle text-center tran3s"
                       >
                         <i className="bi bi-arrow-left" />
-                      </a>
+                      </Link>
                     </div>
                     {/* /.hover-content */}
                   </div>
@@ -110,14 +113,14 @@ const DynamicPortfolioDetails = () => {
                     />
                     <div className="hover-content tran3s position-absolute d-flex flex-column align-items-center justify-content-center">
                       <div className="text-white fw-500 pg-title">
-                        Next Project
+                        Weiter
                       </div>
-                      <a
-                        href="#"
+                      <Link
+                        href={`/Portfolio/${parseInt(id) === 8 ? 1 : parseInt(id) + 1}`}
                         className="arrow rounded-circle text-center tran3s"
                       >
                         <i className="bi bi-arrow-right" />
-                      </a>
+                      </Link>
                     </div>
                     {/* /.hover-content */}
                   </div>
@@ -140,7 +143,6 @@ const DynamicPortfolioDetails = () => {
 				Fancy Short Banner Twelve
 			=====================================================
 			*/}
-      <CallToAction />
 
       {/* 
         =============================================

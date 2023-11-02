@@ -4,9 +4,9 @@ const PortfolioDetailsTitle = ({ portfolio }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-7" data-aos="fade-right">
-            <div className="title-style-five mb-65 lg-mb-40">
+            <div className="title-style-five mb-65 lg-mb-20">
               <div className="sc-title-two fst-italic position-relative">
-                {portfolio?.tag}
+                {portfolio?.category}
               </div>
               <h2 className="main-title fw-500 tx-dark">{portfolio?.name}</h2>
             </div>

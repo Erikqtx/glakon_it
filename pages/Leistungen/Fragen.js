@@ -54,12 +54,12 @@ const PortfolioV1 = () => {
 				Service Details
 			============================================== 
 			*/}
-      <div className="service-details position-relative mt-100 mb-170 md-mt-50 lg-mb-120">
+      <div className="service-details position-relative mt-100 mb-100 md-mt-50 lg-mb-120">
         <div className="container">
           <div className="row">
             <div className="col-xl-9 col-lg-8 order-lg-1">
               <div className="service-details-meta ps-lg-5">
-                <h2 className="main-title tx-dark mb-30">Fragen?</h2>
+                <h2 className="main-title tx-dark mb-40">Fragen?</h2>
                 <p className="text-lg tx-dark">
                 Bei Glakon IT setzen wir uns intensiv dafür ein, die tieferen Herausforderungen unserer Kunden zu verstehen.
                 </p>
@@ -69,7 +69,7 @@ const PortfolioV1 = () => {
                 Wenn Sie nach einer Agentur suchen, die nicht nur Antworten liefert, sondern auch die richtigen Fragen stellt, um Ihre Ziele zu erreichen, dann sind Sie bei Glakon IT genau richtig. 
                 Wir transformieren Fragen in Chancen und Herausforderungen in Erfolge.
                 </p>
-                <div className="mt-50 lg-mt-30">
+                <div className="mt-60 lg-mt-30">
                   <div className="row gx-xxl-5">
                     
                     <div className="col-lg-6">
@@ -96,15 +96,6 @@ const PortfolioV1 = () => {
                     </div>
                   </div>
                 </div>
-                <div className="mt-60 mb-20 lg-mt-30 lg-mb-10">
-                  <div className="row gx-xxl-5">
-                    <ProgressBar8 />
-                  </div>
-                </div>
-                
-                <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
-                </h3>
               </div>
               {/* /.service-details-meta */}
             </div>
@@ -169,7 +160,7 @@ const PortfolioV1 = () => {
 				Fancy Short Banner Sixteen
 			=====================================================
 			*/}
-      <div className="fancy-short-banner-sixteen mt-130 lg-mt-80 wow fadeInUp">
+      <div className="fancy-short-banner-sixteen mt-100 lg-mt-80 wow fadeInUp">
         <div className="container">
           <div className="bg-wrapper pt-65 pb-65 lg-pt-40 lg-pb-40">
             <div className="row">

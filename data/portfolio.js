@@ -1,50 +1,55 @@
 module.exports = [
+  
   {
     id: 1,
-    category: "application dev",
-    name: "z.B. Logoentwurf",
-    tag: "Design",
-    image: "/images/gallery/beka.png",
+    category: "Fotografie",
+    name: "Photoshoot BEKA",
+    tag: "Konzertbilder",
+    image: "/images/media/BEKA.webp",
     projectInfo: {
-      date: "23 July, 2020",
-      clientName: "Mariona Adisson, USA",
-      projectType: "UI/UX, Web Design",
+      date: "14. April 2023",
+      clientName: "BEKA",
+      projectType: "Konzertbilder",
+      content: "Unser Kamera-Team war auf BEKAs LIVE-Auftritt in Berlin, Kreuzberg."
     },
   },
   {
     id: 2,
-    category: "design marketing",
-    name: "Mobile Application",
-    tag: "Appliction",
-    image: "/images/gallery/img_11.jpg",
+    category: "Fotografie",
+    name: "Photoshoot Grotte",
+    tag: "Fotografie",
+    image: "/images/media/DieGrotte.webp",
     projectInfo: {
-      date: "23 July, 2020",
-      clientName: "Mariona Adisson, USA",
-      projectType: "UI/UX, Web Design",
+      date: "25. Mai 2023",
+      clientName: "Die Grotte",
+      projectType: "Fotografie",
+      content: "Wir durften die professionelle Mischkunst der Grotte miterleben!"
     },
   },
   {
     id: 3,
-    category: "application design marketing",
-    name: "Minimal Iphone",
+    category: "Design",
+    name: "Flyer Grotte",
     tag: "Design",
-    image: "/images/gallery/img_12.jpg",
+    image: "/images/media/Plakat_Grotte.webp",
     projectInfo: {
-      date: "23 July, 2020",
-      clientName: "Mariona Adisson, USA",
-      projectType: "UI/UX, Web Design",
+      date: "15. Juni 2023",
+      clientName: "Die Grotte",
+      projectType: "Design",
+      content: "Bei jedem erfolgreichen Event ist ein ansprechender Flyer unverzichtbar. Als erfahrenes Grafikdesign-Team bringen wir kreative Expertise und innovative Gestaltungskonzepte mit, um sicherzustellen, dass dein Event im Mittelpunkt steht. Ob es sich um ein Konzert, eine Hochzeit, oder eine Unternehmensveranstaltung handelt – wir sind darauf spezialisiert, die Essenz deines Anlasses einzufangen."
     },
   },
   {
     id: 4,
-    category: "design dev",
-    name: "Mobile Application",
-    tag: "Appliction",
-    image: "/images/gallery/img_13.jpg",
+    category: "Design",
+    name: "Logo UW",
+    tag: "Design",
+    image: "/images/media/Undergroundwrap_Logo.webp",
     projectInfo: {
-      date: "23 July, 2020",
-      clientName: "Mariona Adisson, USA",
-      projectType: "UI/UX, Web Design",
+      date: "07. März 2023",
+      clientName: "Underground Wrap",
+      projectType: "Design",
+      content: "Unser Logo-Design-Service ist maßgeschneidert, um Ihre Einzigartigkeit hervorzuheben."
     },
   },
   {
