@@ -6,7 +6,7 @@ const tabData = [
     title: "Kostenloses",
     subtitle: " Erstgespräch",
     image: "/images/media/Erstgespräch.jpg",
-    content: "Unser Engagement beginnt mit einem kostenlosen Erstgespräch, um nicht nur Ihre Vision, sondern auch die Feinheiten Ihres Projekts zu verstehen. In diesem Austausch tauchen wir tief in Ihre Ziele ein, um nicht nur Lösungen zu skizzieren, sondern auch die bestmöglichen Wege zu identifizieren. Ihr Erfolg beginnt mit einem Gespräch - lassen Sie uns gemeinsam die Grundlagen für eine bahnbrechende Zusammenarbeit legen!",
+    content: "Unser Engagement startet mit einem kostenfreien Erstgespräch, bei dem wir tief in die Besonderheiten Ihres Projekts eintauchen. Gemeinsam definieren wir die Ziele und Erwartungen Ihres Projekts, um maßgeschneiderte Lösungen für Sie und Ihr Unternehmen zu identifizieren. Mit unserem Fokus auf innovative Technologien und fundierter Expertise gestalten wir nicht nur Ihre Projekte, sondern schaffen eine unvergessliche digitale Erfahrungen.",
   },
   {
     id: "sp2",
@@ -20,7 +20,7 @@ const tabData = [
     title: "Projektdurchführung",
     subtitle: "und Zeitplan",
     image: "/images/media/Projektdurchführung.jpg",
-    content: "Bei Glakon IT setzen wir nicht nur auf eine nahtlose Projektdurchführung, sondern auch auf einen transparenten und gemeinschaftlichen Ansatz. Von der detaillierten Planung bis zur präzisen Implementierung arbeiten wir zielstrebig und effizient. Unser erfahrenes Team überwacht nicht nur den Fortschritt, sondern steht Ihnen auch während des gesamten Prozesses zur Seite. So stellen wir sicher, dass Ihr Projekt termingerecht und in höchster Qualität abgeschlossen wird.",
+    content: "Bei Glakon IT setzen wir nicht nur auf eine nahtlose Projektdurchführung, sondern auch auf einen transparenten und gemeinschaftlichen Ansatz. Von der detaillierten Planung bis zur präzisen Implementierung arbeiten wir zielstrebig und effizient. Unser Team überwacht nicht nur den Fortschritt, sondern steht Ihnen auch während des gesamten Prozesses zur Seite. So stellen wir sicher, dass Ihr Projekt termingerecht und in höchster Qualität abgeschlossen wird.",
   },
 ];
 
@@ -75,11 +75,12 @@ const ProductTabs = () => {
                 className="lazy-img main-screen w-50"
               />
               <div className="text-content">
+              <h4>{tab.title} {tab.subtitle}</h4>
               <p>{tab.content}</p>
               
               <Link
                 href="/Kontakt"
-                className="btn-twentyOne fw-500 tran3s d-block text-center mt-30"
+                className="btn-twentyOne fw-500 tran3s d-block text-center mt-10"
                 >
                   Kostenloses Erstgespräch
               </Link>

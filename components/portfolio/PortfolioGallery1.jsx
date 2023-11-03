@@ -10,8 +10,8 @@ const   PortfolioGallery1 = () => {
 
   const filteredItems =
     filter === "*"
-      ? items.slice(0, 8)
-      : items.slice(0, 8).filter((item) => item.category.includes(filter));
+      ? items.slice(0, 6)
+      : items.slice(0, 6).filter((item) => item.category.includes(filter));
 
   return (
     <div className="portfolio-gallery-three pt-30">

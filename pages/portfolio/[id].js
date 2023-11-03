@@ -92,7 +92,7 @@ const DynamicPortfolioDetails = () => {
                         Zurück
                       </div>
                       <Link
-                        href={`/Portfolio/${parseInt(id) === 1 ? 8 : parseInt(id) - 1}`}
+                        href={`/Portfolio/${parseInt(id) === 1 ? 6 : parseInt(id) - 1}`}
                         className="arrow rounded-circle text-center tran3s"
                       >
                         <i className="bi bi-arrow-left" />
@@ -116,7 +116,7 @@ const DynamicPortfolioDetails = () => {
                         Weiter
                       </div>
                       <Link
-                        href={`/Portfolio/${parseInt(id) === 8 ? 1 : parseInt(id) + 1}`}
+                        href={`/Portfolio/${parseInt(id) === 6 ? 1 : parseInt(id) + 1}`}
                         className="arrow rounded-circle text-center tran3s"
                       >
                         <i className="bi bi-arrow-right" />
