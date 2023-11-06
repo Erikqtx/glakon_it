@@ -13,77 +13,49 @@ import PortfolioDetailsTitle from "../../components/portfolio/portfolio-details/
 import Social from "../Leistungen/service-details/Social";
 import Link from "next/link";
 
-
 const DynamicPortfolioDetails = () => {
   const router = useRouter();
   const [portfolio, setPortfolio] = useState({});
   const id = router.query.id;
 
   useEffect(() => {
-    if (!id) <h1>Loading...</h1>;
-    else setPortfolio(portfolioData.find((item) => item.id == id));
-
-    return () => {};
+    if (!id) return; // You might want to show a loading spinner or message here
+    setPortfolio(portfolioData.find((item) => item.id == id));
   }, [id]);
 
   return (
     <>
       <Seo pageTitle="Unsere Projekte" />
-      {/* <!-- 
-      =============================================
-      Theme Default Menu
-      ============================================== 	
-      --> */}
       <DefaulHeader />
 
-      {/* 
-        =============================================
-        Feature Section Fifty One
-        ============================================== 
-        */}
       <PortfolioDetailsTitle portfolio={portfolio} />
 
-      {/* 
-			=============================================
-				Portfolio Details Two
-			============================================== 
-			*/}
       <div className="portfolio-details-two lg-pb-10 md-pt-10 ">
         <div className="project-desctiption">
           <div className="container">
             <div className="row">
               <div className="col-lg-8" data-aos="fade-right">
-                <img 
-                src={portfolio.image}
-                      alt="gallary"
-                      className="w-100" 
+                <ProjectSlide
+                portfolio={portfolio}
                 />
-                {/* /#gallery-carousel */}
               </div>
-              {/* End .col-lg-8 */}
 
               <div className="col-lg-4" data-aos="fade-left">
                 <div className="sidebar ms-xl-5">
                   <div className="row">
                     <ProjectDetails details={portfolio} />
                   </div>
-                  {/* End .row */}
-
                   <Social />
                 </div>
               </div>
-              {/* End col-lg-4 */}
             </div>
-            {/* End .row */}
-
-            
 
             <div className="project-pagination m-auto pt-100 lg-pt-50 sm-pt-10">
               <div className="row gx-xxl-5">
                 <div className="col-sm-6">
                   <div className="arrow-block position-relative zn2 mt-20 wow fadeInLeft">
                     <img
-                      src="/images/media/img_92.jpg"
+                      src={`/images/media/img_0${parseInt(id) === 1 ? 6 : parseInt(id) - 1}.webp`}
                       alt="media"
                       className="lazy-img w-100"
                     />
@@ -98,16 +70,13 @@ const DynamicPortfolioDetails = () => {
                         <i className="bi bi-arrow-left" />
                       </Link>
                     </div>
-                    {/* /.hover-content */}
                   </div>
-                  {/* /.arrow-block */}
                 </div>
-                {/* End .col-6 */}
 
                 <div className="col-sm-6">
                   <div className="arrow-block position-relative zn2 mt-20 wow fadeInRight">
                     <img
-                      src="/images/media/img_93.jpg"
+                      src={`/images/media/img_0${parseInt(id) === 6 ? 1 : parseInt(id) + 1}.webp`}
                       alt="media"
                       className="lazy-img w-100"
                     />
@@ -122,33 +91,14 @@ const DynamicPortfolioDetails = () => {
                         <i className="bi bi-arrow-right" />
                       </Link>
                     </div>
-                    {/* /.hover-content */}
                   </div>
-                  {/* /.arrow-block */}
                 </div>
-                {/* End .col-6 */}
               </div>
-              {/* End .row */}
             </div>
-            {/* /.project-pagination */}
           </div>
-          {/* End .container */}
         </div>
-        {/* /.project-desctiption */}
       </div>
-      {/* /.project-details */}
 
-      {/*
-			=====================================================
-				Fancy Short Banner Twelve
-			=====================================================
-			*/}
-
-      {/* 
-        =============================================
-        Contact Section One
-        ============================================== 
-        */}
       <DefaultFooter />
     </>
   );

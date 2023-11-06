@@ -283,15 +283,7 @@ const Home = () => {
               >
                 <div className="sc-title text-uppercase">Unsere Partner</div>
                 <h2 className="main-title fw-500">
-                  Unsere vertrauenswürdigen Partner &nbsp;
-                  <span className="d-inline-block position-relative">
-                    unterstützen &nbsp;
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "#ffebe5" }}
-                    />
-                  </span>
-                  wir immer.
+                  Unsere vertrauenswürdigen Partner unterstützen wir immer.
                 </h2>
               </div>
               {/* /.title-style-three */}
@@ -380,7 +372,7 @@ const Home = () => {
         Fancy Short Banner Three
         =====================================================
         */}
-      <div className="fancy-short-banner-three mt-180 mb-200 lg-mt-100 lg-mb-100">
+      <div className="fancy-short-banner-three mt-180 mb-100 lg-mt-100 lg-mb-100">
         <div className="container">
           <div className="row">
             <div className="col-xxl-7 col-lg-8 col-md-9 m-auto text-center">
@@ -389,26 +381,17 @@ const Home = () => {
                 data-data-aos="fade-up"
               >
                 <h2 className="main-title fw-500">
-                  Bereit in die &nbsp;
-                  <span className="d-inline-block position-relative">
-                    Zukunft &nbsp;
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "*" }}
-                    />
-                  </span>
-                  zu starten?
+                  Bereit in die Zukunft zu starten?
                 </h2>
               </div>
               {/* /.title-style-three */}
               
               <p
-                className="text-lg tx-dark pt-30 pb-55 lg-pb-30 "
+                className="text-lg tx-dark pt-30 pb-30 lg-pb-30 "
                 data-aos="fade-up"
               >
               
-                Dein erster Schritt zu einer erfolgreichen Zusammenarbeit – unverbindlich und kostenfrei.<br></br>
-                Jetzt Termin vereinbaren und den Grundstein für deinen Erfolg legen!
+                Dein erster Schritt zu einer erfolgreichen Zusammenarbeit – unverbindlich und kostenfrei.
               </p>
               <Link
                   href="/Kontakt"

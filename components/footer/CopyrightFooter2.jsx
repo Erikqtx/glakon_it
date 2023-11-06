@@ -7,7 +7,7 @@ const links = [
   },
   {
     title: "Kontaktiere uns",
-    href: "/contact",
+    href: "/Kontakt",
   },
 ];
 

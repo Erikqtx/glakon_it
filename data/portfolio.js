@@ -5,7 +5,10 @@ module.exports = [
     category: "Fotografie",
     name: "Photoshoot BEKA",
     tag: "Konzertbilder",
-    image: "/images/media/BEKA.webp",
+    image: ["/images/media/img_12.webp",
+            "/images/media/img_10.webp",
+            "/images/media/img_11.webp"
+    ],
     projectInfo: {
       date: "14. April 2023",
       clientName: "BEKA",
@@ -18,7 +21,10 @@ module.exports = [
     category: "Fotografie",
     name: "Photoshoot Grotte",
     tag: "Fotografie",
-    image: "/images/media/DieGrotte.webp",
+    image: ["/images/media/img_02.webp",
+            "/images/media/img_07.webp",
+            "/images/media/img_08.webp",
+],
     projectInfo: {
       date: "25. Mai 2023",
       clientName: "Die Grotte",
@@ -31,7 +37,7 @@ module.exports = [
     category: "Design",
     name: "Logo UW",
     tag: "Design",
-    image: "/images/media/Undergroundwrap_Logo.webp",
+    image: ["/images/media/img_03.webp",],
     projectInfo: {
       date: "07. März 2023",
       clientName: "Underground Wrap",
@@ -44,7 +50,10 @@ module.exports = [
     category: "Fotografie",
     name: "Photoshoot Ecosphere",
     tag: "Fotografie",
-    image: "/images/media/Ecosphere.webp",
+    image: ["/images/media/img_13.webp",
+            "/images/media/img_14.webp",
+            "/images/media/img_15.webp",
+],
     projectInfo: {
       date: "03. August 2023",
       clientName: "Ecosphere",
@@ -57,12 +66,18 @@ module.exports = [
     category: "Fotografie",
     name: "Photoshoot Piccolo-Mondo",
     tag: "Design",
-    image: "/images/media/PiccoloMondo.webp",
+    image: ["/images/media/img_05.webp",
+            "/images/media/img_16.webp",
+            "/images/media/img_17.webp",
+            "/images/media/img_18.webp",
+            "/images/media/img_19.webp",
+            "/images/media/img_20.webp",
+],
     projectInfo: {
       date: "30. Oktober 2023",
       clientName: "Piccolo Mondo",
       projectType: "Fotografie",
-      content: "",
+      content: "Piccolo Mondo entführt die Sinne direkt ins italienische Herz - eine authentische Erfahrung, die ihresgleichen sucht.",
     },
   },
   {
@@ -70,7 +85,11 @@ module.exports = [
     category: "Fotografie",
     name: "Photoshoot Elterngeldlotsen",
     tag: "Fotografie",
-    image: "/images/media/Elterngeldlotsen.webp",
+    image: [
+    "/images/media/img_21.webp",
+    "/images/media/img_22.webp",
+    "/images/media/img_06.webp",
+  ],
     projectInfo: {
       date: "15 September, 2023",
       clientName: "Ecosphere",

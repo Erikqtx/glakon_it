@@ -1,7 +1,10 @@
 import Image from "next/legacy/image";
 
-const ProjectSlide = ({ slide }) => {
-  const images = [slide?.image ?? "", slide?.image ?? "", slide?.image ?? ""];
+
+const ProjectSlide = ({ portfolio }) => {
+  const images = Array.isArray(portfolio?.image)
+    ? portfolio.image
+    : [];
 
   return (
     <div
@@ -16,17 +19,16 @@ const ProjectSlide = ({ slide }) => {
             key={index}
           >
             <Image
-              width={824}
-              height={654}
+              width={820}
+              height={600}
               layout="responsive"
               src={image}
-              className="d-block w-100"
-              alt="media"
+              className="d-block w-100 "
+              alt={`media-${index + 1}`}
             />
           </div>
         ))}
       </div>
-      {/* End carousel-inner */}
 
       <button
         className="carousel-control-prev"
@@ -35,9 +37,8 @@ const ProjectSlide = ({ slide }) => {
         data-bs-slide="prev"
       >
         <i className="bi bi-chevron-left"></i>
-        <span className="visually-hidden">Previous</span>
+        <span className="visually-hidden">Zurück</span>
       </button>
-      {/* End prev */}
 
       <button
         className="carousel-control-next"
@@ -46,9 +47,8 @@ const ProjectSlide = ({ slide }) => {
         data-bs-slide="next"
       >
         <i className="bi bi-chevron-right"></i>
-        <span className="visually-hidden">Next</span>
+        <span className="visually-hidden">Weiter</span>
       </button>
-      {/* End next */}
     </div>
   );
 };
