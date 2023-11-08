@@ -2,8 +2,8 @@ import Image from "next/legacy/image";
 
 
 const ProjectSlide = ({ portfolio }) => {
-  const images = Array.isArray(portfolio?.image)
-    ? portfolio.image
+  const images = Array.isArray(portfolio?.slide)
+    ? portfolio.slide
     : [];
 
   return (
@@ -13,7 +13,7 @@ const ProjectSlide = ({ portfolio }) => {
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
-        {images.map((image, index) => (
+        {images.map((slide, index) => (
           <div
             className={`carousel-item ${index === 0 ? "active" : ""}`}
             key={index}
@@ -22,7 +22,7 @@ const ProjectSlide = ({ portfolio }) => {
               width={820}
               height={600}
               layout="responsive"
-              src={image}
+              src={slide}
               className="d-block w-100 "
               alt={`media-${index + 1}`}
             />

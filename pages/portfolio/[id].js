@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import portfolioData from "../../data/portfolio";
 import PortfolioDetailsTitle from "../../components/portfolio/portfolio-details/PortfolioDetailsTitle";
-import Social from "../Leistungen/service-details/Social";
+import CostumerSocial from "../Leistungen/service-details/CostumerSocial";
 import Link from "next/link";
 
 const DynamicPortfolioDetails = () => {
@@ -45,7 +45,7 @@ const DynamicPortfolioDetails = () => {
                   <div className="row">
                     <ProjectDetails details={portfolio} />
                   </div>
-                  <Social />
+                  <CostumerSocial />
                 </div>
               </div>
             </div>
