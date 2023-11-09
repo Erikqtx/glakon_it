@@ -10,16 +10,6 @@ const columns = [
     ],
   },
   {
-    title: "Rechtliches",
-    links: [
-      { label: "Nutzungserklärung", url: "/" },
-      { label: "Geschäftsbedingungen", url: "/" },
-      { label: "Datenschutzerklärungen", url: "/" },
-      { label: "Cookie-Richtlinien", url: "/" },
-      { label: "Impressum", url: "/" },
-    ],
-  },
-  {
     title: "Leistungen",
     links: [
       { label: "Softwareentwicklung", url: "/Leistungen/Softwareentwicklung" },
@@ -31,6 +21,17 @@ const columns = [
       { label: "Hosting", url: "/Leistungen/Hosting" },
     ],
   },
+  {
+    title: "Rechtliches",
+    links: [
+      { label: "Nutzungserklärung", url: "/" },
+      { label: "Geschäftsbedingungen", url: "/" },
+      { label: "Datenschutzerklärungen", url: "/" },
+      { label: "Cookie-Richtlinien", url: "/" },
+      { label: "Impressum", url: "/" },
+    ],
+  },
+  
 ];
 
 const Footer2 = () => {

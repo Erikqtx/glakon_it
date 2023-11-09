@@ -1,31 +1,45 @@
-import Image from "next/legacy/image";
-
-
 const ProjectSlide = ({ portfolio }) => {
-  const images = Array.isArray(portfolio?.slide)
-    ? portfolio.slide
-    : [];
+  const mediaItems = Array.isArray(portfolio?.slide) ? portfolio.slide : [];
 
   return (
     <div
       id="gallery-carousel"
       className="carousel slide me-xxl-5 md-mb-40"
       data-bs-ride="carousel"
+      data-bs-interval="5000"
     >
       <div className="carousel-inner">
-        {images.map((slide, index) => (
+        {mediaItems.map((media, index) => (
           <div
             className={`carousel-item ${index === 0 ? "active" : ""}`}
             key={index}
           >
-            <Image
-              width={820}
-              height={600}
-              layout="responsive"
-              src={slide}
-              className="d-block w-100 "
-              alt={`media-${index + 1}`}
-            />
+            {media.endsWith(".webp") || media.endsWith(".jpg") || media.endsWith(".png") ? (
+              <img
+                src={media}
+                className="d-block w-100"
+                alt={`media-${index + 1}`}
+              />
+            ) : media.endsWith(".webm") ? (
+              <video
+                width={820}
+                height={600}
+                className="d-block w-100"
+                controls
+              >
+                <source src={media} type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            ) : media.includes("youtube.com") ? (
+              <iframe
+                width={820}
+                height={600}
+                src={media}
+                title={`media-${index + 1}`}
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            ) : null}
           </div>
         ))}
       </div>
