@@ -1,15 +1,17 @@
-const Social = () => {
+const CostumerSocial = ({ portfolio }) => {
   const socialLinks = [
-    { icon: "fab fa-facebook-f", link: "https://www.facebook.com/GlakonIT/" },
-    { icon: "fab fa-instagram", link: "https://www.instagram.com/glakon.it/" },
-    { icon: "fab fa-tiktok", link: "https://www.tiktok.com/@glakonit" },
-    { icon: "fab fa-linkedin-in", link: "https://de.linkedin.com/company/glakon-it-agentur" },
-    { icon: "fab fa-youtube", link: "https://www.youtube.com/@glakonit2246" },
+    { icon: "fab fa-facebook-f", link: portfolio?.socialMedia?.facebook },
+    { icon: "fab fa-instagram", link: portfolio?.socialMedia?.instagram },
+    { icon: "fab fa-tiktok", link: portfolio?.socialMedia?.tiktok },
+    { icon: "fab fa-linkedin-in", link: portfolio?.socialMedia?.linkedin },
+    { icon: "fab fa-youtube", link: portfolio?.socialMedia?.youtube },
   ];
+
+  const filteredSocialLinks = socialLinks.filter(link => link.link);
 
   return (
     <ul className="d-flex justify-content-between social-icon style-none pe-4">
-      {socialLinks.map((link, i) => (
+      {filteredSocialLinks.map((link, i) => (
         <li key={i}>
           <a href={link.link} target="_blank" rel="noopener noreferrer">
             <i className={link.icon} />
@@ -20,4 +22,4 @@ const Social = () => {
   );
 };
 
-export default Social;
+export default CostumerSocial;

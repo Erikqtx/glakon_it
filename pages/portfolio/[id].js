@@ -19,7 +19,7 @@ const DynamicPortfolioDetails = () => {
   const id = router.query.id;
 
   useEffect(() => {
-    if (!id) return; // You might want to show a loading spinner or message here
+    if (!id) return;
     setPortfolio(portfolioData.find((item) => item.id == id));
   }, [id]);
 
@@ -35,9 +35,7 @@ const DynamicPortfolioDetails = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-8" data-aos="fade-right">
-                <ProjectSlide
-                portfolio={portfolio}
-                />
+                <ProjectSlide portfolio={portfolio} />
               </div>
 
               <div className="col-lg-4" data-aos="fade-left">
@@ -45,7 +43,7 @@ const DynamicPortfolioDetails = () => {
                   <div className="row">
                     <ProjectDetails details={portfolio} />
                   </div>
-                  <CostumerSocial />
+                  <CostumerSocial portfolio={portfolio} />
                 </div>
               </div>
             </div>
@@ -55,7 +53,9 @@ const DynamicPortfolioDetails = () => {
                 <div className="col-sm-6">
                   <div className="arrow-block position-relative zn2 mt-20 wow fadeInLeft">
                     <img
-                      src={`/images/media/img_0${parseInt(id) === 1 ? 8 : parseInt(id) - 1}.webp`}
+                      src={`/images/media/img_0${
+                        parseInt(id) === 1 ? 8 : parseInt(id) - 1
+                      }.webp`}
                       alt="media"
                       className="lazy-img w-100"
                     />
@@ -64,7 +64,9 @@ const DynamicPortfolioDetails = () => {
                         Zurück
                       </div>
                       <Link
-                        href={`/Portfolio/${parseInt(id) === 1 ? 8 : parseInt(id) - 1}`}
+                        href={`/Portfolio/${
+                          parseInt(id) === 1 ? 8 : parseInt(id) - 1
+                        }`}
                         className="arrow rounded-circle text-center tran3s"
                       >
                         <i className="bi bi-arrow-left" />
@@ -76,7 +78,9 @@ const DynamicPortfolioDetails = () => {
                 <div className="col-sm-6">
                   <div className="arrow-block position-relative zn2 mt-20 wow fadeInRight">
                     <img
-                      src={`/images/media/img_0${parseInt(id) === 8 ? 1 : parseInt(id) + 1}.webp`}
+                      src={`/images/media/img_0${
+                        parseInt(id) === 8 ? 1 : parseInt(id) + 1
+                      }.webp`}
                       alt="media"
                       className="lazy-img w-100"
                     />
@@ -85,7 +89,9 @@ const DynamicPortfolioDetails = () => {
                         Weiter
                       </div>
                       <Link
-                        href={`/Portfolio/${parseInt(id) === 8 ? 1 : parseInt(id) + 1}`}
+                        href={`/Portfolio/${
+                          parseInt(id) === 8 ? 1 : parseInt(id) + 1
+                        }`}
                         className="arrow rounded-circle text-center tran3s"
                       >
                         <i className="bi bi-arrow-right" />
