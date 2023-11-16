@@ -10,9 +10,9 @@ const CostumerSocial = ({ portfolio }) => {
   const filteredSocialLinks = socialLinks.filter(link => link.link);
 
   return (
-    <ul className="d-flex justify-content-between social-icon style-none pe-4">
+    <ul className="d-flex social-icon style-none pe-4">
       {filteredSocialLinks.map((link, i) => (
-        <li key={i}>
+        <li key={i} className={i > 0 ? 'ms-5' : ''}>
           <a href={link.link} target="_blank" rel="noopener noreferrer">
             <i className={link.icon} />
           </a>
