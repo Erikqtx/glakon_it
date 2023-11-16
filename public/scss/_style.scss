@@ -2450,6 +2450,13 @@ body .btn-twentyFive:hover {
   z-index: 0;
   animation: jumpThree 3s infinite linear;
 }
+@media (max-width: 767px) {
+  .fancy-feature-four .nav-tabs,
+  .fancy-feature-four .tab-pane {
+    display: none !important;
+  }
+}
+
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-five .tags-wrapper {
   background: #f3f7f8;
