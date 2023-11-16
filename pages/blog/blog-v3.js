@@ -41,7 +41,7 @@ const GridLayout = () => {
         {/* /.container */}
         <img
           src="/images/shape/shape_172.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
       </div>

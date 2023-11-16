@@ -61,7 +61,7 @@ const PortfolioGallery2 = () => {
                       width={410}
                       height={340}
                       src={item.image}
-                      alt="gallary"
+                      alt="Glakon IT Logo Ansbach Region Nürnberg"
                       className="w-100"
                     />
 

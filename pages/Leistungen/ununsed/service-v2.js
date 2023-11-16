@@ -69,7 +69,7 @@ const ServiceV2 = () => {
         </div>
         <img
           src="/images/shape/shape_174.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one d-none d-md-inline-block"
         />
         <div className="shapes shape-two" />
@@ -109,7 +109,7 @@ const ServiceV2 = () => {
                 >
                   <img
                     src="/images/media/img_84.jpg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img ms-auto"
                   />
 
@@ -121,12 +121,12 @@ const ServiceV2 = () => {
 
                   <img
                     src="/images/shape/shape_163.svg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img shapes shape-one"
                   />
                   <img
                     src="/images/shape/shape_168.svg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img shapes shape-two"
                   />
                 </div>
@@ -139,7 +139,7 @@ const ServiceV2 = () => {
 
         <img
           src="/images/shape/shape_169.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-three"
         />
       </div>
@@ -189,7 +189,7 @@ const ServiceV2 = () => {
         </div>
         <img
           src="/images/shape/shape_162.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one d-none d-md-inline-block"
         />
       </div>

@@ -56,7 +56,7 @@ const DynamicPortfolioDetails = () => {
                       src={`/images/media/img_0${
                         parseInt(id) === 1 ? 8 : parseInt(id) - 1
                       }.webp`}
-                      alt="media"
+                      alt="Glakon IT Logo Ansbach Region Nürnberg"
                       className="lazy-img w-100"
                     />
                     <div className="hover-content tran3s position-absolute d-flex flex-column align-items-center justify-content-center">
@@ -81,7 +81,7 @@ const DynamicPortfolioDetails = () => {
                       src={`/images/media/img_0${
                         parseInt(id) === 8 ? 1 : parseInt(id) + 1
                       }.webp`}
-                      alt="media"
+                      alt="Glakon IT Logo Ansbach Region Nürnberg"
                       className="lazy-img w-100"
                     />
                     <div className="hover-content tran3s position-absolute d-flex flex-column align-items-center justify-content-center">

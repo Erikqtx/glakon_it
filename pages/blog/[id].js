@@ -60,7 +60,7 @@ const DynamicBlogDetails = () => {
 
         <img
           src="/images/shape/shape_172.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
       </div>
@@ -105,7 +105,7 @@ const DynamicBlogDetails = () => {
                       width={800}
                       height={410}
                       src="/images/blog/blog_img_26.jpg"
-                      alt="blog"
+                      alt="Glakon IT Logo Ansbach Region Nürnberg"
                       className="lazy-img image-meta w-100"
                     />
                     <h4>

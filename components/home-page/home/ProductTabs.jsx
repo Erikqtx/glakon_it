@@ -35,6 +35,7 @@ const ProductTabs = () => {
           <li className="nav-item" role="presentation" key={tab.id}>
             <button
               className={`nav-link ${tab.id === "sp1" ? "active" : ""}`}
+              data-aos="fade-up"
               data-bs-toggle="tab"
               data-bs-target={`#${tab.id}`}
               type="button"
@@ -54,12 +55,12 @@ const ProductTabs = () => {
         <div className="shapes shape-two rounded-circle" />
         <img
           src="/images/shape/shape_33.svg"
-          alt="media"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-three"
         />
         <img
           src="/images/shape/shape_34.svg"
-          alt="media"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-four"
         />
         {tabData.map((tab) => (
@@ -71,7 +72,7 @@ const ProductTabs = () => {
             <div className="flex-container mb-20">
               <img
                 src={tab.image}
-                 alt="media"
+                 alt="Glakon IT Logo Ansbach Region Nürnberg"
                 className="lazy-img main-screen w-50"
               />
               <div className="text-content">

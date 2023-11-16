@@ -32,7 +32,7 @@ const MainMenu = () => {
             <div className="logo">
               <Link href="/" className="d-block">
                 <Image
-                  src="/images/logo/Glakon_Logo_Black.png"
+                  src="/images/logo/GlakonLogo_115x50_black.png"
                   alt="Glakon IT Agentur Ansbach"
                   width={105}
                   height={40}

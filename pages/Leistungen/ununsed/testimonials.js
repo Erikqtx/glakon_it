@@ -37,7 +37,7 @@ const Testimonials = () => {
 
         <img
           src="/images/shape/shape_172.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
       </div>
@@ -99,7 +99,7 @@ const Testimonials = () => {
                 >
                   <img
                     src="/images/media/img_84.jpg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img ms-auto"
                   />
 
@@ -111,12 +111,12 @@ const Testimonials = () => {
 
                   <img
                     src="/images/shape/shape_163.svg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img shapes shape-one"
                   />
                   <img
                     src="/images/shape/shape_168.svg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img shapes shape-two"
                   />
                 </div>
@@ -129,7 +129,7 @@ const Testimonials = () => {
 
         <img
           src="/images/shape/shape_169.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-three"
         />
       </div>
@@ -150,7 +150,7 @@ const Testimonials = () => {
                 >
                   <img
                     src="/images/icon/icon_19.svg"
-                    alt="icon"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img"
                   />
                 </div>
@@ -183,42 +183,42 @@ const Testimonials = () => {
         <div className="circle-bg shapes">
           <img
             src="/images/shape/shape_37.svg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img main-img m-auto"
           />
           <img
             src="/images/media/img_07.jpg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes rounded-circle cp-one"
             style={{ width: "80px", height: "80px" }}
           />
           <img
             src="/images/media/img_08.jpg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes rounded-circle cp-two"
             style={{ width: "45px", height: "45px" }}
           />
           <img
             src="/images/media/img_09.jpg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes rounded-circle cp-three"
             style={{ width: "85px", height: "85px" }}
           />
           <img
             src="/images/media/img_10.jpg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes rounded-circle cp-four"
             style={{ width: "45px", height: "45px" }}
           />
           <img
             src="/images/media/img_11.jpg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes rounded-circle cp-five"
             style={{ width: "110px", height: "110px" }}
           />
           <img
             src="/images/media/img_12.jpg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes rounded-circle cp-six"
             style={{ width: "55px", height: "55px" }}
           />

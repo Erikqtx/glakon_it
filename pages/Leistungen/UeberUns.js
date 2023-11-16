@@ -28,19 +28,8 @@ const AboutUsV1 = () => {
   return (
     <>
       <Seo pageTitle="Über Uns" />
-
-      {/* <!-- 
-      =============================================
-      Theme Default Menu
-      ============================================== 	
-      --> */}
       <DefaulHeader />
 
-      {/* 
-			=============================================
-				Feature Section Fifty One
-			============================================== 
-			*/}
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
@@ -56,35 +45,36 @@ const AboutUsV1 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-8 col-lg-9 ms-auto">
-              <div className="ps-xxl-5" data-aos="fade-left">
-                <h6 className="mb-30">Glakon IT Agentur</h6>
-                <p className="text-lg tx-dark">
-                Herzlich willkommen bei der Glakon IT Agentur, Ihrem innovativen IT-Partner im Raum Nürnberg. Wir sind Ihr Vertrauenspartner für hochwertige IT-Lösungen. Unsere Leidenschaft für Technologie und Kundenzufriedenheit bilden das Fundament unserer Arbeit. <br>
-                </br>Bei Glakon IT unterstützen wir unsere Kunden bei digitalen Herausforderungen mit maßgeschneiderten Lösungen.
-                </p>
-                <div className="row">
-                  <Counter />
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="col-md-4 ms-auto align-self-center">
+    <img
+      src="/images/team/team_hochkant.webp"
+      alt="Glakon IT Logo Ansbach Region Nürnberg"
+      className="lazy-img shapes shape-one"
+    />
+  </div>
+  <div className="col-md-8">
+    <div className="ps-xxl-5" data-aos="fade-left">
+      <h6 className="mb-30">Glakon IT Agentur</h6>
+      <p className="text-lg tx-dark">
+        Herzlich willkommen bei der Glakon IT Agentur, Ihrem innovativen IT-Partner im Raum Nürnberg. Wir sind Ihr Vertrauenspartner für hochwertige IT-Lösungen. Unsere Leidenschaft für Technologie und Kundenzufriedenheit bilden das Fundament unserer Arbeit. <br></br>Bei Glakon IT unterstützen wir unsere Kunden bei digitalen Herausforderungen mit maßgeschneiderten Lösungen.
+      </p>
+      <div className="row">
+        <Counter />
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
-        {/* /.container */}
 
         <img
-          src="/images/team/team_hochkant.webp"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
-        <img
           src="/images/shape/shape_171.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one"
         />
         <img
           src="/images/shape/shape_172.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
       </div>
@@ -187,7 +177,7 @@ const AboutUsV1 = () => {
         {/* /.container */}
         <img
           src="/images/shape/shape_172.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one d-none d-xl-inline-block"
         />
       </div>

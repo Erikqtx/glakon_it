@@ -139,7 +139,7 @@ const Home = () => {
               <div className="tags-wrapper position-relative">
                 <img
                   src="/images/shape/shape_35.svg"
-                  alt="shape"
+                  alt="Glakon IT Logo Ansbach Region Nürnberg"
                   className="lazy-img shapes shape-one"
                 />
                 <div className="h3 m0 fw-30 tx-dark">Die Bausteine</div>
@@ -179,7 +179,7 @@ const Home = () => {
         <div className="shapes shape-one rounded-circle" />
         <img
           src="/images/shape/shape_36.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
         <div className="shapes shape-three rounded-circle" />
@@ -192,13 +192,16 @@ const Home = () => {
         =====================================================
         */}
         <div className="fancy-feature-four pt-150 lg-pt-120">
-        <div className="container">
+        <div className="container"
+        data-aos="fade-up"
+        >
           <div className="row">
             <div
               className="col-xxl-7 col-md-8 m-auto text-center"
               data-aos="fade-up"
             >
-              <div className="title-style-three">
+              <div className="title-style-three"
+              data-aos="fade-up">
                 <h2 className="main-title fw-500">
                   Kostenloses Erstgespräch!
                 </h2>
@@ -208,7 +211,9 @@ const Home = () => {
               
               
             </div>
-            <p className="text-lg mt-40 mb-50 lg-mt-20 lg-mb-50 text-center">
+            <p className="text-lg mt-40 mb-50 lg-mt-20 lg-mb-50 text-center"
+            data-aos="fade-up"
+            >
               In diesem unverbindlichen Gespräch haben wir die Chance, Sie kennenzulernen und mehr über Ihre Ideen und Erwartungen zu erfahren.
               </p>
               
@@ -235,7 +240,7 @@ const Home = () => {
                 >
                   <img
                     src="/images/icon/icon_19.svg"
-                    alt="icon"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img"
                   />
                 </div>
@@ -303,12 +308,12 @@ const Home = () => {
 
         <img
           src="/images/shape/shape_38.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one"
         />
         <img
           src="/images/shape/shape_39.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
       </div>
@@ -440,12 +445,12 @@ const Home = () => {
           <div className="shapes shape-two rounded-circle" />
           <img
             src="/images/shape/shape_42.svg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes shape-three"
           />
           <img
             src="/images/shape/shape_43.svg"
-            alt="shape"
+            alt="Glakon IT Logo Ansbach Region Nürnberg"
             className="lazy-img shapes shape-four"
           />
         </div>

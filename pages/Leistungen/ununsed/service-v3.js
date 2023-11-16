@@ -33,7 +33,7 @@ const ServiceV3 = () => {
                   <span className="position-relative">
                     {" "}
                     Quality
-                    Image src="/images/shape/shape_122.svg" alt="icon shape" />
+                    <a Image src="/images/shape/shape_122.svg" alt="icon shape" />
                   </span>
                   Leads
                 </h2>
@@ -56,12 +56,12 @@ const ServiceV3 = () => {
 
         <img
           src="/images/shape/shape_124.svg"
-          alt="icon shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one"
         />
         <img
           src="/images/shape/shape_125.svg"
-          alt="icon shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
       </div>

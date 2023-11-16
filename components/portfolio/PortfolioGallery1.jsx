@@ -28,7 +28,7 @@ const   PortfolioGallery1 = () => {
                   <div className="img-meta">
                     <img
                       src={item.image}
-                      alt="gallary"
+                      alt="Glakon IT Logo Ansbach Region Nürnberg"
                       className="w-100"
                     />
                   </div>

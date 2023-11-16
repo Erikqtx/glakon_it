@@ -177,7 +177,7 @@ h4,
 h5,
 .h6,
 h6 {
-  color: var(--heading);
+  color: #fbb72d;
 }
 .h1,
 h1 {
@@ -8797,6 +8797,9 @@ body .btn-twentyFive:hover {
   letter-spacing: -0.5px;
   color: rgba(0, 28, 62, 0.3);
 }
+.partner-section-six .br-name:hover {
+  color: #e30a45;
+}
 /*^^^^^^^^^^^^^^^^^^^^^ Fancy Short Banner Sixteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-short-banner-sixteen .bg-wrapper {
   background: #1f1f1f;
@@ -9870,4 +9873,37 @@ body .btn-twentyFive:hover {
 }
 .card-style-twentyFour .icon {
   height: 42px;
+}
+@media (min-width: 768px) {
+  /* Add these styles to your existing CSS file or style tag */
+.fancy-feature-fiftyOne .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fancy-feature-fiftyOne .col-md-4,
+.fancy-feature-fiftyOne .col-md-8 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.fancy-feature-fiftyOne .align-self-center {
+  margin-top: 0;
+}
+
+.fancy-feature-fiftyOne .text-lg {
+  line-height: 2.08em;
+}
+}
+/* Additional breakpoints for improved display */
+@media (min-width: 992px) {
+  .fancy-feature-fiftyOne .col-md-4 {
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .fancy-feature-fiftyOne .col-md-8 {
+    flex-basis: 66.666667%;
+    max-width: 66.666667%;
+  }
 }

@@ -12,7 +12,7 @@ const DefaultFooter = () => {
             <div className="col-xl-2 footer-intro mb-40">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/GlakonLogo_115x50_black.png" alt="brand" />
+                  <img src="/images/logo/GlakonLogo_115x50_black.png" alt="Glakon IT Agentur Ansbach Region Nürnberg" />
                 </Link>
               </div>
             </div>

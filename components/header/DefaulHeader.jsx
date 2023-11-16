@@ -33,7 +33,7 @@ const DefaulHeader = () => {
             <Link href="/" className="d-block">
               <Image
                 src="/images/logo/GlakonLogo_115x50_black.png"
-                alt="Glakon IT Logo Ansbach"
+                alt="Glakon IT Logo Ansbach Region Nürnberg"
                 width={105}
                 height={40}
               />

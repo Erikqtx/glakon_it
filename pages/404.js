@@ -39,7 +39,7 @@ const Pricing = () => {
 
         <img
           src="/images/shape/shape_178.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="shapes shape-one w-100"
         />
       </div>

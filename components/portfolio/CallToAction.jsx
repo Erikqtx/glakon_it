@@ -17,7 +17,7 @@ const CallToAction = () => {
                   Eigene Projekte? <br />
                   <span className="position-relative">
                     Let’s Talk{" "}
-                    <img src="/images/shape/shape_132.svg" alt="shape" />
+                    <img src="/images/shape/shape_132.svg" alt="Glakon IT Logo Ansbach Region Nürnberg" />
                   </span>
                   &amp; Grow your Business
                 </h2>

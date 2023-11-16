@@ -50,7 +50,7 @@ const FooterLinks = () => {
           <div className="col-lg-3 footer-intro mb-40">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo/GlakonLogo_113x50_black.png" alt="logo" width={113} height={50}/>
+                <img src="/images/logo/GlakonLogo_113x50_black.png" alt="Glakon IT Logo Ansbach Region Nürnberg" width={113} height={50}/>
               </Link>
             </div>
             <a href="#" className="email tran3s fs-18 mt-35 mb-15 md-mt-10">

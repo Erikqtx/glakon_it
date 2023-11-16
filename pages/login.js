@@ -50,12 +50,12 @@ const LogIn = () => {
         <p className="mt-auto pt-50">Copyright @{currentYear} jano inc.</p>
         <img
           src="/images/assets/ils_11.png"
-          alt="illustration"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img illustration-one wow fadeInRight"
         />
         <img
           src="/images/assets/ils_12.png"
-          alt="illustration"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img illustration-two wow fadeInLeft"
         />
       </div>

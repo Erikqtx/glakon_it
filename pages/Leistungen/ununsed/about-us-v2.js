@@ -40,7 +40,7 @@ const RealEstate = () => {
 
             <img
               src="/images/assets/sticker_02.png"
-              alt="sticker"
+              alt="Glakon IT Logo Ansbach Region Nürnberg"
               className="lazy-img shapes shape-four"
             />
             <div className="shapes shape-five" />
@@ -133,7 +133,7 @@ const RealEstate = () => {
                     height={592}
                     layout="responsive"
                     src="/images/media/img_84.jpg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img ms-auto"
                   />
 
@@ -145,12 +145,12 @@ const RealEstate = () => {
 
                   <img
                     src="/images/shape/shape_163.svg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img shapes shape-one"
                   />
                   <img
                     src="/images/shape/shape_168.svg"
-                    alt="shape"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="lazy-img shapes shape-two"
                   />
                 </div>
@@ -163,7 +163,7 @@ const RealEstate = () => {
 
         <img
           src="/images/shape/shape_169.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-three"
         />
       </div>
@@ -200,7 +200,7 @@ const RealEstate = () => {
 
         <img
           src="/images/shape/shape_163.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-one"
         />
       </div>

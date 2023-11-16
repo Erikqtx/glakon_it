@@ -17,7 +17,7 @@ const SignUp = () => {
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
               <Link href="/" className="d-block">
-                Image src="/images/logo/logo_01.png" alt="" width={95} />
+                <a src="/images/logo/logo_01.png" alt="Glakon IT Logo Ansbach Region Nürnberg" width={95} />
               </Link>
             </div>
             <Link href="/" className="go-back-btn fw-500 tran3s">
@@ -49,12 +49,12 @@ const SignUp = () => {
         <p className="mt-auto pt-50">Copyright @{currentYear} jano inc.</p>
         <img
           src="/images/assets/ils_11.png"
-          alt="illustration"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img illustration-one wow fadeInRight"
         />
         <img
           src="/images/assets/ils_12.png"
-          alt="illustration"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img illustration-two wow fadeInLeft"
         />
       </div>

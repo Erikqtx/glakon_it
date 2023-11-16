@@ -72,7 +72,7 @@ const Features = () => {
         >
           <div className="card-style-three">
             <div className="icon d-flex align-items-end">
-              <img src={feature.iconSrc} alt="icon" className="lazy-img" />
+              <img src={feature.iconSrc} alt="Glakon IT Logo Ansbach Region Nürnberg" className="lazy-img" />
             </div>
             <h4 className="mt-25 mb-20">{feature.title}</h4>
             <p className="mb-10">{feature.description}</p>
@@ -81,7 +81,7 @@ const Features = () => {
               
                 <img
                   src="/images/icon/icon_18.svg"
-                  alt="icon"
+                  alt="Glakon IT Logo Ansbach Region Nürnberg"
                   className="lazy-img"
                 />
               

@@ -1,20 +1,17 @@
 const Partners = () => {
   const partners = [
-    { name: "Google", className: "br-name" },
-    { name: ".", className: "br-name" },
-    { name: "Facebook", className: "br-name font-recoleta" },
-    { name: ".", className: "br-name" },
-    { name: "Insta", className: "br-name" },
-    { name: ".", className: "br-name" },
-    { name: "Fundbox", className: "br-name" },
+    { name: "Bezirk Mittelfranken", url: "https://bezirk-mittelfranken.de", className: "br-name" },
+    { name: "Die Grotte", url: "https://die-grotte.de", className: "br-name" },
+    { name: "Ecosphere Automation", url: "https://ecosphere-automation.de", className: "br-name" },
+    { name: "PV-Technik", url: "https://pv-technik-franken.de", className: "br-name" },
   ];
 
   return (
     <>
       {partners.map((partner, index) => (
-        <div key={index} className={partner.className}>
+        <a key={index} href={partner.url} target="_blank" rel="noopener noreferrer" className={partner.className}>
           {partner.name}
-        </div>
+        </a>
       ))}
     </>
   );

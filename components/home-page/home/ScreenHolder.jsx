@@ -57,7 +57,7 @@ const ScreenHolder = () => {
       ))}
       <img
         src="/images/shape/shape_32.svg"
-        alt="shape"
+        alt="Glakon IT Logo Ansbach Region Nürnberg"
         className="lazy-img shapes shape-one"
       />
     </div>

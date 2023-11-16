@@ -2,10 +2,10 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const styles = buildStyles({
-  pathColor: "#ff3294",
+  pathColor: "#fbb72d",
   textColor: "#000F5C",
   textSize: "20px",
-  trailColor: "#EFF4F7",
+  trailColor: "#fbb72d",
 });
 
 const data = [

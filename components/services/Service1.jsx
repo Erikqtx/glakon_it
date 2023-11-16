@@ -53,7 +53,7 @@ const Service1 = () => {
             <div className={service.class}>
               <img
                 src={service.iconSrc}
-                alt="icon"
+                alt="Glakon IT Logo Ansbach Region Nürnberg"
                 className="lazy-img m-auto"
               />
             </div>

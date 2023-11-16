@@ -24,14 +24,14 @@ const Hero = () => {
       <div className="hero-banner-two position-relative pt-250 lg-pt-200 md-pt-150">
         <Image
           src="/images/shape/shape_26.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-left"
           width={200}
           height={200}
         />
         <Image
           src="/images/shape/shape_27.svg"
-          alt="shape"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-right"
           width={200}
           height={300}
@@ -47,7 +47,7 @@ const Hero = () => {
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
                 <Image
                   src="/images/shape/shape_25.svg"
-                  alt="shape"
+                  alt="Glakon IT Logo Ansbach Region Nürnberg"
                   className="lazy-img shapes line-shape"
                   width={200}
                   height={40}
@@ -92,7 +92,7 @@ const Hero = () => {
                 onClick={() => setOpen(true)}
                 role="button"
                 src="/images/media/beka-thumbnail.jpg"
-                alt="media"
+                alt="Glakon IT Logo Ansbach Region Nürnberg"
                 width="1080"
                 height="720"
                 className="lazy-img main-screen w-100"
@@ -107,24 +107,24 @@ const Hero = () => {
             {/* /.bg-wrapper */}
             <img
               src="/images/shape/shape_28_neu.svg"
-              alt="media"
+              alt="Glakon IT Logo Ansbach Region Nürnberg"
               className="lazy-img shapes shape-one"
             />
 
             <img
               src="/images/shape/shape_29_neu.svg"
-              alt="media"
+              alt="Glakon IT Logo Ansbach Region Nürnberg"
               className="lazy-img shapes shape-two"
             />
             <img
               src="/images/shape/shape_30.svg"
-              alt="media"
+              alt="Glakon IT Logo Ansbach Region Nürnberg"
               className="lazy-img shapes shape-three"
               color={"e52f1e"}
             />
             <img
               src="/images/shape/shape_31.svg"
-              alt="media"
+              alt="Glakon IT Logo Ansbach Region Nürnberg"
               className="lazy-img shapes shape-four"
             />
           </div>

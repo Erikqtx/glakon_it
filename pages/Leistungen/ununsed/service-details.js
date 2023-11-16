@@ -39,12 +39,12 @@ const PortfolioV1 = () => {
         {/* /.container */}
         <img
           src="/images/shape/shape_172.svg"
-          alt="shap"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-two"
         />
         <img
           src="/images/shape/shape_175.svg"
-          alt="shap"
+          alt="Glakon IT Logo Ansbach Region Nürnberg"
           className="lazy-img shapes shape-three"
         />
       </div>
@@ -65,7 +65,7 @@ const PortfolioV1 = () => {
                 </p>
                 <img
                   src="/images/media/img_95.jpg"
-                  alt="media"
+                  alt="Glakon IT Logo Ansbach Region Nürnberg"
                   className="main-img-meta"
                 />
                 <p>
@@ -149,7 +149,7 @@ const PortfolioV1 = () => {
                 <div className="sidebar-quote mb-50">
                   <img
                     src="/images/icon/icon_150.svg"
-                    alt="icon"
+                    alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="m-auto"
                   />
                   <p className="fw-500">
