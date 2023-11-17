@@ -193,15 +193,12 @@ const Home = () => {
         */}
         <div className="fancy-feature-four pt-150 lg-pt-120">
         <div className="container"
-        data-aos="fade-up"
         >
           <div className="row">
             <div
               className="col-xxl-7 col-md-8 m-auto text-center"
-              data-aos="fade-up"
             >
-              <div className="title-style-three"
-              data-aos="fade-up">
+              <div className="title-style-three">
                 <h2 className="main-title fw-500">
                   Kostenloses Erstgespräch!
                 </h2>
@@ -212,7 +209,6 @@ const Home = () => {
               
             </div>
             <p className="text-lg mt-40 mb-50 lg-mt-20 lg-mb-50 text-center"
-            data-aos="fade-up"
             >
               In diesem unverbindlichen Gespräch haben wir die Chance, Sie kennenzulernen und mehr über Ihre Ideen und Erwartungen zu erfahren.
               </p>
@@ -221,7 +217,11 @@ const Home = () => {
           {/* End .row */}
 
           <ProductTabs />
-          
+          <Link
+            href="/Kontakt"
+            className="btn-twentyOne fw-500 tran3s d-block text-center mobile-only-button">
+            Kostenloses Erstgespräch
+          </Link>
           {/* /.tab-content */}
         </div>
         {/* /.container */}
@@ -245,15 +245,7 @@ const Home = () => {
                   />
                 </div>
                 <h2 className="main-title fw-500">
-                  Was unsere &nbsp;
-                  <span className="d-inline-block position-relative">
-                    Kunden &nbsp;
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "#ffebe5" }}
-                    />
-                  </span>
-                  über uns sagen
+                  Was unsere Kunden über uns sagen:
                 </h2>
               </div>
               {/* /.title-style-three */}

@@ -2175,7 +2175,7 @@ body .btn-twentyFive:hover {
   bottom: 6px;
   width: 125px;
   color: #fff;
-  background: #161616;
+  background: #fbb72d;
 }
 .theme-basic-footer .form-widget form button:hover {
   background: var(--prime-six);
@@ -2431,12 +2431,17 @@ body .btn-twentyFive:hover {
   animation: jumpFive 3s infinite linear;
 }
 .fancy-feature-four .tab-content .shape-two {
-  width: 285px;
-  height: 285px;
+  width: 140px;
+  height: 140px;
   background: #f38426;
-  bottom: -10%;
+  bottom: -20%;
   left: -6%;
-  animation: fade-in 8s infinite linear;
+  animation: fade-in 4s infinite linear;
+}
+@media (max-width: 767px) {
+  .fancy-feature-four .tab-content .shape-two {
+    display: none;
+  }
 }
 .fancy-feature-four .tab-content .shape-three {
   right: -13%;
@@ -9913,4 +9918,16 @@ body .btn-twentyFive:hover {
     flex-basis: 66.666667%;
     max-width: 66.666667%;
   }
+}
+@media (max-width: 767px) {
+  .mobile-only-button {
+    display: block !important;
+    margin-top: 10px !important; /* Adjust the margin-top value as needed */
+    position: relative;
+    top: -15px; /* Adjust the vertical position as needed */
+  }
+}
+.fancy-feature-four .container .mobile-only-button {
+  display: block !important;
+  /* other styles */
 }

@@ -79,12 +79,7 @@ const ProductTabs = () => {
               <h4>{tab.title} {tab.subtitle}</h4>
               <p>{tab.content}</p>
               
-              <Link
-                href="/Kontakt"
-                className="btn-twentyOne fw-500 tran3s d-block text-center mt-10"
-                >
-                  Kostenloses Erstgespräch
-              </Link>
+              
               </div>
             </div>
           </div>
