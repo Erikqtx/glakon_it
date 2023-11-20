@@ -1,6 +1,5 @@
 import Seo from "../../components/common/Seo";
 
-
 import Service2 from "../../components/services/Service2";
 
 import Link from "next/link";
@@ -13,7 +12,6 @@ const ServiceV2 = () => {
       {/* <!--  =============================================
         Theme Header3 Menu
         ============================================== 	--> */}
-
 
       {/* 
         =============================================
@@ -40,9 +38,7 @@ const ServiceV2 = () => {
             </div>
             {/* End .row */}
 
-            <div className="row gx-xxl-5 pt-90 lg-pt-40 md-pt-20">
-
-            </div>
+            <div className="row gx-xxl-5 pt-90 lg-pt-40 md-pt-20"></div>
             {/* End .row */}
           </div>
           {/* /.line-bg-wrapper */}
@@ -94,9 +90,7 @@ const ServiceV2 = () => {
                 </div>
                 {/* /.title-style-five */}
                 <div className="mt-120 lg-mt-40 ps-xl-5 ms-xl-5">
-                  <div className="feedback_slider_eleven">
-
-                  </div>
+                  <div className="feedback_slider_eleven"></div>
                   {/* /.feedback_slider_eleven */}
                 </div>
               </div>
@@ -172,7 +166,7 @@ const ServiceV2 = () => {
                   message.
                 </p>
                 <Link
-                  href="/contact"
+                  href="/Kontakt"
                   className="btn-twenty fw-500 tran3s"
                   data-aos="fade-up"
                   data-aos-delay="0.3"
@@ -200,16 +194,13 @@ const ServiceV2 = () => {
         Fancy Short Banner Fifteen
         =====================================================
         */}
-      <div className="fancy-short-banner-fifteen pt-150 lg-pt-80 pb-30 position-relative zn2">
-
-      </div>
+      <div className="fancy-short-banner-fifteen pt-150 lg-pt-80 pb-30 position-relative zn2"></div>
 
       {/* <!--
         =====================================================
         Footer
         =====================================================
         --> */}
-
     </>
   );
 };

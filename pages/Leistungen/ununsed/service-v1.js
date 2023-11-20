@@ -46,7 +46,7 @@ const ServiceV1 = () => {
                   Unsere Leistungen
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Maßgeschneiderte Lösungen
+                  Maßgeschneiderte Lösungen
                 </h2>
               </div>
             </div>
@@ -136,9 +136,7 @@ const ServiceV1 = () => {
         {/* End .container */}
         <div className="inner-content">
           <div className="slider-wrapper">
-            <div className="feedback_slider_seven">
-
-            </div>
+            <div className="feedback_slider_seven"></div>
             {/* /.feedback_slider_seven */}
           </div>
           {/* /.slider-wrapper */}
@@ -234,7 +232,7 @@ const ServiceV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Get Started Today!

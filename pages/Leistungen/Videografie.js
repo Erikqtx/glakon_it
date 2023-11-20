@@ -30,7 +30,7 @@ const PortfolioV1 = () => {
                   Videografie
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Bewegte Bilder - Bleibender Eindruck.
+                  Bewegte Bilder - Bleibender Eindruck.
                 </h2>
               </div>
             </div>
@@ -60,16 +60,26 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Videografie.</h2>
                 <p className="text-lg tx-dark">
-                Von der Idee bis zum Schnitt, wir verwandeln Ihre Geschichte in fesselnde Videos, die Emotionen wecken.</p>
+                  Von der Idee bis zum Schnitt, wir verwandeln Ihre Geschichte
+                  in fesselnde Videos, die Emotionen wecken.
+                </p>
                 <p>
-                In der Ära der visuellen Kommunikation sind bewegte Bilder nicht nur Inhalte – sie sind Erlebnisse. Unsere Videografen sind Geschichtenerzähler mit der Kamera. 
-                Wir verstehen, dass jedes Video eine einzigartige Geschichte erzählen kann, und wir setzen modernste Technologie ein, um diese Geschichten zum Leben zu erwecken. 
-                Vom Drehbuch bis zum finalen Schnitt sind wir Ihr Partner für bewegende und beeindruckende visuelle Inhalte.</p>
+                  In der Ära der visuellen Kommunikation sind bewegte Bilder
+                  nicht nur Inhalte – sie sind Erlebnisse. Unsere Videografen
+                  sind Geschichtenerzähler mit der Kamera. Wir verstehen, dass
+                  jedes Video eine einzigartige Geschichte erzählen kann, und
+                  wir setzen modernste Technologie ein, um diese Geschichten zum
+                  Leben zu erwecken. Vom Drehbuch bis zum finalen Schnitt sind
+                  wir Ihr Partner für bewegende und beeindruckende visuelle
+                  Inhalte.
+                </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Unsere Leistungen
+                      </h4>
+                      <ul className="style-none list-item md-mb-40">
                         <li>Imagevideografie</li>
                         <li>Werbung</li>
                         <li>Produktvideografie</li>
@@ -84,11 +94,19 @@ const PortfolioV1 = () => {
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Unser Hauptziel ist es, die einzigartige Persönlichkeit Ihres Unternehmens einzufangen und sie in bewegenden visuellen Geschichten zum Leben zu erwecken.
-                      Jeder Auftrag wird mit größter Sorgfalt und Kreativität bearbeitet, um ein maßgeschneidertes Video zu schaffen, das Ihre Botschaft perfekt kommuniziert.
-                      Wir möchten sicherstellen, dass jedes Video, das wir erstellen, maximale Wirkung erzielt und Ihre Markenbotschaft auf unvergessliche Weise vermittelt.
-                      Unser Ziel ist es, nicht nur mit visueller Schönheit zu überzeugen, sondern auch durch technische Brillanz, die Ihre Videos auf ein professionelles Level hebt.
-                    </p>
+                        Unser Hauptziel ist es, die einzigartige Persönlichkeit
+                        Ihres Unternehmens einzufangen und sie in bewegenden
+                        visuellen Geschichten zum Leben zu erwecken. Jeder
+                        Auftrag wird mit größter Sorgfalt und Kreativität
+                        bearbeitet, um ein maßgeschneidertes Video zu schaffen,
+                        das Ihre Botschaft perfekt kommuniziert. Wir möchten
+                        sicherstellen, dass jedes Video, das wir erstellen,
+                        maximale Wirkung erzielt und Ihre Markenbotschaft auf
+                        unvergessliche Weise vermittelt. Unser Ziel ist es,
+                        nicht nur mit visueller Schönheit zu überzeugen, sondern
+                        auch durch technische Brillanz, die Ihre Videos auf ein
+                        professionelles Level hebt.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -97,9 +115,10 @@ const PortfolioV1 = () => {
                     <ProgressBar4 />
                   </div>
                 </div>
-                
+
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
+                  Starten Sie jetzt und gestalten Sie gemeinsam mit uns die
+                  Zukunft Ihrer digitalen Innovation!
                 </h3>
               </div>
               {/* /.service-details-meta */}
@@ -111,8 +130,10 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                  <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                    <li>
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Design">Design</Link>
@@ -127,7 +148,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -146,7 +169,8 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Ein gut gemachtes Video ist die kürzeste Verbindung zwischen Emotion und Information.
+                    Ein gut gemachtes Video ist die kürzeste Verbindung zwischen
+                    Emotion und Information.
                   </p>
                   <div className="name">- Daniel Glickman</div>
                 </div>
@@ -173,9 +197,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -185,7 +207,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

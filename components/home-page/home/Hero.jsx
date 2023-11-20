@@ -5,19 +5,17 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import ParticlesBackground from "../../particles/ParticlesBackground";
 
-
 const Hero = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <>
-    <ParticlesBackground />
+      <ParticlesBackground />
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="BssFMkGOLvY"
-        
         onClose={() => setOpen(false)}
       />
 
@@ -38,7 +36,6 @@ const Hero = () => {
         />
 
         <div className="container">
-        
           <div className="row">
             <div
               className="col-lg-12 col-md-9 m-auto text-center"
@@ -53,18 +50,25 @@ const Hero = () => {
                   height={40}
                   color={"#f8af3c"}
                 />
-                 Die Glakon IT-Agentur
+                Die Glakon IT-Agentur
               </h1>
               <p className="text-lg mb-30 pt-20 lg-mb-50 lg-pt-10">
-              Willkommen bei Glakon IT Agentur – wir gestalten die Zukunft digital!</p>
-              <p className="text-base mb-30 pt-20 lg-mb-50 lg-pt-10">
-                Unser erfahrenes Team aus Entwicklern, Designern und Digitalstrategen arbeitet Hand in Hand, um maßgeschneiderte Lösungen zu schaffen, die Ihre individuellen Anforderungen erfüllen. 
-                Wir verstehen die Bedeutung eines starken digitalen Auftritts und setzen alles daran, Ihr Unternehmen erfolgreich im digitalen Raum zu positionieren und ettablieren.
-                Was uns auszeichnet, ist nicht nur unser Fachwissen, sondern auch unsere Hingabe, die Extra-Meile zu gehen.
-                Mit uns an Ihrer Seite können Sie sicher sein, dass Sie nicht nur einen Dienstleister, sondern einen Partner haben, der mit Ihnen gemeinsam an Ihrem Erfolg arbeitet.
+                Willkommen bei Glakon IT Agentur – wir gestalten die Zukunft
+                digital!
               </p>
-              
-              
+              <p className="text-base mb-30 pt-20 lg-mb-50 lg-pt-10">
+                Unser erfahrenes Team aus Entwicklern, Designern und
+                Digitalstrategen arbeitet Hand in Hand, um maßgeschneiderte
+                Lösungen zu schaffen, die Ihre individuellen Anforderungen
+                erfüllen. Wir verstehen die Bedeutung eines starken digitalen
+                Auftritts und setzen alles daran, Ihr Unternehmen erfolgreich im
+                digitalen Raum zu positionieren und ettablieren. Was uns
+                auszeichnet, ist nicht nur unser Fachwissen, sondern auch unsere
+                Hingabe, die Extra-Meile zu gehen. Mit uns an Ihrer Seite können
+                Sie sicher sein, dass Sie nicht nur einen Dienstleister, sondern
+                einen Partner haben, der mit Ihnen gemeinsam an Ihrem Erfolg
+                arbeitet.
+              </p>
             </div>
           </div>
           {/* End .row */}
@@ -75,15 +79,14 @@ const Hero = () => {
           >
             <div
               role="button"
-              className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center mt-50 center-icon-container"
+              className="fancybox video-icon tran3s mb-25 ms-2 me-3 d-flex align-items-center justify-content-center mt-50"
               onClick={() => setOpen(true)}
             >
               <i className="fas fa-play" />
               <div className="ps-3 text-start">
                 <span className="d-block">Watch</span>
                 <strong className="fs-18 fw-500 tx-dark d-block">
-                  BEKA
-                   - Wofür
+                  BEKA - Wofür
                 </strong>
               </div>
             </div>
@@ -91,12 +94,16 @@ const Hero = () => {
               <Image
                 onClick={() => setOpen(true)}
                 role="button"
-                src="/images/media/beka-thumbnail.jpg"
+                src="/images/media/img_01_2.webp"
                 alt="Glakon IT Logo Ansbach Region Nürnberg"
                 width="1080"
                 height="720"
                 className="lazy-img main-screen w-100"
-                style={{ position: "relative", width: "100%", height: "100%" }}
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                }}
               />
               <div className="ps-3 text-start center">
                 <strong className="fs-18 fw-500 tx-dark d-block">

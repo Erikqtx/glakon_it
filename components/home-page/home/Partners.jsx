@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Partners = () => {
   const partnersData = [
     {
@@ -76,7 +78,7 @@ const Partners = () => {
       imgSrc: "/images/logo/pvtechnik.png",
       imgAlt: "Pv-Technik Franken Logo",
       divClass: "img-box bx-i",
-      link: "#",
+      link: "https://www.pv-technik-franken.de",
       colClasses: "col-xl-3 col-lg-12 col-md-4 col-6 m-auto",
       dataAos: "fade",
       dataAosDelay: "450",
@@ -95,6 +97,12 @@ const Partners = () => {
           <div className={`img-box ${partner.className}`}>
             <a href="#">
               <img src={partner.imgSrc} alt="logo" className="lazy-img" />
+            <a href={partner.link} target="_blank" rel="noreferrer">
+              <img
+                src={partner.imgSrc}
+                alt={partner.imgAlt}
+                className="lazy-img"
+              />
             </a>
           </div>
           {/* /.img-box */}

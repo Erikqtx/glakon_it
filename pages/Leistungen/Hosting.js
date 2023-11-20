@@ -30,7 +30,7 @@ const PortfolioV1 = () => {
                   Hosting
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Sicherheit & Zuverlässigkeit.
+                  Sicherheit & Zuverlässigkeit.
                 </h2>
               </div>
             </div>
@@ -60,27 +60,43 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Hosting.</h2>
                 <p className="text-lg tx-dark">
-                Vertrauen Sie uns Ihr Hosting an – wir bieten sichere und skalierbare Lösungen, damit Ihre Website immer in Bestform ist.
+                  Vertrauen Sie uns Ihr Hosting an – wir bieten sichere und
+                  skalierbare Lösungen, damit Ihre Website immer in Bestform
+                  ist.
                 </p>
                 <p>
-                Ihre digitale Präsenz verdient mehr als nur Speicherplatz – sie verdient ein Zuhause, das sicher, zuverlässig und skalierbar ist. 
-                Unser Hosting-Service geht über die Standardangebote hinaus. 
-                Wir verstehen, dass Ihre Website das Gesicht Ihres Unternehmens ist, und deshalb bieten wir maßgeschneiderte Hosting-Lösungen, die Ihre individuellen Anforderungen erfüllen. 
-                Mit modernster Technologie, regelmäßigen Sicherheitsüberprüfungen und einem engagierten Support-Team stellen wir sicher, dass Ihre Website nicht nur online ist, sondern auch herausragend performt. 
-                Wir sind nicht nur Ihr Hosting-Provider, sondern Ihr Partner für digitale Exzellenz.</p>
+                  Ihre digitale Präsenz verdient mehr als nur Speicherplatz –
+                  sie verdient ein Zuhause, das sicher, zuverlässig und
+                  skalierbar ist. Unser Hosting-Service geht über die
+                  Standardangebote hinaus. Wir verstehen, dass Ihre Website das
+                  Gesicht Ihres Unternehmens ist, und deshalb bieten wir
+                  maßgeschneiderte Hosting-Lösungen, die Ihre individuellen
+                  Anforderungen erfüllen. Mit modernster Technologie,
+                  regelmäßigen Sicherheitsüberprüfungen und einem engagierten
+                  Support-Team stellen wir sicher, dass Ihre Website nicht nur
+                  online ist, sondern auch herausragend performt. Wir sind nicht
+                  nur Ihr Hosting-Provider, sondern Ihr Partner für digitale
+                  Exzellenz.
+                </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Unsere Leistungen
+                      </h4>
+                      <ul className="style-none list-item md-mb-40">
                         <li>Hosting</li>
                       </ul>
                     </div>
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Unser Ziel ist es, Hosting-Dienstleistungen anzubieten, auf die Sie sich jederzeit verlassen können. Wir setzen auf erstklassige Serverinfrastrukturen, um sicherzustellen, dass Ihre Online-Präsenz immer erreichbar ist.
-                    </p>
+                        Unser Ziel ist es, Hosting-Dienstleistungen anzubieten,
+                        auf die Sie sich jederzeit verlassen können. Wir setzen
+                        auf erstklassige Serverinfrastrukturen, um
+                        sicherzustellen, dass Ihre Online-Präsenz immer
+                        erreichbar ist.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -89,9 +105,10 @@ const PortfolioV1 = () => {
                     <ProgressBar7 />
                   </div>
                 </div>
-                
+
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
+                  Starten Sie jetzt und gestalten Sie gemeinsam mit uns die
+                  Zukunft Ihrer digitalen Innovation!
                 </h3>
               </div>
               {/* /.service-details-meta */}
@@ -103,8 +120,10 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                  <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                    <li>
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Design">Design</Link>
@@ -119,7 +138,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li className="current-page">
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -138,7 +159,8 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  In der digitalen Welt ist zuverlässiges Hosting der Grundstein, auf dem Unternehmensvisionen aufbauen.
+                    In der digitalen Welt ist zuverlässiges Hosting der
+                    Grundstein, auf dem Unternehmensvisionen aufbauen.
                   </p>
                   <div className="name">- Michael Goldenberg</div>
                 </div>
@@ -165,9 +187,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -177,7 +197,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

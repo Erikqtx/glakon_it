@@ -5,18 +5,17 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import Image from "next/legacy/image";
 
-const   PortfolioGallery1 = () => {
+const PortfolioGallery1 = () => {
   const [filter, setFilter] = useState("*");
 
   const filteredItems =
     filter === "*"
       ? items.slice(0, 8)
-      : items.slice(0, ).filter((item) => item.category.includes(filter));
+      : items.slice(0).filter((item) => item.category.includes(filter));
 
   return (
     <div className="portfolio-gallery-three pt-30">
       <div className="container">
-        
         <div className="row pt-90 lg-pt-50">
           <Gallery>
             {filteredItems.map((item) => (
@@ -34,14 +33,12 @@ const   PortfolioGallery1 = () => {
                   </div>
                   <div className="meta-data tran3s d-flex align-items-center justify-content-between">
                     <Link
-                       href={`/Portfolio/${item.id}`}
+                      href={`/portfolio/${item.id}`}
                       className="title tran3s d-flex flex-column"
                     >
                       <span className="pj-name tran3s fw-500">{item.name}</span>
                       <span className="tag">{item.tag}</span>
                     </Link>
-
-                    
                   </div>
                 </div>
               </div>

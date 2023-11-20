@@ -12,11 +12,13 @@ const links = [
 ];
 
 const icons = [
-  
   { icon: "fab fa-facebook-f", href: "https://www.facebook.com/GlakonIT/" },
   { icon: "fab fa-instagram", href: "https://www.instagram.com/glakon.it/" },
   { icon: "fab fa-tiktok", href: "https://www.tiktok.com/@glakonit" },
-  { icon: "fab fa-linkedin-in", href: "https://de.linkedin.com/company/glakon-it-agentur" },
+  {
+    icon: "fab fa-linkedin-in",
+    href: "https://de.linkedin.com/company/glakon-it-agentur",
+  },
   { icon: "fab fa-youtube", href: "https://www.youtube.com/@glakonit2246" },
 ];
 
@@ -62,11 +64,11 @@ const Footer = () => {
               Copyright © {new Date().getFullYear()}{" "}
               <a
                 style={{ color: "inherit" }}
-                href="https://themeforest.net/user/ib-themes"
+                href="https://glakon.de"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Glakon IT Agentur i.K.
+                Glakon IT Agentur e.K.
               </a>
             </p>
           </div>

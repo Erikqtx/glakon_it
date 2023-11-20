@@ -89,7 +89,7 @@ const Pricing = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Get Started Today!

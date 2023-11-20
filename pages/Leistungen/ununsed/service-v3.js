@@ -3,7 +3,6 @@ import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import Faq from "../../components/services/Faq";
 
-
 const ServiceV3 = () => {
   return (
     <>
@@ -33,7 +32,11 @@ const ServiceV3 = () => {
                   <span className="position-relative">
                     {" "}
                     Quality
-                    <a Image src="/images/shape/shape_122.svg" alt="icon shape" />
+                    <a
+                      Image
+                      src="/images/shape/shape_122.svg"
+                      alt="icon shape"
+                    />
                   </span>
                   Leads
                 </h2>
@@ -48,9 +51,7 @@ const ServiceV3 = () => {
           </div>
           {/* End .row */}
 
-          <div className="row">
-
-          </div>
+          <div className="row"></div>
         </div>
         {/* /.container */}
 
@@ -138,7 +139,6 @@ const ServiceV3 = () => {
               </div>
             </div>
             {/* End .row */}
-
           </div>
         </div>
         {/* End .container */}
@@ -183,7 +183,7 @@ const ServiceV3 = () => {
                 We’r ready to help you. Our expert is here, just send a message.
               </p>
               <Link
-                href="/contact"
+                href="/Kontakt"
                 className="btn-twenty fw-500 tran3s wow fadeInUp"
                 data-aos-delay="300"
                 data-aos="fade-up"
@@ -214,7 +214,6 @@ const ServiceV3 = () => {
                 </div>
               </div>
 
-
               <div className="col-lg-4 mb-30 form-widget">
                 <h5 className="footer-title fw-normal">Newslettert</h5>
                 <h6 className="pt-15 pb-20 text-white">Join our newsletter</h6>
@@ -228,8 +227,6 @@ const ServiceV3 = () => {
           {/* /.container */}
         </div>
         {/* /.bg-wrapper */}
-
-
 
         <div className="shapes shape-one" />
         <img

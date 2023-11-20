@@ -5,7 +5,7 @@ import ProgressBar8 from "./service-details/ProgressBar-v8";
 
 import Social from "./service-details/Social";
 import Link from "next/link";
-import ContactForm from "../../components/contact/contactForm";
+import ContactForm from "../../components/Kontakt/contactForm";
 
 const PortfolioV1 = () => {
   return (
@@ -31,7 +31,7 @@ const PortfolioV1 = () => {
                   Unsere Leistungen
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Fragen? Wir haben die Antworten!
+                  Fragen? Wir haben die Antworten!
                 </h2>
               </div>
             </div>
@@ -61,36 +61,50 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-40">Fragen?</h2>
                 <p className="text-lg tx-dark">
-                Bei Glakon IT setzen wir uns intensiv dafür ein, die tieferen Herausforderungen unserer Kunden zu verstehen.
+                  Bei Glakon IT setzen wir uns intensiv dafür ein, die tieferen
+                  Herausforderungen unserer Kunden zu verstehen.
                 </p>
-                
+
                 <p>
-                Unser Fokus liegt nicht nur auf der Lösung von Problemen, sondern auch auf der Entdeckung neuer Möglichkeiten. 
-                Wenn Sie nach einer Agentur suchen, die nicht nur Antworten liefert, sondern auch die richtigen Fragen stellt, um Ihre Ziele zu erreichen, dann sind Sie bei Glakon IT genau richtig. 
-                Wir transformieren Fragen in Chancen und Herausforderungen in Erfolge.
+                  Unser Fokus liegt nicht nur auf der Lösung von Problemen,
+                  sondern auch auf der Entdeckung neuer Möglichkeiten. Wenn Sie
+                  nach einer Agentur suchen, die nicht nur Antworten liefert,
+                  sondern auch die richtigen Fragen stellt, um Ihre Ziele zu
+                  erreichen, dann sind Sie bei Glakon IT genau richtig. Wir
+                  transformieren Fragen in Chancen und Herausforderungen in
+                  Erfolge.
                 </p>
                 <div className="mt-60 lg-mt-30">
                   <div className="row gx-xxl-5">
-                    
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Ihr kostenloses Erstgespräch:</h4>
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Ihr kostenloses Erstgespräch:
+                      </h4>
                       <ContactForm />
                     </div>
                     <div className="col-lg-6">
-                      <ul className="style-none list-item md-mb-40">     
+                      <ul className="style-none list-item md-mb-40">
                         <li>Kontaktformular ausfüllen</li>
                         <p>
-                        Füllen Sie unser einfaches Kontaktformular aus, um uns mehr über Ihre Anforderungen und Ziele zu erzählen. 
-                        Je mehr Details Sie uns geben, desto besser können wir uns auf unser Gespräch vorbereiten.
+                          Füllen Sie unser einfaches Kontaktformular aus, um uns
+                          mehr über Ihre Anforderungen und Ziele zu erzählen. Je
+                          mehr Details Sie uns geben, desto besser können wir
+                          uns auf unser Gespräch vorbereiten.
                         </p>
                         <li>Experten-Dialog</li>
                         <p>
-                        Wir möchten Ihre Vision verstehen, Herausforderungen kennenlernen und gemeinsam Chancen erkunden. 
-                        Dieses Gespräch gibt uns die Möglichkeit, Ihre Ziele zu klären und Ihnen Einblicke in unsere Herangehensweise zu geben.
+                          Wir möchten Ihre Vision verstehen, Herausforderungen
+                          kennenlernen und gemeinsam Chancen erkunden. Dieses
+                          Gespräch gibt uns die Möglichkeit, Ihre Ziele zu
+                          klären und Ihnen Einblicke in unsere Herangehensweise
+                          zu geben.
                         </p>
                         <li>Maßgeschneiderte Empfehlungen</li>
                         <p>
-                        Nach dem Gespräch erhalten Sie von uns maßgeschneiderte Empfehlungen und Lösungsansätze. Wir erklären Ihnen, wie unsere Dienstleistungen Ihren individuellen Anforderungen gerecht werden können.
+                          Nach dem Gespräch erhalten Sie von uns
+                          maßgeschneiderte Empfehlungen und Lösungsansätze. Wir
+                          erklären Ihnen, wie unsere Dienstleistungen Ihren
+                          individuellen Anforderungen gerecht werden können.
                         </p>
                       </ul>
                     </div>
@@ -107,7 +121,9 @@ const PortfolioV1 = () => {
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
                     <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Design">Design</Link>
@@ -122,7 +138,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -141,7 +159,8 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Die Fragen von heute sind die Grundlagen für die Innovationen von morgen. 
+                    Die Fragen von heute sind die Grundlagen für die
+                    Innovationen von morgen.
                   </p>
                   <div className="name">- Erik Glaser (CEO)</div>
                 </div>
@@ -168,9 +187,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -180,7 +197,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

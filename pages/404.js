@@ -23,13 +23,15 @@ const Pricing = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-6 col-lg-7 m-auto">
-              <h3>Opps! you’r on the wrong place.</h3>
+              <h3>Hoppla!</h3>
               <p className="me-xxl-5 ms-xxl-5 pt-15 pb-20">
-                Can not find what you need? Take a moment and do a search below
-                or start from our Homepage.
+                Genau wie unsere Fahrradfahrerin hier, sind wir gerade etwas vom
+                Weg abgekommen. Ihr gesuchter Webpfad hat leider den Lenker
+                verloren. Aber keine Sorge, Sie müssen nicht ins Straucheln
+                geraten – wir bringen Sie schnell zurück auf die richtige Route!
               </p>
               <Link href="/" className="btn-twentyOne fw-500 tran3s">
-                Back to home
+                Zur Startseite
               </Link>
             </div>
           </div>

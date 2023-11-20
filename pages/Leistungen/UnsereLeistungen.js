@@ -30,7 +30,7 @@ const PortfolioV1 = () => {
                   Unsere Leistungen
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Für jede digitale Herausforderung.
+                  Für jede digitale Herausforderung.
                 </h2>
               </div>
             </div>
@@ -60,20 +60,27 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Dienstleistungen.</h2>
                 <p className="text-lg tx-dark">
-                Unsere hochspezialisierten Dienstleistungen sind darauf ausgerichtet, Ihren Geschäftserfolg durch innovative Lösungen zu maximieren.
+                  Unsere hochspezialisierten Dienstleistungen sind darauf
+                  ausgerichtet, Ihren Geschäftserfolg durch innovative Lösungen
+                  zu maximieren.
                 </p>
-                
+
                 <p>
-                Wir streben danach, Sie und Ihr Unternehmen zu befähigen, digital herausragend zu sein. 
-                Von maßgeschneiderter Softwareentwicklung bis zur Optimierung Ihrer digitalen Präsenz arbeiten wir daran, Ihre digitale Zukunft zu gestalten.<br></br>
-                Treten Sie ein in die Welt von Glakon, wo Ihr Erfolg unser Ziel ist.
+                  Wir streben danach, Sie und Ihr Unternehmen zu befähigen,
+                  digital herausragend zu sein. Von maßgeschneiderter
+                  Softwareentwicklung bis zur Optimierung Ihrer digitalen
+                  Präsenz arbeiten wir daran, Ihre digitale Zukunft zu
+                  gestalten.<br></br>
+                  Treten Sie ein in die Welt von Glakon, wo Ihr Erfolg unser
+                  Ziel ist.
                 </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
-                      <h4 
-                           className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Unsere Leistungen
+                      </h4>
+                      <ul className="style-none list-item md-mb-40">
                         <li>Softwareentwicklung</li>
                         <li>Design</li>
                         <li>Social Media</li>
@@ -87,10 +94,16 @@ const PortfolioV1 = () => {
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Es ist unser Ziel, nicht nur Dienstleistungen zu erbringen, sondern eine unvergleichliche Kundenzufriedenheit sicherzustellen. 
-                      Unsere transparente Kommunikation stellt sicher, dass Sie stets informiert sind und vollständiges Vertrauen in unsere Dienstleistungen haben.
-                      Wir verstehen, dass Ihr Erfolg untrennbar mit unserem eigenen verbunden ist, und deshalb setzen wir alles daran, Ihre Erwartungen zu übertreffen.
-                    </p>
+                        Es ist unser Ziel, nicht nur Dienstleistungen zu
+                        erbringen, sondern eine unvergleichliche
+                        Kundenzufriedenheit sicherzustellen. Unsere transparente
+                        Kommunikation stellt sicher, dass Sie stets informiert
+                        sind und vollständiges Vertrauen in unsere
+                        Dienstleistungen haben. Wir verstehen, dass Ihr Erfolg
+                        untrennbar mit unserem eigenen verbunden ist, und
+                        deshalb setzen wir alles daran, Ihre Erwartungen zu
+                        übertreffen.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -99,9 +112,10 @@ const PortfolioV1 = () => {
                     <ProgressBar9 />
                   </div>
                 </div>
-                
+
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
+                  Starten Sie jetzt und gestalten Sie gemeinsam mit uns die
+                  Zukunft Ihrer digitalen Innovation!
                 </h3>
               </div>
               {/* /.service-details-meta */}
@@ -114,7 +128,9 @@ const PortfolioV1 = () => {
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
                     <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Design">Design</Link>
@@ -129,7 +145,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -148,7 +166,8 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Wir sind nicht nur Experten in Technologie, sondern auch Ihre Partner auf dem Weg zu Innovation und Erfolg.
+                    Wir sind nicht nur Experten in Technologie, sondern auch
+                    Ihre Partner auf dem Weg zu Innovation und Erfolg.
                   </p>
                   <div className="name">- Erik Glaser (CEO)</div>
                 </div>
@@ -175,9 +194,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -187,7 +204,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

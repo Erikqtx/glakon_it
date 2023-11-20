@@ -110,7 +110,6 @@ const PortfolioV1 = () => {
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
                   Any Questions find here.
                 </h3>
-
               </div>
               {/* /.service-details-meta */}
             </div>
@@ -192,7 +191,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Get Started Today!

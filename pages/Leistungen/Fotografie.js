@@ -30,7 +30,7 @@ const PortfolioV1 = () => {
                   Fotografie
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Momente einfangen.
+                  Momente einfangen.
                 </h2>
               </div>
             </div>
@@ -60,18 +60,27 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Fotografie.</h2>
                 <p className="text-lg tx-dark">
-                Jedes Bild erzählt eine Geschichte – lassen Sie uns Ihre Geschichte mit unserer professionellen Fotografie erzählen.</p>
+                  Jedes Bild erzählt eine Geschichte – lassen Sie uns Ihre
+                  Geschichte mit unserer professionellen Fotografie erzählen.
+                </p>
                 <p>
-                In der Welt der visuellen Überflutung ist jedes Bild eine Gelegenheit, eine emotionale Verbindung herzustellen. 
-                Unsere Fotografen sind nicht nur Handwerker, sondern Geschichtenerzähler mit der Linse. 
-                Wir fangen nicht nur Momente ein, sondern schaffen Erinnerungen, die bleiben. 
-                Mit einem Auge für das Besondere und einem Engagement für Perfektion setzen wir Ihre Visionen in atemberaubende Bilder um. 
-                Für uns ist Fotografie nicht nur ein Beruf, sondern eine Leidenschaft, die sich in jedem Bild zeigt.</p>
+                  In der Welt der visuellen Überflutung ist jedes Bild eine
+                  Gelegenheit, eine emotionale Verbindung herzustellen. Unsere
+                  Fotografen sind nicht nur Handwerker, sondern
+                  Geschichtenerzähler mit der Linse. Wir fangen nicht nur
+                  Momente ein, sondern schaffen Erinnerungen, die bleiben. Mit
+                  einem Auge für das Besondere und einem Engagement für
+                  Perfektion setzen wir Ihre Visionen in atemberaubende Bilder
+                  um. Für uns ist Fotografie nicht nur ein Beruf, sondern eine
+                  Leidenschaft, die sich in jedem Bild zeigt.
+                </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Unsere Leistungen
+                      </h4>
+                      <ul className="style-none list-item md-mb-40">
                         <li>Eventfotografie</li>
                         <li>Produktfotografie</li>
                         <li>Porträtfotografie</li>
@@ -86,11 +95,20 @@ const PortfolioV1 = () => {
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Unser Fokus liegt darauf, authentische Momente einzufangen und durch unsere Fotografien eine tiefere Verbindung zu Ihrer Zielgruppe herzustellen. 
-                      Wir möchten nicht nur Bilder erstellen, sondern Geschichten erzählen, die Emotionen wecken und langfristige Erinnerungen schaffen.
-                      Egal ob Corporate-Events, Produktfotografie oder Mitarbeiterporträts – unser Ziel ist es, in jeder fotografischen Herausforderung brillante Ergebnisse zu liefern.
-                      Unser Ziel ist es, stets innovative Technologien und Fotografie-Techniken zu nutzen, um sicherzustellen, dass Ihre Bilder nicht nur zeitgemäß sind, sondern auch den höchsten Qualitätsstandards entsprechen.
-                    </p>
+                        Unser Fokus liegt darauf, authentische Momente
+                        einzufangen und durch unsere Fotografien eine tiefere
+                        Verbindung zu Ihrer Zielgruppe herzustellen. Wir möchten
+                        nicht nur Bilder erstellen, sondern Geschichten
+                        erzählen, die Emotionen wecken und langfristige
+                        Erinnerungen schaffen. Egal ob Corporate-Events,
+                        Produktfotografie oder Mitarbeiterporträts – unser Ziel
+                        ist es, in jeder fotografischen Herausforderung
+                        brillante Ergebnisse zu liefern. Unser Ziel ist es,
+                        stets innovative Technologien und Fotografie-Techniken
+                        zu nutzen, um sicherzustellen, dass Ihre Bilder nicht
+                        nur zeitgemäß sind, sondern auch den höchsten
+                        Qualitätsstandards entsprechen.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -99,9 +117,10 @@ const PortfolioV1 = () => {
                     <ProgressBar5 />
                   </div>
                 </div>
-                
+
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
+                  Starten Sie jetzt und gestalten Sie gemeinsam mit uns die
+                  Zukunft Ihrer digitalen Innovation!
                 </h3>
               </div>
               {/* /.service-details-meta */}
@@ -113,8 +132,10 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                  <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                    <li>
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Design">Design</Link>
@@ -129,7 +150,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -148,7 +171,8 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Fotografie ist die Kunst, den Blick auf das Wesentliche zu lenken und die Schönheit im Detail einzufangen.
+                    Fotografie ist die Kunst, den Blick auf das Wesentliche zu
+                    lenken und die Schönheit im Detail einzufangen.
                   </p>
                   <div className="name">- Dorothea Lange</div>
                 </div>
@@ -175,9 +199,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -187,7 +209,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

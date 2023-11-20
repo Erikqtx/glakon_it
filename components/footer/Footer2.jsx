@@ -4,7 +4,7 @@ const columns = [
     links: [
       { label: "Home", url: "/" },
       { label: "Leistungen", url: "/Leistungen/UnsereLeistungen" },
-      { label: "Portfolio", url: "/Portfolio/Portfolio" },
+      { label: "Portfolio", url: "/portfolio/Portfolio" },
       { label: "Über Uns", url: "/Leistungen/UeberUns" },
       { label: "Kontakt", url: "/Kontakt" },
     ],
@@ -31,7 +31,6 @@ const columns = [
       { label: "Impressum", url: "/" },
     ],
   },
-  
 ];
 
 const Footer2 = () => {

@@ -60,11 +60,9 @@ const DynamicPortfolioDetails = () => {
                       className="lazy-img w-100"
                     />
                     <div className="hover-content tran3s position-absolute d-flex flex-column align-items-center justify-content-center">
-                      <div className="text-white fw-500 pg-title">
-                        Zurück
-                      </div>
+                      <div className="text-white fw-500 pg-title">Zurück</div>
                       <Link
-                        href={`/Portfolio/${
+                        href={`/portfolio/${
                           parseInt(id) === 1 ? 8 : parseInt(id) - 1
                         }`}
                         className="arrow rounded-circle text-center tran3s"
@@ -85,11 +83,9 @@ const DynamicPortfolioDetails = () => {
                       className="lazy-img w-100"
                     />
                     <div className="hover-content tran3s position-absolute d-flex flex-column align-items-center justify-content-center">
-                      <div className="text-white fw-500 pg-title">
-                        Weiter
-                      </div>
+                      <div className="text-white fw-500 pg-title">Weiter</div>
                       <Link
-                        href={`/Portfolio/${
+                        href={`/portfolio/${
                           parseInt(id) === 8 ? 1 : parseInt(id) + 1
                         }`}
                         className="arrow rounded-circle text-center tran3s"

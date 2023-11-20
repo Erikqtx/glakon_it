@@ -45,6 +45,12 @@ const teamMembers = [
   },
   {
     id: 8,
+    name: "Julius Meier",
+    role: "Lead Designer",
+    imgSrc: "/images/team/teamplatzhalter.webp",
+  },
+  {
+    id: 10,
     name: "Alexander Fintineanu",
     role: "Designer 2D/3D",
     imgSrc: "/images/team/alexanderfintineanu.webp",
@@ -56,12 +62,6 @@ const teamMembers = [
     imgSrc: "/images/team/dominikfintineanu.webp",
   },
   {
-    id: 10,
-    name: "Harald Schneider",
-    role: "Senior Frontend Entwickler",
-    imgSrc: "/images/team/teamplatzhalter.webp",
-  },
-  {
     id: 11,
     name: "Robert Gross",
     role: "Senior Backend Entwickler",
@@ -69,8 +69,8 @@ const teamMembers = [
   },
   {
     id: 12,
-    name: "Hanna Lauritsch",
-    role: "Designerin",
+    name: "Thilo Hettmer",
+    role: "Senior Frontend Entwickler",
     imgSrc: "/images/team/teamplatzhalter.webp",
   },
 ];

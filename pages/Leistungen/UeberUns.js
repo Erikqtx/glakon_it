@@ -38,33 +38,36 @@ const AboutUsV1 = () => {
                 <div className="sc-title-two fst-italic position-relative">
                   Über Uns.
                 </div>
-                <h2 className="main-title fw-500 tx-dark">
-                  Glakon IT
-                </h2>
+                <h2 className="main-title fw-500 tx-dark">Glakon IT</h2>
               </div>
             </div>
           </div>
           <div className="row">
-  <div className="col-md-4 ms-auto align-self-center">
-    <img
-      src="/images/team/team_hochkant.webp"
-      alt="Glakon IT Logo Ansbach Region Nürnberg"
-      className="lazy-img shapes shape-one"
-    />
-  </div>
-  <div className="col-md-8">
-    <div className="ps-xxl-5" data-aos="fade-left">
-      <h6 className="mb-30">Glakon IT Agentur</h6>
-      <p className="text-lg tx-dark">
-        Herzlich willkommen bei der Glakon IT Agentur, Ihrem innovativen IT-Partner im Raum Nürnberg. Wir sind Ihr Vertrauenspartner für hochwertige IT-Lösungen. Unsere Leidenschaft für Technologie und Kundenzufriedenheit bilden das Fundament unserer Arbeit. <br></br>Bei Glakon IT unterstützen wir unsere Kunden bei digitalen Herausforderungen mit maßgeschneiderten Lösungen.
-      </p>
-      <div className="row">
-        <Counter />
-      </div>
-    </div>
-  </div>
-</div>
-
+            <div className="col-lg-4 col-md-12 ms-auto align-self-center">
+              <img
+                src="/images/team/team_hochkant.webp"
+                alt="Glakon IT Logo Ansbach Region Nürnberg"
+                className="lazy-img shapes shape-one img-fluid"
+              />
+            </div>
+            <div className="col-lg-8 col-md-12">
+              <div className="ps-xxl-5" data-aos="fade-left">
+                <h6 className="mb-30">Glakon IT Agentur</h6>
+                <p className="text-lg tx-dark">
+                  Herzlich willkommen bei der Glakon IT Agentur, Ihrem
+                  innovativen IT-Partner im Raum Nürnberg. Wir sind Ihr
+                  Vertrauenspartner für hochwertige IT-Lösungen. Unsere
+                  Leidenschaft für Technologie und Kundenzufriedenheit bilden
+                  das Fundament unserer Arbeit. <br></br>Bei Glakon IT
+                  unterstützen wir unsere Kunden bei digitalen Herausforderungen
+                  mit maßgeschneiderten Lösungen.
+                </p>
+                <div className="row">
+                  <Counter />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <img
@@ -86,7 +89,7 @@ const AboutUsV1 = () => {
 			============================================== 
 			--> */}
       {/* <VideoBlock /> */}
-      
+
       {/* <!-- /.fancy-feature-fiftyTwo --> */}
 
       {/* 
@@ -103,21 +106,23 @@ const AboutUsV1 = () => {
                 data-aos="fade-right"
               >
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">Ihre Erste Wahl für</div>
+                  <div className="sc-title-two text-uppercase">
+                    Ihre Erste Wahl für
+                  </div>
                   <h2 className="main-title fw-500 tx-dark">
                     Digitale Exzellenz
                   </h2>
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
-                Warum sollten Sie sich für uns entscheiden? Hier sind einige überzeugende Gründe:.
+                  Warum sollten Sie sich für uns entscheiden? Hier sind einige
+                  überzeugende Gründe:.
                 </p>
                 <ul className="style-none list-item">
                   {features.map((feature, index) => (
                     <li key={index}>{feature.text}</li>
                   ))}
                 </ul>
-                
               </div>
             </div>
             {/* End .col */}
@@ -194,15 +199,15 @@ const AboutUsV1 = () => {
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">Innovativ | Kreativ | Zuverlässig</h2>
+            <h2 className="main-title fw-500 tx-dark m0">
+              Innovativ | Kreativ | Zuverlässig
+            </h2>
           </div>
         </div>
         {/* End .container */}
         <div className="inner-content">
           <div className="slider-wrapper">
-            <div className="feedback_slider_seven">
-
-            </div>
+            <div className="feedback_slider_seven"></div>
             {/* /.feedback_slider_seven */}
           </div>
           {/* /.slider-wrapper */}
@@ -222,26 +227,31 @@ const AboutUsV1 = () => {
             <div className="col-lg-5">
               <div className="block-style-seven" data-aos="fade-right">
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">Ihr Top-Partner für</div>
-                  <h2 className="main-title fw-500 tx-dark">
-                    Spitzenleistung
-                  </h2>
+                  <div className="sc-title-two text-uppercase">
+                    Ihr Top-Partner für
+                  </div>
+                  <h2 className="main-title fw-500 tx-dark">Spitzenleistung</h2>
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  Glakon IT Agentur bietet eine beeindruckende Bandbreite an IT-Dienstleistungen.
-                 <br></br>Unser hochqualifiziertes Team versteht die speziellen Anforderungen von Unternehmen und bietet maßgeschneiderte Lösungen. 
-                 Unsere Kreativität und Innovation ermöglichen es, einzigartige Inhalte zu erstellen, die Ihre Marke hervorheben. 
-                 <br></br>Wir legen großen Wert auf kundenorientierte Lösungen und den Aufbau nachhaltiger Partnerschaften. 
-                 Kontaktieren Sie uns heute und profitieren Sie von unserer Expertise für digitale Exzellenz.
+                  Glakon IT Agentur bietet eine beeindruckende Bandbreite an
+                  IT-Dienstleistungen.
+                  <br></br>Unser hochqualifiziertes Team versteht die speziellen
+                  Anforderungen von Unternehmen und bietet maßgeschneiderte
+                  Lösungen. Unsere Kreativität und Innovation ermöglichen es,
+                  einzigartige Inhalte zu erstellen, die Ihre Marke hervorheben.
+                  <br></br>Wir legen großen Wert auf kundenorientierte Lösungen
+                  und den Aufbau nachhaltiger Partnerschaften. Kontaktieren Sie
+                  uns heute und profitieren Sie von unserer Expertise für
+                  digitale Exzellenz.
                 </p>
                 <div>
-                <Link
-                  href="Leistungen/about-us-v1"
-                  className="btn-four fw-500"
-                >
-                  Kostenloses Erstgespräch
-                </Link>
+                  <Link
+                    href="Leistungen/about-us-v1"
+                    className="btn-four fw-500"
+                  >
+                    Kostenloses Erstgespräch
+                  </Link>
                 </div>
               </div>
               {/* /.block-style-seven */}
@@ -291,9 +301,7 @@ const AboutUsV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -303,7 +311,7 @@ const AboutUsV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

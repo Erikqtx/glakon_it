@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Footer2 from "./Footer2";
-import NewsLetter from "./NewsLetter";
 import CopyrightFooter2 from "./CopyrightFooter2";
 
 const DefaultFooter = () => {
@@ -12,7 +11,10 @@ const DefaultFooter = () => {
             <div className="col-xl-2 footer-intro mb-40">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/GlakonLogo_115x50_black.png" alt="Glakon IT Agentur Ansbach Region Nürnberg" />
+                  <img
+                    src="/images/logo/GlakonLogo_115x50_black.png"
+                    alt="Glakon IT Agentur Ansbach Region Nürnberg"
+                  />
                 </Link>
               </div>
             </div>
@@ -21,11 +23,16 @@ const DefaultFooter = () => {
             <Footer2 />
 
             <div className="col-xl-4 col-lg-5 mb-30 form-widget">
-              <h5 className="footer-title tx-dark fw-normal">Erstgespräch</h5>
-              <h6 className="pt-15 pb-20 md-pt-10">Termin vereinbaren!</h6>
-              <NewsLetter />
-              <div className="fs-14 mt-10">
-              Unsere Rückmeldung an Sie erfolgt schnellstmöglich. 
+              <h5 className="footer-title tx-dark fw-normal">Kontakt</h5>
+              <div className="fs-15 mt-12">Glakon IT Agentur e. K.</div>
+              <div className="fs-15 mt-10">
+                Rosenbadstraße 7, 91522 Ansbach.
+              </div>
+              <div className="fs-15 mt-10">
+                <a href="tel:+4998197766644"> Tel.: 0981 97766644</a>
+              </div>
+              <div className="fs-15 mt-10">
+                <a href="mailto:info@glakon.de"> Mail: info@glakon.de</a>
               </div>
             </div>
             {/* End .col-xl-4 */}

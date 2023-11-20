@@ -30,7 +30,7 @@ const PortfolioV1 = () => {
                   Design
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Ästhetik mit Funktion.
+                  Ästhetik mit Funktion.
                 </h2>
               </div>
             </div>
@@ -60,19 +60,25 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Design.</h2>
                 <p className="text-lg tx-dark">
-                Von der Konzeptskizze bis zum finalen Design – lassen Sie uns Ihre Vision Wirklichkeit werden lassen.
+                  Von der Konzeptskizze bis zum finalen Design – lassen Sie uns
+                  Ihre Vision Wirklichkeit werden lassen.
                 </p>
-                
+
                 <p>
-                Wir verstehen, dass gutes Design nicht nur schön, sondern auch funktional sein muss. Jedes Detail wird durchdacht, jeder Farbton hat Bedeutung.
-                Ihre Marke wird nicht nur gesehen, sondern erlebt. 
-                In einer Welt, in der Aufmerksamkeit kostbar ist, setzen wir Ihre Marke in Szene und machen sie unvergesslich.
+                  Wir verstehen, dass gutes Design nicht nur schön, sondern auch
+                  funktional sein muss. Jedes Detail wird durchdacht, jeder
+                  Farbton hat Bedeutung. Ihre Marke wird nicht nur gesehen,
+                  sondern erlebt. In einer Welt, in der Aufmerksamkeit kostbar
+                  ist, setzen wir Ihre Marke in Szene und machen sie
+                  unvergesslich.
                 </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Unsere Leistungen
+                      </h4>
+                      <ul className="style-none list-item md-mb-40">
                         <li>Branding</li>
                         <li>Logodesign</li>
                         <li>Werbung</li>
@@ -88,13 +94,18 @@ const PortfolioV1 = () => {
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Unser Fokus liegt auf Ihnen – unserem geschätzten Kunden. 
-                      Wir streben danach, durch nutzerzentriertes Design ein nahtloses und bereicherndes Erlebnis zu schaffen. 
-                      Ihr Komfort und Ihre Zufriedenheit stehen im Mittelpunkt jeder Designentscheidung, die wir treffen.
-                      Wir setzen uns das Ziel, ständig innovative Designlösungen zu schaffen. 
-                      Durch kontinuierliche Entwicklung und kreative Entfaltung möchten wir stets einen Schritt voraus sein und Designs gestalten, die nicht nur Trends setzen, sondern auch Ihre Erwartungen übertreffen.
-                      
-                    </p>
+                        Unser Fokus liegt auf Ihnen – unserem geschätzten
+                        Kunden. Wir streben danach, durch nutzerzentriertes
+                        Design ein nahtloses und bereicherndes Erlebnis zu
+                        schaffen. Ihr Komfort und Ihre Zufriedenheit stehen im
+                        Mittelpunkt jeder Designentscheidung, die wir treffen.
+                        Wir setzen uns das Ziel, ständig innovative
+                        Designlösungen zu schaffen. Durch kontinuierliche
+                        Entwicklung und kreative Entfaltung möchten wir stets
+                        einen Schritt voraus sein und Designs gestalten, die
+                        nicht nur Trends setzen, sondern auch Ihre Erwartungen
+                        übertreffen.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -103,9 +114,10 @@ const PortfolioV1 = () => {
                     <ProgressBar2 />
                   </div>
                 </div>
-                
+
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
+                  Starten Sie jetzt und gestalten Sie gemeinsam mit uns die
+                  Zukunft Ihrer digitalen Innovation!
                 </h3>
               </div>
               {/* /.service-details-meta */}
@@ -117,8 +129,10 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                  <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                    <li>
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li className="current-page">
                       <Link href="/Leistungen/Design">Design</Link>
@@ -133,7 +147,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li>
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -151,9 +167,7 @@ const PortfolioV1 = () => {
                     alt="Glakon IT Logo Ansbach Region Nürnberg"
                     className="m-auto"
                   />
-                  <p className="fw-500">
-                  Design ist, wie man Dinge löst.
-                  </p>
+                  <p className="fw-500">Design ist, wie man Dinge löst.</p>
                   <div className="name">- Steve Jobs</div>
                 </div>
                 {/* /.sidebar-quote */}
@@ -179,9 +193,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -191,7 +203,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

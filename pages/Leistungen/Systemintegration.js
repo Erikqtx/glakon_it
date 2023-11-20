@@ -30,7 +30,7 @@ const PortfolioV1 = () => {
                   Systemintegration
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                Reibungsloser Betrieb.
+                  Reibungsloser Betrieb.
                 </h2>
               </div>
             </div>
@@ -60,18 +60,29 @@ const PortfolioV1 = () => {
               <div className="service-details-meta ps-lg-5">
                 <h2 className="main-title tx-dark mb-30">Systemintegration.</h2>
                 <p className="text-lg tx-dark">
-                Optimieren Sie Ihre Abläufe mit unserer Systemintegration – wir machen Technologien miteinander kompatibel und Ihr Unternehmen effizienter.</p>
+                  Optimieren Sie Ihre Abläufe mit unserer Systemintegration –
+                  wir machen Technologien miteinander kompatibel und Ihr
+                  Unternehmen effizienter.
+                </p>
                 <p>
-                Im Herzschlag Ihres Unternehmens sorgen wir für Ordnung. 
-                Systemintegration ist für uns nicht nur das Verbinden von Technologien, sondern das Schaffen eines harmonischen Zusammenspiels, das die Effizienz steigert. 
-                Unsere Experten verstehen die Komplexität Ihrer Systeme und bringen sie nahtlos zusammen. 
-                Von der Analyse bis zur Implementierung bieten wir Lösungen, die nicht nur kurzfristig funktionieren, sondern Ihr Unternehmen für die Zukunft rüsten. 
-                Mit uns wird Technologie zu einem treuen Partner, der Ihr Wachstum unterstützt.</p>
+                  Im Herzschlag Ihres Unternehmens sorgen wir für Ordnung.
+                  Systemintegration ist für uns nicht nur das Verbinden von
+                  Technologien, sondern das Schaffen eines harmonischen
+                  Zusammenspiels, das die Effizienz steigert. Unsere Experten
+                  verstehen die Komplexität Ihrer Systeme und bringen sie
+                  nahtlos zusammen. Von der Analyse bis zur Implementierung
+                  bieten wir Lösungen, die nicht nur kurzfristig funktionieren,
+                  sondern Ihr Unternehmen für die Zukunft rüsten. Mit uns wird
+                  Technologie zu einem treuen Partner, der Ihr Wachstum
+                  unterstützt.
+                </p>
                 <div className="mt-50 lg-mt-30">
                   <div className="row gx-xxl-5">
                     <div className="col-lg-6">
-                      <h4 className="sub-title mb-20 tx-dark">Unsere Leistungen</h4>
-                      <ul className="style-none list-item md-mb-40">     
+                      <h4 className="sub-title mb-20 tx-dark">
+                        Unsere Leistungen
+                      </h4>
+                      <ul className="style-none list-item md-mb-40">
                         <li>Hardwareverkauf</li>
                         <li>Systemintegration</li>
                       </ul>
@@ -79,8 +90,12 @@ const PortfolioV1 = () => {
                     <div className="col-lg-6">
                       <h4 className="sub-title mb-20 tx-dark">Unser Ziel</h4>
                       <p className="pe-xxl-5">
-                      Wir setzen uns das Ziel, Ihre Geschäftsprozesse durch maßgeschneiderte Systemintegration zu harmonisieren. Durch die nahtlose Verbindung verschiedener Systeme streben wir nach einer reibungslosen und effizienten Arbeitsweise.
-                    </p>
+                        Wir setzen uns das Ziel, Ihre Geschäftsprozesse durch
+                        maßgeschneiderte Systemintegration zu harmonisieren.
+                        Durch die nahtlose Verbindung verschiedener Systeme
+                        streben wir nach einer reibungslosen und effizienten
+                        Arbeitsweise.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -89,9 +104,10 @@ const PortfolioV1 = () => {
                     <ProgressBar6 />
                   </div>
                 </div>
-                
+
                 <h3 className="tx-dark mt-100 mb-50 lg-mt-50">
-                Starten Sie jetzt und gestalten Sie gemeinsam mit uns die Zukunft Ihrer digitalen Innovation!
+                  Starten Sie jetzt und gestalten Sie gemeinsam mit uns die
+                  Zukunft Ihrer digitalen Innovation!
                 </h3>
               </div>
               {/* /.service-details-meta */}
@@ -103,8 +119,10 @@ const PortfolioV1 = () => {
                 <div className="service-category mb-40">
                   <h4 className="tx-dark mb-15">Leistungen</h4>
                   <ul className="style-none">
-                  <li>
-                      <Link href="/Leistungen/Softwareentwicklung">Softwareentwicklung </Link> 
+                    <li>
+                      <Link href="/Leistungen/Softwareentwicklung">
+                        Softwareentwicklung{" "}
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Design">Design</Link>
@@ -119,7 +137,9 @@ const PortfolioV1 = () => {
                       <Link href="/Leistungen/Fotografie">Fotografie</Link>
                     </li>
                     <li className="current-page">
-                      <Link href="/Leistungen/Systemintegration">Systemintegration</Link>
+                      <Link href="/Leistungen/Systemintegration">
+                        Systemintegration
+                      </Link>
                     </li>
                     <li>
                       <Link href="/Leistungen/Hosting">Hosting</Link>
@@ -138,7 +158,8 @@ const PortfolioV1 = () => {
                     className="m-auto"
                   />
                   <p className="fw-500">
-                  Die Kunst der Systemintegration liegt darin, aus vielen Teilen ein harmonisches Ganzes zu formen.
+                    Die Kunst der Systemintegration liegt darin, aus vielen
+                    Teilen ein harmonisches Ganzes zu formen.
                   </p>
                   <div className="name">- Johannes Billenstein</div>
                 </div>
@@ -165,9 +186,7 @@ const PortfolioV1 = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="text-wrapper text-center text-lg-start md-pb-30">
-                      <div className="sc-title fs-18 pb-10">
-                        Noch Fragen?
-                      </div>
+                      <div className="sc-title fs-18 pb-10">Noch Fragen?</div>
                       <h2 className="main-title fw-500 text-white m0">
                         Vereinbaren Sie Ihr kostenloses Erstgespräch.
                       </h2>
@@ -177,7 +196,7 @@ const PortfolioV1 = () => {
 
                   <div className="col-lg-5 ms-auto text-center text-lg-end">
                     <Link
-                      href="/contact"
+                      href="/Kontakt"
                       className="btn-twentyOne fw-500 tran3s"
                     >
                       Kostenloses Erstgespräch

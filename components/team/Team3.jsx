@@ -4,7 +4,7 @@ const teamMembers = [
   {
     id: 1,
     name: "Erik Glaser",
-    role: "CEO & Software-Ingenieur (M.Sc.)",
+    role: "CEO & Software-Ingenieur",
     imgSrc: "/images/team/erikglaser.webp",
   },
   {
@@ -22,7 +22,7 @@ const teamMembers = [
   {
     id: 4,
     name: "Alexander Fintineanu",
-    role: "Designer (B.A.)",
+    role: "Designer",
     imgSrc: "/images/team/alexanderfintineanu.webp",
   },
 ];
