@@ -23,7 +23,6 @@ const footerData = [
       { label: "Datenschutzbedingungen", href: "Leistungen/faq" },
       { label: "Cookie-Richtlinien", href: "Leistungen/faq" },
       { label: "Impressum", href: "Leistungen/faq" },
-
     ],
   },
   {
@@ -50,15 +49,23 @@ const FooterLinks = () => {
           <div className="col-lg-3 footer-intro mb-40">
             <div className="logo">
               <Link href="/">
-                <img src="/images/logo/GlakonLogo_113x50_black.png" alt="Glakon IT Logo Ansbach Region Nürnberg" width={113} height={50}/>
+                <img
+                  src="/images/logo/GlakonLogo_113x50_black.png"
+                  alt="Glakon IT Logo Ansbach Region Nürnberg"
+                  width={113}
+                  height={50}
+                />
               </Link>
             </div>
-            <a href="#" className="email tran3s fs-18 mt-35 mb-15 md-mt-10">
+            <a
+              href="mailto:info@glakon.de"
+              className="email tran3s fs-18 mt-35 mb-15 md-mt-10"
+            >
               info@glakon.de
             </a>
             <br />
-            <a href="#" className="mobile tran3s fs-20 fw-500">
-              01511 1004177
+            <a href="tel:+4998197766644" className="mobile tran3s fs-20 fw-500">
+              (+49) 981 97766644
             </a>
           </div>
           {footerData.map(({ title, className, links }) => (
