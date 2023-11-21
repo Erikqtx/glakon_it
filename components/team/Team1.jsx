@@ -47,7 +47,7 @@ const teamMembers = [
     id: 8,
     name: "Julius Meier",
     role: "Lead Designer",
-    imgSrc: "/images/team/teamplatzhalter.webp",
+    imgSrc: "/images/team/juliusmeier.webp",
   },
   {
     id: 10,

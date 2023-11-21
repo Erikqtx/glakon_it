@@ -58,6 +58,7 @@ const TeamV1 = () => {
         <div className="container">
           <div className="wrapper border-bottom pb-120 lg-pb-80 position-relative">
             <div className="row">
+              
               <Team1 />
             </div>
             {/* /.row */}
