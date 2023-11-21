@@ -5,8 +5,9 @@ const columns = [
       { label: "Home", url: "/" },
       { label: "Leistungen", url: "/Leistungen/UnsereLeistungen" },
       { label: "Portfolio", url: "/portfolio/Portfolio" },
-      { label: "Über Uns", url: "/Leistungen/UeberUns" },
+      { label: "Über Uns", url: "/UeberUns" },
       { label: "Kontakt", url: "/Kontakt" },
+      { label: "Fernwartung", url: "/Fernwartung.exe" },
     ],
   },
   {

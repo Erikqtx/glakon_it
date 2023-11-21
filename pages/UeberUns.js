@@ -1,14 +1,13 @@
-import Seo from "../../components/common/Seo";
-import DefaulHeader from "../../components/header/DefaulHeader";
-import DefaultFooter from "../../components/footer/DefaultFooter";
-import Partners from "../../components/services/Partners";
-import Faq from "../../components/services/Faq";
+import Seo from "../components/common/Seo";
+import Header from "../components/home-page/home/Header";
+import DefaultFooter from "../components/footer/DefaultFooter";
+import Partners from "../components/services/Partners";
+import Faq from "../components/services/Faq";
 
-import Block from "../../components/services/Block";
-import Team3 from "../../components/team/Team3";
+import Block from "../components/services/Block";
+import Team3 from "../components/team/Team3";
 import Link from "next/link";
-import VideoBlock from "../../components/about/VideoBlock";
-import Counter from "../../components/about/Counter";
+import Counter from "../components/about/Counter";
 
 const AboutUsV1 = () => {
   const features = [
@@ -28,7 +27,7 @@ const AboutUsV1 = () => {
   return (
     <>
       <Seo pageTitle="Über Uns" />
-      <DefaulHeader />
+      <Header />
 
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">

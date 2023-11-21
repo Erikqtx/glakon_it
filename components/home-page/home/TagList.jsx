@@ -14,7 +14,7 @@ const TagList = () => {
     <ul className="d-flex flex-wrap align-items-center style-none">
       {tags.map((tag, index) => (
         <li key={index}>
-          <a href="../Leistungen/UeberUns">
+          <a href="../UeberUns">
             <span style={{ backgroundColor: tag.color }}>{tag.text}</span>
           </a>
         </li>

@@ -133,12 +133,8 @@ const MainMenu = () => {
               Portfolio
             </Link>
           </li>
-          <li className={`nav-item${isActive("/Leistungen/UeberUns")}`}>
-            <Link
-              className="nav-link"
-              href="/Leistungen/UeberUns"
-              role="button"
-            >
+          <li className={`nav-item${isActive("/UeberUns")}`}>
+            <Link className="nav-link" href="/UeberUns" role="button">
               Über Uns
             </Link>
           </li>
@@ -150,6 +146,9 @@ const MainMenu = () => {
         </ul>
         <div className="mobile-content d-block d-lg-none">
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
+            <Link href="/Fernwartung.exe" className="btn-twentyX fw-500 tran3s">
+              FERNWARTUNG
+            </Link>
             <Link href="/Kontakt" className="btn-twentyOne fw-500 tran3s">
               KONTAKT
             </Link>

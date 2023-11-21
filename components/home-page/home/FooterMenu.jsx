@@ -11,6 +11,7 @@ const footerData = [
       { label: "Leistungen", href: "Leistungen/UnsereLeistungen" },
       { label: "Portfolio", href: "/portfolio/Portfolio" },
       { label: "Kontakt", href: "/Kontakt" },
+      { label: "Fernwartung", href: "/Fernwartung.exe" },
     ],
   },
   {
