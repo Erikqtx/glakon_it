@@ -95,8 +95,6 @@ const Partners = () => {
           data-aos-delay={partner.dataAosDelay}
         >
           <div className={`img-box ${partner.className}`}>
-            <a href="#">
-              <img src={partner.imgSrc} alt="logo" className="lazy-img" />
             <a href={partner.link} target="_blank" rel="noreferrer">
               <img
                 src={partner.imgSrc}
