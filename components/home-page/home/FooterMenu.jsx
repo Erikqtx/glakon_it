@@ -18,7 +18,7 @@ const footerData = [
     title: "Rechtliches",
     className: "col-lg-3 col-sm-4 mb-30",
     links: [
-      { label: "Geschäftsbedingungen", href: "/legal/agbs" },
+      { label: "Geschäftsbedingungen", href: "/legal/AGBS" },
       { label: "Datenschutzerklärungen", href: "/legal/Datenschutz" },
       { label: "Impressum", href: "/legal/Impressum" },
     ],

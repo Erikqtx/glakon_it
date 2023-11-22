@@ -36,7 +36,6 @@ module.exports = [
     slide: [
       "/images/media/img_02.webp",
       "/images/media/img_02_1.webp",
-      "/images/media/img_02_2.webp",
       "/images/media/img_02_3.webp",
       "/images/media/img_02_4.webp",
       "https://www.youtube.com/embed/Dm007AbIKWs",

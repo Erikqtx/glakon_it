@@ -1,12 +1,12 @@
 import React from "react";
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/home/Header";
-import Hero from "./HeroDS";
+import HeroDS from "../../components/legal-page/HeroDS";
 import FooterMenu from "../../components/home-page/home/FooterMenu";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import ParticlesBackground from "../../components/particles/ParticlesBackground";
 
-const Impressum = () => {
+const Datenschutz = () => {
   return (
     <>
       <Seo pageTitle="Glakon IT Agentur" />
@@ -23,7 +23,7 @@ const Impressum = () => {
         Theme Hero Banner
         ==============================================  */}
 
-      <Hero />
+      <HeroDS />
 
       {/*
 			=====================================================
@@ -61,4 +61,4 @@ const Impressum = () => {
   );
 };
 
-export default Impressum;
+export default Datenschutz;

@@ -5,7 +5,7 @@ import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import ParticlesBackground from "../../components/particles/ParticlesBackground";
 
-const Hero = () => {
+const HeroDS = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -1152,4 +1152,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroDS;

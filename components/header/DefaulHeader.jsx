@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import MainMenu from "./MainMenu";
+import MainMenu from "../header/MainMenu";
 import Link from "next/link";
 import Image from "next/legacy/image";
 
-const DefaulHeader = () => {
+const DefaultHeader = () => {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -23,7 +23,7 @@ const DefaulHeader = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-eight border-bottom ${
+      className={`theme-main-menu sticky-menu theme-menu-two ${
         navbar ? "fixed" : ""
       }`}
     >
@@ -33,26 +33,26 @@ const DefaulHeader = () => {
             <Link href="/" className="d-block">
               <Image
                 src="/images/logo/GlakonLogo_115x50_black.png"
-                alt="Glakon IT Logo Ansbach Region Nürnberg"
-                width={105}
-                height={40}
+                alt="Glakon IT Agentur Ansbach"
+                width={115}
+                height={50}
               />
             </Link>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-{/*             <Link
-              href="/login"
-              className="login-btn-three rounded-circle tran3s me-3"
+            <Link
+              href="/Fernwartung.exe"
+              className="btn-twentyX fs-17 fw-500 tran3s d-none d-lg-block"
             >
-              <i className="bi bi-person" />
-            </Link> */}
+              FERNWARTUNG
+            </Link>
             <Link
               href="/Kontakt"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
             >
               KONTAKT
             </Link>
-          </div>{" "}
+          </div>
           {/* /.right-widget */}
           <MainMenu />
         </div>
@@ -62,4 +62,4 @@ const DefaulHeader = () => {
   );
 };
 
-export default DefaulHeader;
+export default DefaultHeader;

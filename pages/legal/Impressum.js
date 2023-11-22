@@ -1,7 +1,7 @@
 import React from "react";
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/home/Header";
-import Hero from "./HeroIm";
+import HeroIm from "../../components/legal-page/HeroIm";
 import FooterMenu from "../../components/home-page/home/FooterMenu";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import ParticlesBackground from "../../components/particles/ParticlesBackground";
@@ -23,7 +23,7 @@ const Impressum = () => {
         Theme Hero Banner
         ==============================================  */}
 
-      <Hero />
+      <HeroIm />
 
       {/*
 			=====================================================

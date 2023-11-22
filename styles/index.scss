@@ -3,3 +3,28 @@
 @import "../node_modules/react-modal-video/scss/modal-video.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "public/main.scss";
+
+/* Make sure the buttons don't get too large on small screens */
+.btn-twentyX,
+.btn-twentyOne {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Adjustments for tablets */
+@media (max-width: 768px) {
+  .btn-twentyX,
+  .btn-twentyOne {
+    font-size: 14px; /* Smaller font size */
+    padding: 5px 10px; /* Smaller padding */
+  }
+}
+
+/* Adjustments for smaller mobile devices */
+@media (max-width: 576px) {
+  .btn-twentyX,
+  .btn-twentyOne {
+    font-size: 12px; /* Even smaller font size */
+    padding: 3px 7px; /* Even smaller padding */
+    margin: 0 5px; /* Add margin if buttons are next to each other */
+  }
+}

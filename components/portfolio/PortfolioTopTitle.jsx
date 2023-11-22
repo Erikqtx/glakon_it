@@ -11,7 +11,7 @@ const PortfolioTopTitle = () => {
                 Unser Portfolio
               </div>
               <h2 className="main-title fw-500 tx-dark">
-                Hier nur einige unserer Arbeit:
+                Hier nur einige unserer Arbeiten:
               </h2>
             </div>
           </div>

@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
-import ModalVideo from "react-modal-video";
 import ParticlesBackground from "../../components/particles/ParticlesBackground";
 
-const Hero = () => {
+const HeroAG = () => {
   const [isOpen, setOpen] = useState(false);
   const icon = "fa-download";
   return (
@@ -73,4 +71,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroAG;

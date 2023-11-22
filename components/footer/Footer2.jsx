@@ -25,7 +25,7 @@ const columns = [
   {
     title: "Rechtliches",
     links: [
-      { label: "Geschäftsbedingungen", url: "/legal/agbs" },
+      { label: "Geschäftsbedingungen", url: "/legal/AGBS" },
       { label: "Datenschutzerklärungen", url: "/legal/Datenschutz" },
       { label: "Impressum", url: "/legal/Impressum" },
     ],

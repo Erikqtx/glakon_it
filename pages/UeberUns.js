@@ -32,7 +32,7 @@ const AboutUsV1 = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7" data-aos="fade-right">
+            <div className="col-12 col-md-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
                   Über Uns.
@@ -42,15 +42,15 @@ const AboutUsV1 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-12 ms-auto align-self-center">
+            <div className="col-12 col-md-4 ms-auto align-self-center">
               <img
                 src="/images/team/team_hochkant.webp"
                 alt="Glakon IT Logo Ansbach Region Nürnberg"
-                className="lazy-img shapes shape-one img-fluid"
+                className="img-fluid"
               />
             </div>
-            <div className="col-lg-8 col-md-12">
-              <div className="ps-xxl-5" data-aos="fade-left">
+            <div className="col-12 col-md-8">
+              <div className="p-3 p-md-5" data-aos="fade-left">
                 <h6 className="mb-30">Glakon IT Agentur</h6>
                 <p className="text-lg tx-dark">
                   Herzlich willkommen bei der Glakon IT Agentur, Ihrem

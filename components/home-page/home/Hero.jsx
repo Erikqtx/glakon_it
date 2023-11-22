@@ -53,7 +53,7 @@ const Hero = () => {
                 Die Glakon IT-Agentur
               </h1>
               <p className="text-lg mb-30 pt-20 lg-mb-50 lg-pt-10">
-                Willkommen bei Glakon IT Agentur – wir gestalten die Zukunft
+                Willkommen bei der Glakon IT Agentur – wir gestalten die Zukunft
                 digital!
               </p>
               <p className="text-base mb-30 pt-20 lg-mb-50 lg-pt-10">
