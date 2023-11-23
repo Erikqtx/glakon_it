@@ -10,13 +10,13 @@ const teamMembers = [
   {
     id: 2,
     name: "Johannes Billenstein",
-    role: "Systemintegrator & Systemadministrator",
+    role: "Systemintegrator",
     imgSrc: "/images/team/johannesbillenstein.webp",
   },
   {
     id: 3,
     name: "Philip Eschenbacher",
-    role: "Chief Operation Chief",
+    role: "Chief Operating Officer",
     imgSrc: "/images/team/philipeschenbacher.webp",
   },
   {
@@ -73,6 +73,12 @@ const teamMembers = [
     role: "Senior Frontend Entwickler",
     imgSrc: "/images/team/teamplatzhalter.webp",
   },
+  {
+    id: 13,
+    name: "Stefan Gruber",
+    role: "Head of Sales",
+    imgSrc: "/images/team/teamplatzhalter.webp",
+  },
 ];
 
 const Team1 = () => {
@@ -81,9 +87,10 @@ const Team1 = () => {
       {teamMembers.map((member) => (
         <div
           key={member.id}
-          className="col-lg-3 col-sm-6"
+          className="col-12 col-sm-6 col-lg-3" // Adjusted for full width on extra small to small devices
           data-aos="fade-up"
           data-aos-delay={`${member.id * 100}`}
+          style={{ display: "flex", justifyContent: "center" }} // Inline style for centering on mobile
         >
           <div className="team-block-two mt-40">
             <div className="img-meta position-relative">
@@ -92,7 +99,7 @@ const Team1 = () => {
                 height={281}
                 src={member.imgSrc}
                 alt={member.name}
-                className="lazy-img team-img w-100"
+                className="lazy-img team-img w-100 mx-auto" // mx-auto to center the image
               />
               <div className="info text-center">
                 <h5 className="tx-dark fs-20 mb-5">{member.name}</h5>

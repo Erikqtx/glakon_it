@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { pagesItems, portfolioItems } from "../../data/menu";
 import {
   isActiveLink,
   isActiveParent,

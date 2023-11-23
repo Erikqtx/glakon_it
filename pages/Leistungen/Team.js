@@ -28,9 +28,7 @@ const TeamV1 = () => {
                 <div className="sc-title-two fst-italic position-relative">
                   Unser Team
                 </div>
-                <h2 className="main-title fw-500 tx-dark">
-                  Ihr Glakon-Team
-                </h2>
+                <h2 className="main-title fw-500 tx-dark">Ihr Glakon-Team</h2>
               </div>
             </div>
           </div>
@@ -58,7 +56,6 @@ const TeamV1 = () => {
         <div className="container">
           <div className="wrapper border-bottom pb-120 lg-pb-80 position-relative">
             <div className="row">
-              
               <Team1 />
             </div>
             {/* /.row */}
